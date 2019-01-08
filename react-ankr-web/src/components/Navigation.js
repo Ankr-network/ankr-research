@@ -14,9 +14,24 @@ class Navigation extends Component {
                 <Link key={2} to='/about'>About</Link>
                 <Link key={3} to='/product'>Product</Link>
                 <Link key={4} to='/contacts'>Contacts</Link>
-                <TeamForm show={this.props.teamShow} onChange={this.props.onTeamChange} />
-                <PartnerForm show={this.props.partnerShow} onChange={this.props.onPartnerChange} />
-                <DemoForm show={this.props.demoShow} onChange={this.props.onDemoChange}/>
+                <TeamForm 
+                    show={this.props.teamShow} 
+                    onChange={this.props.onTeamChange} 
+                    handleChange = {this.props.handleChange}
+                    handleSubmit = {this.props.handleSubmit}
+                    />
+                <PartnerForm 
+                    show={this.props.partnerShow} 
+                    onChange={this.props.onPartnerChange} 
+                    handleSubmit = {this.props.handleSubmit}
+                    handleChange = {this.props.handleChange}
+                />
+                <DemoForm 
+                    show={this.props.demoShow} 
+                    onChange={this.props.onDemoChange}
+                    handleSubmit = {this.props.handleSubmit}
+                    handleChange = {this.props.handleChange}
+                />
             </div>
         );
     }

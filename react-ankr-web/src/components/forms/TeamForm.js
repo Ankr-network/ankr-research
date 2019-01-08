@@ -15,7 +15,7 @@ class TeamForm extends Component {
                     </Modal.Header>
 
                     <Modal.Body>
-                        <form>
+                        <form onSubmit = {this.props.handleSubmit}>
                             <label>We create a culture of fun and collaboration and are looking for dedicated people
                                 who want to make a real impact around the world.
                             </label>
@@ -24,21 +24,26 @@ class TeamForm extends Component {
                                 <FormControl
                                     type="text"
                                     placeholder="Your name"
+                                    name = "senderName"
                                 />
 
                                 <FormControl
                                     type="email"
                                     placeholder="Your email address"
+                                    name = "senderEmail"
                                 />
 
                                 <FormControl
                                     type="text"
                                     placeholder="Your phone number"
+                                    name = "senderPhone"
                                 />
                             </FormGroup>
 
                             <FormGroup>
-                                <FormControl componentClass="select">
+                                <FormControl 
+                                componentClass="select"
+                                name = 'jobTitle'>
                                     <option value="Product Manager">Product Manager</option>
                                     <option value="Business Development Assistant">Business Development Assistant</option>
                                     <option value="Front-end Developer">Front-end Developer</option>
@@ -50,12 +55,14 @@ class TeamForm extends Component {
                                 <FormControl
                                     type="text"
                                     placeholder="Your message"
+                                    name = "message"
                                 />
                             </FormGroup>
 
                             <FormGroup>
                                 <FormControl
                                     type="file"
+                                    name = "form"
                                 />
                             </FormGroup>
 

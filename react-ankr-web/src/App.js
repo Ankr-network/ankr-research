@@ -23,9 +23,12 @@ class App extends Component {
       partnerFormShow: false,
       demoFormShow: false,
       message: '',
-      receiverEmail: 'bianz20@berkeley.edu',
       template: 'template_C0GJPd8I',
-      senderEmail: ''
+      senderEmail: '',
+      senderName: '',
+      senderPhone: '',
+      jobTitle: '',
+      form: '',
     }
   }
 
@@ -44,27 +47,23 @@ class App extends Component {
     this.setState({demoFormShow: !this.state.demoFormShow});
   }
 
-  sendFeedback = (templateId, senderEmail, receiverEmail, feedback) => {
-    console.log(senderEmail);
-    console.log(receiverEmail);
+  sendFeedback = (templateId, senderEmail, senderName, senderPhone, jobTitle, message, form) => {
+    console.log('sending message...');
+    if (this.state.file) {
+        window.emailjs.sendForm('contact', templateId, form)
+    }
     window.emailjs
       .send('contact', templateId, {
         senderEmail,
-        receiverEmail,
-        feedback
-      })
-      .then(res => {
-        this.setState({
-          formEmailSent: true
-        });
-      })
-      // Handle errors 
-      .catch(err => console.error('Failed to send feedback. Error: ', err));
-
+        senderName,
+        senderPhone,
+        message,
+        jobTitle
+      });
   }
   handleChange = (event) => {
     this.setState({
-      message: event.target.value
+      [event.target.name]: event.target.value
     });
   }
 
@@ -74,11 +73,12 @@ class App extends Component {
     this.sendFeedback(
       this.state.template,
       this.state.senderEmail,
-      this.state.receiverEmail,
-      this.state.message
+      this.state.senderName,
+      this.state.senderPhone,
+      this.state.jobTitle,
+      this.state.message,
+      this.state.file
     );
-
-
   }
 
   render() {
@@ -92,9 +92,18 @@ class App extends Component {
               onTeamChange={this.handleTeamForm}
               onPartnerChange={this.handlePartnerForm}
               onDemoChange={this.handleDemoForm}
+              handleChange = {this.handleChange}
+              handleSubmit = {this.handleSubmit}
+              handleSubmitWithFile = {this.handleSubmitWithFile}
           />
 
-          <Route path='/' exact render={(props) => <Home {...props} demoShow={this.state.demoFormShow} onDemoChange={this.handleDemoForm} />} />
+          <Route path='/' exact render={(props) => <Home {...props} 
+            demoShow={this.state.demoFormShow} 
+            onDemoChange={this.handleDemoForm} 
+            handleChange = {this.handleChange}
+            handleSubmit = {this.handleSubmit}
+
+            />} />
           <Route path='/about' component={About} />
           <Route path='/product' component={Product} />
           <Route path='/contacts' component={Contacts} />
@@ -105,8 +114,8 @@ class App extends Component {
             partnerShow={this.state.partnerFormShow}
             onTeamChange={this.handleTeamForm}
             onPartnerChange={this.handlePartnerForm}
-            handleChange = {this.handleChange}
-            handleSubmit = {this.handleSubmit}
+
+            
           />
         </div>
       </BrowserRouter> 

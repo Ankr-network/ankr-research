@@ -3,55 +3,7 @@ import DemoForm from '../forms/DemoForm';
 
 
 class Home extends Component {
-    constructor (props) {
-        super(props);
 
-        this.state = {
-            message: '',
-            receiverEmail: 'bianz20@berkeley.edu',
-            template: 'template_C0GJPd8I',
-            senderEmail: ''
-            }
-    }
-
-    sendFeedback = (templateId, senderEmail, receiverEmail, feedback) => {
-        console.log(senderEmail);
-        console.log(receiverEmail);
-        window.emailjs
-        .send('contact', templateId, {
-                    senderEmail,
-                    receiverEmail,
-                    feedback
-                })
-        .then(res => {
-                    this.setState({
-                        formEmailSent: true
-                    });
-                })
-                // Handle errors 
-        .catch(err => console.error('Failed to send feedback. Error: ', err));
-
-    }
-
-    handleChange = (event) => {
-        this.setState({
-            message: event.target.value
-        });
-    }
-
-    handleSubmit = (event) => {
-        event.preventDefault();
-        console.log('sending feedback')
-        this.sendFeedback(
-            this.state.template,
-            this.state.senderEmail,
-            this.state.receiverEmail,
-            this.state.message
-        );
-
-            }
-    }
-    
 
     render() {
         return(
@@ -61,8 +13,7 @@ class Home extends Component {
                     <h1>The Cloud, Trusted</h1>
                     <p>Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
                     <DemoForm
-                        handleChange = {this.handleChange}
-                        handleSubmit = {this.handleSubmit}
+   
                         show={this.props.demoShow}
                         onChange={this.props.onDemoChange}
                     />
