@@ -1,12 +1,26 @@
 import React, { Component } from "react";
 import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
+import bracket from "../../images/bracket.svg";
+import f2 from "../../images/f-2.svg";
+import '../../css/PartnerForm.css';
 
 
 class PartnerForm extends Component {
     render() {
         return (
             <div>
-                <Button onClick={this.props.onChange}><span className="fas fa-plus">BECOME A PARTNER</span></Button>
+                <button className={this.props.navBar ? "partner-form-btn" : "footer-partner-form-btn"} onClick={this.props.onChange}>
+                    <div className={this.props.navBar ? "partner-form-logo" : "footer-partner-form-logo"}>
+                        <img className="footer-forms-btn-right-bracket" src={bracket} alt="logo bracket" />
+                        <img className="footer-forms-btn-f2" src={f2} alt="partner logo" />
+                    </div>
+                    <div className={this.props.navBar ? "partner-form-info" : "footer-partner-form-info"}>
+                        <div className={this.props.navBar ? "partner-form-info-title" : "footer-partner-form-info-title"}>
+                            <span className={this.props.navBar ? "fas fa-plus" : "none-navbar-partner-form"}><strong>BECOME A PARTNER</strong></span>
+                        </div>
+                        <div className={this.props.navBar ? "partner-form-desc" : "footer-partner-form-desc"}>Expand your business with us</div>
+                    </div>
+                </button>
 
                 <Modal show={this.props.show}>
                     <Modal.Header>

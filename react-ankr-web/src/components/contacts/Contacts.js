@@ -8,7 +8,7 @@ class Contacts extends Component {
         return(
             <div className="contacts">
                 {/*1st part: "contacts"*/}
-                <div>
+                <div id="contacts">
                     <h2>Contacts</h2>
                     <a className="us" href="https://www.google.com/maps/place/609+Mission+St,+San+Francisco,+CA+94105,+%D0%A1%D0%A8%D0%90/@37.7876886,-122.402119,17z/data=!3m1!4b1!4m5!3m4!1s0x80858062ca77fe75:0xa2d8156be59459a9!8m2!3d37.7876886!4d-122.3999303" target="_blank">
                         <span className="fas fa-map-marker-alt"></span>

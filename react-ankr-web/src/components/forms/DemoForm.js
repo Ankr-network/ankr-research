@@ -6,7 +6,7 @@ class DemoForm extends Component {
     render() {
         return (
             <div>
-                <Button onClick={this.props.onChange}>REQUEST A DEMO</Button>
+                <button onClick={this.props.onChange}>REQUEST A DEMO</button>
 
                 <Modal show={this.props.show}>
                     <Modal.Header>

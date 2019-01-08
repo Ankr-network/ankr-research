@@ -61,8 +61,11 @@ class About extends Component {
                 </div>
 
                 {/*Third Part of About page, named "team"*/}
-                <h2>Core Team</h2>
-                <Team />
+                <div id="team">
+                    <h2>Core Team</h2>
+                    <Team />
+                </div>
+
 
                 {/*Fourth part of About page, named "backed_by", get images and make a table*/}
                 <div className="backed_by">
@@ -89,7 +92,8 @@ class About extends Component {
                 </div>
 
                 {/*Sixth part of About page, named "open_positions"*/}
-                <div className="open_positions">
+                <div className="open_positions" id="career">
+                    <h2>Open Positions</h2>
                     <Opens />
                 </div>
             </div> 

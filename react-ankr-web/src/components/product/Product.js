@@ -42,7 +42,7 @@ class Product extends Component {
                 </div>
 
                 {/*3rd part: "Technology Overview"*/}
-                <div className="tech_overview">
+                <div className="tech_overview" id="tech_overview">
                     <h3>Technology Overview</h3>
                     <h4>Ankr's innovations include:</h4>
                     <ul>
