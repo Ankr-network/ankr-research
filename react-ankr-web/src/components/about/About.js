@@ -7,6 +7,7 @@ import e8 from '../../images/e-8.svg';
 import e9 from '../../images/e-9.svg';
 import ankrLogo from '../../images/logo-icon.svg';
 import signature from '../../images/signature.png';
+import backby from '../../images/about-backby.png';
 
 
 import Team from './Team';
@@ -105,27 +106,38 @@ class About extends Component {
                 </div>
 
                 {/*Fourth part of About page, named "backed_by", get images and make a table*/}
-                <div className="backed_by">
+                <div className="backed-by">
                     <h2>Backed by</h2>
+                    <img src={backby} />
                 </div>
 
                 {/*Fifth part of About page, named "benefits"*/}
                 <div className="benefits">
-                    <h2>Benefits</h2>
-                    <div>
-                        <h5>01 Awesome Work Spaces</h5>
-                        <p>Enjoy working with the team in prime locations in San Francisco and Shanghai</p>
+                    <div className="benefits-title">
+                        <h2>Benefits</h2>
+                        <div className="benefits-title-divider"></div>
                     </div>
 
-                    <div>
-                        <h5>02 Health Insurance</h5>
-                        <p>Take advantage of generous wellness incentives to stimulate productivity and growth in the workplace</p>
+                    <div className="benefits-items">
+                        <div className="benefits-item">
+                            <div><span>01</span><strong>Awesome Work Spaces</strong></div>
+                            <div className="benefits-item-divider"></div>
+                            <p>Enjoy working with the team in prime locations in San Francisco and Shanghai</p>
+                        </div>
+
+                        <div className="benefits-item">
+                            <div><span>02</span><strong>Health Insurance</strong></div>
+                            <div className="benefits-item-divider"></div>
+                            <p>Take advantage of generous wellness incentives to stimulate productivity and growth in the workplace</p>
+                        </div>
+
+                        <div className="benefits-item">
+                            <div><span>03</span><strong>Paid Vacation</strong></div>
+                            <div className="benefits-item-divider"></div>
+                            <p>Utilize our flexible open vacation policy to take time off when you need it</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <h5>03 Paid Vacation</h5>
-                        <p>Utilize our flexible open vacation policy to take time off when you need it</p>
-                    </div>
                 </div>
 
                 {/*Sixth part of About page, named "open_positions"*/}
