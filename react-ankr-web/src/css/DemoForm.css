@@ -1,14 +1,18 @@
-.partner-form-logo, .partner-form-desc {
-    display: none;
-}
-
-.partner-form-modal {
+.demo-form-modal {
     display: block;
     width: 80%;
     height: auto;
 }
 
-.partner-form-divider {
+.demo-form-close-btn {
+    width: 5%;
+    margin-left: 91.5%;
+    font-size: 2em;
+    border: none;
+    background-color: Transparent;
+}
+
+.demo-form-divider {
     margin-top: 2em;
     margin-bottom: 2em;
     margin-left: 3%;
@@ -17,75 +21,69 @@
     background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
 }
 
-/*Style partner form title & label*/
-.partner-form-title {
+/*Style demo form title & label*/
+.demo-form-title {
     font-size: 3em;
     font-weight: 600;
     margin-left: 3%;
 }
 
-.partner-form-main label {
+.demo-form-main label {
     font-size: 1.5em;
     width: 90%;
     margin-left: 3%;
 }
 
-.partner-form-main {
+.demo-form-main {
     display: flex;
     flex-direction: column;
     background: #f2fbff;
 }
 
 /*Style input fields*/
-.partner-form-middle {
+.demo-form-middle {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.partner-form-middle-left {
+.demo-form-middle-left {
     display: flex;
     flex-direction: column;
     width: 45%;
 }
 
-.partner-form-middle-left-item {
+.demo-form-middle-left-item {
     margin-top: 1em;
     height: 5em;
 }
 
-.partner-form-middle-right {
+.demo-form-middle-right {
     display: flex;
     flex-direction: column;
     width: 45%;
 }
 
-.partner-form-middle-right-item {
+.demo-form-middle-right-item {
     margin-top: 1em;
     height: 5em;
 }
 
-.partner-form-middle-right-item-message {
+.demo-form-middle-right-item-message {
     margin-top: 1em;
-    height: 8.5em;
-}
-
-.partner-form-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    height: 11em;
 }
 
 /*style send button*/
-.partner-form-send-btn {
+.demo-form-send-btn {
     width: 15%;
-    margin-right: 3%;
+    margin-left: 82%;
     color: #2a8bcb;
     background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
 
 }
 
-.partner-form-send-btn button {
+.demo-form-send-btn button {
     border: none;
     background-color: #f2fbff;
     width: 98.5%;
@@ -96,7 +94,7 @@
     margin-right: 1px;
 }
 
-.partner-form-send-btn button:hover {
+.demo-form-send-btn button:hover {
     background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
     color: #fff;
 }

@@ -22,66 +22,78 @@ class PartnerForm extends Component {
                     </div>
                 </button>
 
-                <Modal show={this.props.show}>
-                    <Modal.Header>
-                        <Modal.Title>Become a partner</Modal.Title>
-                    </Modal.Header>
-
+                <Modal
+                    show={this.props.show}
+                    onHide={this.props.onChange}
+                    dialogClassName="partner-form-modal"
+                >
+                    <Modal.Header closeButton />
                     <Modal.Body>
-                        <form>
+                        <form className="partner-form-main">
+                            <div className="partner-form-title">Become a partner</div>
+                            <div className="partner-form-divider"></div>
                             <label>Explore Ankr ecosystem for the right opportunities and networks to help you achieve business success.</label>
-                            <FormGroup>
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your name"
-                                />
 
-                                <FormControl
-                                    type="email"
-                                    placeholder="Your email address"
-                                />
+                            <div className="partner-form-middle">
+                                <FormGroup className="partner-form-middle-left">
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your name"
+                                        className="partner-form-middle-left-item"
+                                    />
 
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your phone number"
-                                />
+                                    <FormControl
+                                        type="email"
+                                        placeholder="Your email address"
+                                        className="partner-form-middle-left-item"
+                                    />
 
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your position"
-                                />
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your phone number"
+                                        className="partner-form-middle-left-item"
+                                    />
 
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your company"
-                                />
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your position"
+                                        className="partner-form-middle-left-item"
+                                    />
+                                </FormGroup>
 
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your company website"
-                                />
-                            </FormGroup>
+                                <FormGroup className="partner-form-middle-right">
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your company"
+                                        className="partner-form-middle-right-item"
+                                    />
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your company website"
+                                        className="partner-form-middle-right-item"
+                                    />
+                                    <FormControl
+                                        type="text"
+                                        bsSize="lg"
+                                        placeholder="Your message"
+                                        className="partner-form-middle-right-item-message"
+                                    />
+                                </FormGroup>
+                            </div>
 
-                            <FormGroup bsSize="large">
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your message"
-                                />
-                            </FormGroup>
+                            <div className="partner-form-footer">
+                                <FormGroup>
+                                    <FormControl
+                                        type="file"
+                                    />
+                                </FormGroup>
 
-                            <FormGroup>
-                                <FormControl
-                                    type="file"
-                                />
-                            </FormGroup>
-
-                            <Button type="submit">Send Message</Button>
+                                <div className="partner-form-send-btn">
+                                    <button  type="submit">Send Message</button>
+                                </div>
+                            </div>
                         </form>
                     </Modal.Body>
-
-                    <Modal.Footer>
-                        <Button onClick={this.props.onChange}>Close</Button>
-                    </Modal.Footer>
                 </Modal>
 
 

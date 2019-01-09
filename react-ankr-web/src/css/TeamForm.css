@@ -1,3 +1,110 @@
 .team-form-logo, .team-form-desc {
     display: none;
 }
+
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    background: #f2fbff;
+}
+
+
+.team-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.team-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style team form title & label*/
+.team-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.team-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.team-form-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style input fields*/
+.team-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 8.5em;
+}
+
+.team-form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*style send button*/
+.team-form-send-btn {
+    width: 15%;
+    margin-right: 3%;
+    color: #2a8bcb;
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+
+}
+
+.team-form-send-btn button {
+    border: none;
+    background-color: #f2fbff;
+    width: 98.5%;
+    height: 95%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.team-form-send-btn button:hover {
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}

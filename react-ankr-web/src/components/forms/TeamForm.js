@@ -24,70 +24,76 @@ class TeamForm extends Component {
                     </div>
                 </button>
 
-                <Modal show={this.props.show}>
-                    <Modal.Header>
-                        <Modal.Title>Join our team</Modal.Title>
-                    </Modal.Header>
+                <Modal
+                    show={this.props.show}
+                    onHide={this.props.onChange}
+                    dialogClassName="team-form-modal"
+                >
+                    <Modal.Header closeButton />
 
                     <Modal.Body>
-                        <form onSubmit = {this.props.handleSubmit}>
+                        <form className="team-form-main">
+
+                            <div className="team-form-title">Join our team</div>
+
+                            <div className="team-form-divider"></div>
+
                             <label>We create a culture of fun and collaboration and are looking for dedicated people
                                 who want to make a real impact around the world.
                             </label>
 
-                            <FormGroup>
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your name"
-                                    name = "senderName"
-                                />
+                            <div className="team-form-middle">
+                                <FormGroup className="team-form-middle-left">
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your name"
+                                        className="team-form-middle-left-item"
+                                    />
 
-                                <FormControl
-                                    type="email"
-                                    placeholder="Your email address"
-                                    name = "senderEmail"
-                                />
+                                    <FormControl
+                                        type="email"
+                                        placeholder="Your email address"
+                                        className="team-form-middle-left-item"
+                                    />
 
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your phone number"
-                                    name = "senderPhone"
-                                />
-                            </FormGroup>
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your phone number"
+                                        className="team-form-middle-left-item"
+                                    />
+                                </FormGroup>
 
-                            <FormGroup>
-                                <FormControl 
-                                componentClass="select"
-                                name = 'jobTitle'>
-                                    <option value="Product Manager">Product Manager</option>
-                                    <option value="Business Development Assistant">Business Development Assistant</option>
-                                    <option value="Front-end Developer">Front-end Developer</option>
-                                    <option value="Software Engineer">Software Engineer</option>
-                                </FormControl>
-                            </FormGroup>
+                                <FormGroup className="team-form-middle-right">
+                                    <FormControl componentClass="select" className="team-form-middle-right-item">
+                                        <option value="Product Manager">Product Manager</option>
+                                        <option value="Business Development Assistant">Business Development Assistant</option>
+                                        <option value="Front-end Developer">Front-end Developer</option>
+                                        <option value="Software Engineer">Software Engineer</option>
+                                    </FormControl>
 
-                            <FormGroup bsSize="large">
-                                <FormControl
-                                    type="text"
-                                    placeholder="Your message"
-                                    name = "message"
-                                />
-                            </FormGroup>
+                                    <FormControl
+                                        type="text"
+                                        placeholder="Your message"
+                                        bsSize="lg"
+                                        className="team-form-middle-right-item-message"
+                                    />
+                                </FormGroup>
 
-                            <FormGroup>
-                                <FormControl
-                                    type="file"
-                                    name = "form"
-                                />
-                            </FormGroup>
+                            </div>
 
-                            <Button type="submit">Send Message</Button>
+                            <div className="team-form-footer">
+                                <FormGroup>
+                                    <FormControl
+                                        type="file"
+                                    />
+                                </FormGroup>
+
+                                <div className="team-form-send-btn">
+                                    <button  type="submit">Send Message</button>
+                                </div>
+                            </div>
                         </form>
                     </Modal.Body>
-
-                    <Modal.Footer>
-                        <Button onClick={this.props.onChange} >Close</Button>
-                    </Modal.Footer>
                 </Modal>
             </div>
         );

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import { Popover } from 'react-bootstrap';
+import { Popover, OverlayTrigger } from 'react-bootstrap';
 import '../css/Footer.css';
 
 import TeamForm from './forms/TeamForm';
 import PartnerFrom from './forms/PartnerForm';
+import webChatIcon from '../images/QR.jpg';
 
 class Footer extends Component {
     render() {
+
+        const webChatPopover = (
+            <Popover id="popover-trigger-hover-focus">
+                <img src={webChatIcon} />
+            </Popover>
+        );
+
         return (
             <div className="footer">
                 <div className="footer-forms">
@@ -65,15 +73,20 @@ class Footer extends Component {
                             <ul>
                                 <a href="https://medium.com/ankr-network" target="_blank"><li><span className="fab fa-medium-m"></span>Medium</li></a>
                                 <a href="https://twitter.com/ankrnetwork?lang=en" target="_blank"><li><span className="fab fa-twitter"></span>Twitter</li></a>
-                                <a href="https://t.me/anrknetworkann" target="_blank"><li><span className="fab fa-telegram-plane"></span>Telegram</li></a>
+                                <a href="https://t.me/ankrnetwork" target="_blank"><li><span className="fab fa-telegram-plane"></span>Telegram Official</li></a>
+                                <a href="https://t.me/anrknetworkann" target="_blank"><li><span className="fab fa-telegram-plane"></span>Telegram Announcements</li></a>
                                 <a href="https://www.youtube.com/channel/UCr6z1C2Ti0DOS_zNqh62U-A" target="_blank"><li><span className="fab fa-youtube"></span>Youtube</li></a>
                                 <li style={{color:'#337ab7'}}>
-                                    <Popover id="popover-trigger-hover-focus" title="Popover bottom">
-                                        <strong>Holy guacamole!</strong> Check this info.
-                                    </Popover>
-                                    <span className="fab fa-weixin"></span>Wechat
+                                    <OverlayTrigger
+                                        trigger={['hover', 'focus']}
+                                        placement="top"
+                                        overlay={webChatPopover}
+                                    >
+                                        <div><span className="fab fa-weixin"></span>Wechat</div>
+                                    </OverlayTrigger>
                                 </li>
                                 <a href="https://www.instagram.com/ankrnetwork/" target="_blank"><li><span className="fab fa-instagram"></span>Instagram</li></a>
+                                <a href="https://open.kakao.com/o/g4sfftV" target="_blank"><li><span>Kakaotalk</span></li></a>
                             </ul>
                         </div>
                     </div>

@@ -64,7 +64,6 @@
     display: flex;
     flex-direction: row;
     background: #f2fbff;
-    border: 1px solid black;
 }
 
 
@@ -182,10 +181,30 @@
     align-items: center;
 }
 
+#popover-trigger-hover-focus {
+    width: 10em;
+    height: 10em;
+}
 
+#popover-trigger-hover-focus img {
+    display: block;
+    width: 99.9%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
-
+.footer-middle-email-addr span {
+    margin-right: 1em;
+}
 
 
 /*footer-copyright style*/
+.footer-copyright {
+    height: 8em;
+    color: #909090;
+    background: #eaf7fb;
+}
+
+.footer-copyright p {
+    margin-top: 3em;
+}
