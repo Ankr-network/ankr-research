@@ -1,0 +1,82 @@
+.home-main {
+    border: 10px solid #2a8bcb;
+    height: 790px;
+    background-color:#2a8bcb;
+}
+
+.home-main-title {
+    margin-top: 20%;
+    font-size: 44px;  
+    color: white;
+}
+
+.home-main-subtitle {
+    padding: 10px;
+    color: white;
+}
+
+.home-whatsankr {
+    border: 10px solid white;
+    height:85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-whatsankr-logo {
+    width: 50vw;
+    height: 80vh;
+}
+
+.home-whatsankr-title {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.home-whatsankr-text {
+    text-align: left;
+    padding: 5px;
+}
+
+.home-whyankr {
+    border: 10px solid red;
+    height: 80vh;
+
+}
+
+.home-whyankr-title {
+    margin-top: 150px;
+}
+
+.home-whyankr-text {
+    display: flex;
+    align-items: center;
+    border: 10px white;
+    margin-top: 50px;
+}
+
+.home-whyankr-bracket {
+    width: 150px;
+    height: 150px;
+}
+
+.home-usecases {
+    border: 10px solid green;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.home-usecases-title {
+    text-align: left;
+    margin-bottom: 14%;
+}
+
+.home-usecases-list {
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px;
+    text-align: left;
+    font-size: 20px;
+}

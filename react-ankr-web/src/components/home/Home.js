@@ -7,67 +7,22 @@ import update4 from '../../images/update-4.png';
 import update5 from '../../images/update-5.png';
 import updateToken1 from '../../images/up-tocken-1.jpeg';
 import updateToken from '../../images/update-token.png';
-
+import logo from '../../images/ankr-logo.png';
+import bracket from '../../images/bracket.svg';
+import "../../css/Home.css";
 
 class Home extends Component {
-    constructor (props) {
-        super(props);
 
-        this.state = {
-            message: '',
-            receiverEmail: 'bianz20@berkeley.edu',
-            template: 'template_C0GJPd8I',
-            senderEmail: ''
-            }
-    }
-
-    sendFeedback = (templateId, senderEmail, receiverEmail, feedback) => {
-        console.log(senderEmail);
-        console.log(receiverEmail);
-        window.emailjs
-        .send('contact', templateId, {
-                    senderEmail,
-                    receiverEmail,
-                    feedback
-                })
-        .then(res => {
-                    this.setState({
-                        formEmailSent: true
-                    });
-                })
-                // Handle errors 
-        .catch(err => console.error('Failed to send feedback. Error: ', err));
-
-    }
-
-    handleChange = (event) => {
-        this.setState({
-            message: event.target.value
-        });
-    }
-
-    handleSubmit = (event) => {
-        event.preventDefault();
-        console.log('sending feedback')
-        this.sendFeedback(
-            this.state.template,
-            this.state.senderEmail,
-            this.state.receiverEmail,
-            this.state.message
-        );
-    }
-    
 
     render() {
         return(
             <div>
                 { /* Main */ }    
-                <div>
-                    <h1>The Cloud, Trusted</h1>
-                    <p>Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
+                <div className="home-main">
+                    <h1 className="home-main-title">The Cloud, Trusted</h1>
+                    <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
                     <DemoForm
-                        handleChange = {this.handleChange}
-                        handleSubmit = {this.handleSubmit}
+   
                         show={this.props.demoShow}
                         onChange={this.props.onDemoChange}
                     />
@@ -75,9 +30,13 @@ class Home extends Component {
 
 
                 {/* What's Ankr */}
-                <div>
-                    <h2>What 's Ankr?</h2>
-                    <p>Ankr is a distributed computing platform that aims to leverage
+                <div className="home-whatsankr">
+                    <div>
+                        <img className="home-whatsankr-logo" src={logo} alt="ankr-logo" />
+                    </div>
+                    <div>
+                    <h2 className="home-whatsankr-title">What's Ankr?</h2>
+                    <p className="home-whatsankr-text">Ankr is a distributed computing platform that aims to leverage
                 idle computing resources in data centers and edge devices.What
                 Ankr enables is a Sharing Economy model where enterprises and
                 consumers can monetize their spare computing capacities from
@@ -85,34 +44,39 @@ class Home extends Component {
                 cloud.This enables Ankr to provide computing power much closer to
                 users at a much cheaper price.</p>
                     <button>Watch Video</button>
+                    </div>
                 </div>
 
                 {/* Why Ankr */}
-                <div>
-                    <h2>Why Ankr?</h2>
+                <div className="home-whyankr">
+                    <h2 className="home-whyankr-title">Why Ankr?</h2>
 
-                    <div>
-                        <div className ='col-md-3'>
+                    <div className="home-whyankr-text">
+                        <div>
+                            <img className="home-whyankr-bracket" src={bracket} />
                             <h3>Higher Availbility</h3>
 
                             <p>Deploy from the closest computing resources available across the
                                 globe</p>
                         </div>
 
-                        < div className = 'col-md-3' >
+                        < div >
+                            <img className="home-whyankr-bracket" src={bracket} />
                             <h3>Cheaper Price</h3>
 
                             <p>Sharing Economy’ s asset - light nature
                                 results in fairer pricing</p>
                         </div>
 
-                        < div className = 'col-md-3' >
+                        < div>
+                            <img className="home-whyankr-bracket" src={bracket} />
                             <h3>Easier Integration</h3>
                             <p>Build from the tools and languages
                                 you already know</p>
                         </div>
 
-                        < div className = 'col-md-3' >
+                        < div>
+                             <img className="home-whyankr-bracket" src={bracket} />
                             <h3>Securer Communication</h3>
                             <p>Leverage cryptographic primitives and
                                 TEEs to protect computation integrity</p>
@@ -121,13 +85,16 @@ class Home extends Component {
                 </div>
 
                 {/* Use Cases */}
-                <div>
+                <div className="home-usecases">
+                    <div className="home-usecases-title">
                     <h2>Use Cases</h2>
 
-                    <p>Ankr is versatile in various types of computing jobs.</p>
+                    <h3>Ankr is versatile in various types of computing jobs.</h3>
+                    </div>
 
-                    <ul>
-                        < li > Computation - heavy applications where computation
+                    <div>
+                    <ol type="1" className="home-usecases-list">
+                        <li> Computation - heavy applications where computation
                         offsets communications</li>
                         <li>Monte Carlo simulations(e.g., medical / geological research)</li>
 
@@ -135,7 +102,8 @@ class Home extends Component {
                                 for AR / VR)</li>
 
                         <li>Offline data analytics without strict deadlines</li>
-                    </ul>
+                    </ol>
+                    </div>
                 </div>
                 
                 {/* Roadmap */}
