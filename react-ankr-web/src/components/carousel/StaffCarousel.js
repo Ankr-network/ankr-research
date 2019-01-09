@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Carousel, Modal } from 'react-bootstrap';
 import { Staff } from '../../data/staff';
+import closeBtn from '../../images/modal-close-icon.png';
 import '../../css/StaffCarousel.css';
 
 
@@ -11,12 +12,13 @@ class StaffCarousel extends Component {
             <div>
                 <Modal
                     show={this.props.show}
-                    onHide={this.props.onChange}
                     dialogClassName="staff-carousel-modal"
                 >
-                    <Modal.Header closeButton />
 
                     <Modal.Body>
+                        <button className="demo-form-close-btn" onClick={this.props.onChange}>
+                            <img src={closeBtn}/>
+                        </button>
                         <Carousel
                             interval={null}
                             defaultActiveIndex={this.props.id}

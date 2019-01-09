@@ -6,7 +6,16 @@
     border: none;
 }
 
+.modal-header button {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1;
+    margin-right: 3.5%;
+    text-shadow: none;
+}
+
 .modal-content {
+    height: 700px;
     background: #f2fbff;
 }
 
