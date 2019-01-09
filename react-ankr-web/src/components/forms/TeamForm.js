@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
 import bracket from "../../images/bracket.svg";
 import f1 from "../../images/f-1.svg";
-import closeBtn from '../../images/modal-close-icon.png';
 
 import '../../css/TeamForm.css';
 
@@ -27,15 +26,18 @@ class TeamForm extends Component {
 
                 <Modal
                     show={this.props.show}
+                    onHide={this.props.onChange}
                     dialogClassName="team-form-modal"
                 >
+                    <Modal.Header closeButton />
+
                     <Modal.Body>
                         <form className="team-form-main">
-                            <button className="team-form-close-btn" onClick={this.props.onChange}>
-                                <img src={closeBtn}/>
-                            </button>
+
                             <div className="team-form-title">Join our team</div>
+
                             <div className="team-form-divider"></div>
+
                             <label>We create a culture of fun and collaboration and are looking for dedicated people
                                 who want to make a real impact around the world.
                             </label>

@@ -2,19 +2,19 @@
     display: none;
 }
 
+.modal-header {
+    border: none;
+}
+
+.modal-content {
+    background: #f2fbff;
+}
+
 
 .team-form-modal {
     display: block;
     width: 80%;
     height: auto;
-}
-
-.team-form-close-btn {
-    width: 5%;
-    margin-left: 91.5%;
-    font-size: 2em;
-    border: none;
-    background-color: Transparent;
 }
 
 .team-form-divider {
@@ -42,7 +42,6 @@
 .team-form-main {
     display: flex;
     flex-direction: column;
-    background: #f2fbff;
 }
 
 /*Style input fields*/
@@ -76,7 +75,7 @@
 
 .team-form-middle-right-item-message {
     margin-top: 1em;
-    height: 11em;
+    height: 8.5em;
 }
 
 .team-form-footer {

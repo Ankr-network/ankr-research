@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
 import bracket from "../../images/bracket.svg";
 import f2 from "../../images/f-2.svg";
-import closeBtn from '../../images/modal-close-icon.png';
 import '../../css/PartnerForm.css';
 
 
@@ -25,14 +24,12 @@ class PartnerForm extends Component {
 
                 <Modal
                     show={this.props.show}
+                    onHide={this.props.onChange}
                     dialogClassName="partner-form-modal"
                 >
-
+                    <Modal.Header closeButton />
                     <Modal.Body>
                         <form className="partner-form-main">
-                            <button className="partner-form-close-btn" onClick={this.props.onChange}>
-                                <img src={closeBtn}/>
-                            </button>
                             <div className="partner-form-title">Become a partner</div>
                             <div className="partner-form-divider"></div>
                             <label>Explore Ankr ecosystem for the right opportunities and networks to help you achieve business success.</label>
