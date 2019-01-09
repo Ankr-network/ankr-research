@@ -11,6 +11,7 @@
     width: 100%;
     height: 800px;
     margin-top: 45px;
+    background-size: cover;
 }
 
 .change-world h1 {
@@ -84,6 +85,103 @@
     margin-top: 6%;
     background: #c1e0f4;
 }
+
+/*Style 2nd our-story part*/
+.story {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-title h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.story-divider {
+    width: 8%;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.story-body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.story-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 2.5%;
+}
+
+.story-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 2.5%;
+}
+.story-body p {
+    font-family: Roboto,sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.story-right-sign {
+    display: flex;
+    flex-direction: row;
+}
+
+.story-right-sign-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.story-right-sign-left h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.story-right-sign-left-desc {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+
+.story-ankr-logo {
+    width: 10%;
+    height: auto;
+}
+
+.story-right-sign-left-title {
+    margin-left: 10%;
+    color: #2a8bcb;
+    margin-top: 13%;
+}
+
 
 
 
