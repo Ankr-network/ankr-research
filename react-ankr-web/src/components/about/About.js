@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import {FormGroup, FormControl, Button, Modal} from 'react-bootstrap';
+import '../../css/About.css';
+import bracket from '../../images/bracket.svg';
+import e7 from '../../images/e-7.svg';
+import e8 from '../../images/e-8.svg';
+import e9 from '../../images/e-9.svg';
 
 
 import Team from './Team';
@@ -13,27 +18,43 @@ class About extends Component {
         return(
             <div className="about"> 
                 {/**First part of About, named "change_world" */}
-                <div className="change_world">
-                    <h2>We Dare to Change the World</h2>
+                <div className="change-world">
+                    <h1>We Dare to Change the World</h1>
+                    <div className="change-world-h1-divider"></div>
                     <p>Building a better cloud is never an easy task, but we believe we are paving the way for 
                         a more open cloud ecosystem where businesses and consumers across the world can interconnect 
                         and benefit.</p>
 
-                    <div>
-                        <div>
-                            {/*<img src="" alt="" /> */}
+                    <div className="change-world-pics">
+                        <div className="change-world-pics-item">
+                            <div className="change-world-pics-img">
+                                <img className="change-world-pics-img-brac" src={bracket} />
+                                <img className="change-world-pics-img-e" src={e7} />
+                            </div>
                             <h4>Build</h4>
-                            <div>Build a resource-efficient blockchain framework</div>
+                            <div className="change-world-pics-desc">Build a resource-efficient blockchain framework</div>
                         </div>
-                        <div>
-                            {/*<img src="" alt="" /> */}
+
+                        <div className="change-world-pics-item-divider"></div>
+
+                        <div className="change-world-pics-item">
+                            <div className="change-world-pics-img">
+                                <img className="change-world-pics-img-brac" src={bracket} />
+                                <img className="change-world-pics-img-e" src={e8} />
+                            </div>
                             <h4>Connect</h4>
-                            <div>Connect the computing power across the world</div>
+                            <div className="change-world-pics-desc">Connect the computing power across the world</div>
                         </div>
-                        <div>
-                            {/*<img src="" alt="" /> */}
+
+                        <div className="change-world-pics-item-divider"></div>
+
+                        <div className="change-world-pics-item">
+                            <div className="change-world-pics-img">
+                                <img className="change-world-pics-img-brac" src={bracket} />
+                                <img className="change-world-pics-img-e" src={e9} />
+                            </div>
                             <h4>Evolve</h4>
-                            <div>Continue improving and pushing our limits</div>
+                            <div className="change-world-pics-desc">Continue improving and pushing our limits</div>
                         </div>
                     </div>
                 </div>
