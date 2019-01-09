@@ -77,24 +77,19 @@
 /*style send button*/
 .demo-form-send-btn {
     width: 15%;
-    margin-left: 82%;
+    height: 5em;
+    margin-left: 81.5%;
+    margin-top: 3em;
+    color: #f2fbff;
+    border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
     color: #2a8bcb;
-    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
 
 }
 
-.demo-form-send-btn button {
-    border: none;
-    background-color: #f2fbff;
-    width: 98.5%;
-    height: 95%;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-
-.demo-form-send-btn button:hover {
+.demo-form-send-btn:hover {
     background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
     color: #fff;
 }

@@ -88,9 +88,7 @@ class PartnerForm extends Component {
                                     />
                                 </FormGroup>
 
-                                <div className="partner-form-send-btn">
-                                    <button  type="submit">Send Message</button>
-                                </div>
+                                <button className="partner-form-send-btn" type="submit">Send Message</button>
                             </div>
                         </form>
                     </Modal.Body>

@@ -120,15 +120,17 @@
 
 }
 
-.footer-middle-email-form-btn button {
-    border: none;
-    background-color: #f2fbff;
-    width: 99%;
-    height: 97%;
-    margin-top: 1px;
+.footer-middle-email-form-btn {
+    margin-right: 3%;
+    color: #f2fbff;
+    border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
 }
 
-.footer-middle-email-form-btn button:hover {
+.footer-middle-email-form-btn:hover {
     background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
     color: #fff;
 }
