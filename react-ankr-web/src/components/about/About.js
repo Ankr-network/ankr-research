@@ -98,11 +98,11 @@ class About extends Component {
                 </div>
 
                 {/*Third Part of About page, named "team"*/}
-                <div id="team">
+                <div className="core-team" id="team">
                     <h2>Core Team</h2>
+                    <div className="core-team-divider"></div>
                     <Team />
                 </div>
-
 
                 {/*Fourth part of About page, named "backed_by", get images and make a table*/}
                 <div className="backed_by">

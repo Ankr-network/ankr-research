@@ -182,6 +182,31 @@
     margin-top: 13%;
 }
 
+/*Style 3rd Core Team part*/
+.core-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.core-team h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.core-team-divider {
+    width: 8%;
+    height: 6px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin: 2% auto 3% auto;
+
+}
+
 
 
 
