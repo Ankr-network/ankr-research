@@ -23,7 +23,7 @@ class Opens extends Component {
                                 <span className={`opens-item-${idx}-title`}>{open.title}</span>
                                 <span className={`opens-item-${idx}-type`}>{open.type}</span>
                                 <span className={`opens-item-${idx}-local`}>{open.location}</span>
-                                <button>SEND REQUEST</button>
+                                <button className="opens-send-btn">SEND REQUEST</button>
                             </div>
                             <div className="opens-item-body-divider"></div>
                         </li>

@@ -63,6 +63,17 @@
     color: #2a8bcb;
 }
 
+.opens-send-btn {
+    display: none;
+}
+
+.opens-item-body:hover button{
+    display: block;
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border: none;
+    color: #fff;
+}
+
 
 
 
