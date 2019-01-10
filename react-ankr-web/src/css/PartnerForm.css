@@ -82,7 +82,7 @@
     height: 5em;
     margin-right: 3%;
     color: #f2fbff;
-    border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
     border-image-slice: 1;
     border-width: 2px;
     background: Transparent;
@@ -90,6 +90,6 @@
 }
 
 .partner-form-send-btn:hover {
-    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
     color: #fff;
 }
