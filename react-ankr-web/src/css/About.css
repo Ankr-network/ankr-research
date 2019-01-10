@@ -235,7 +235,6 @@
     flex-direction: column;
     width: 100%;
     height: 500px;
-    border: 1px solid red;
 }
 
 .benefits-title h2 {
@@ -297,6 +296,57 @@
     font-size: 1.2em;
     font-weight: 300;
     line-height: 2;
+}
+
+/*Style Opens part*/
+.opens {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+}
+
+.opens h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.opens-divider {
+    width: 8%;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.opens-title-divider {
+    height: 3px;
+    background: #bad9f2;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.opens-title {
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.opens-title span {
+    width: 30%;
+    font-family: Asap,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.opens-title-span-2 {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 

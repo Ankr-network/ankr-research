@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Opennings } from "../../data/opennings";
+import '../../css/Opens.css';
 
 class Opens extends Component {
     constructor() {
@@ -11,14 +12,20 @@ class Opens extends Component {
 
     render() {
         return (
-            <ul>
+            <ul className="opens-list">
                 {this.state.opens.map((open, idx) => {
                     return (
-                        <li key={idx}>
-                            {open.title}
-                            {open.type}
-                            {open.location}
-                            <button>SEND REQUEST</button>
+                        <li
+                            key={idx}
+                            className="opens-item"
+                        >
+                            <div className="opens-item-body">
+                                <span className={`opens-item-${idx}-title`}>{open.title}</span>
+                                <span className={`opens-item-${idx}-type`}>{open.type}</span>
+                                <span className={`opens-item-${idx}-local`}>{open.location}</span>
+                                <button>SEND REQUEST</button>
+                            </div>
+                            <div className="opens-item-body-divider"></div>
                         </li>
                     )
                 })}
