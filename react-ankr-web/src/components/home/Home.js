@@ -7,8 +7,10 @@ import update4 from '../../images/update-4.png';
 import update5 from '../../images/update-5.png';
 import updateToken1 from '../../images/up-tocken-1.jpeg';
 import updateToken from '../../images/update-token.png';
-import logo from '../../images/ankr-logo.png';
+import whatsAnkrLogo from '../../images/whatsankr-logo.png';
 import bracket from '../../images/bracket.svg';
+import RoadmapCarousel from '../carousel/RoadmapCarousel.js';
+import done from '../../images/done-icon.svg';
 import "../../css/Home.css";
 
 class Home extends Component {
@@ -26,13 +28,15 @@ class Home extends Component {
                         show={this.props.demoShow}
                         onChange={this.props.onDemoChange}
                     />
+
+                    <img className="home-main-icon" src={done} />
                 </div>
 
 
                 {/* What's Ankr */}
                 <div className="home-whatsankr">
                     <div>
-                        <img className="home-whatsankr-logo" src={logo} alt="ankr-logo" />
+                        <img className="home-whatsankr-logo" src={whatsAnkrLogo} alt="ankr-logo" />
                     </div>
                     <div>
                     <h2 className="home-whatsankr-title">What's Ankr?</h2>
@@ -49,7 +53,7 @@ class Home extends Component {
 
                 {/* Why Ankr */}
                 <div className="home-whyankr">
-                    <h2 className="home-whyankr-title">Why Ankr?</h2>
+                    <h1 className="home-whyankr-title">Why Ankr?</h1>
 
                     <div className="home-whyankr-text">
                         <div>
@@ -87,9 +91,9 @@ class Home extends Component {
                 {/* Use Cases */}
                 <div className="home-usecases">
                     <div className="home-usecases-title">
-                    <h2>Use Cases</h2>
+                    <h1>Use Cases</h1>
 
-                    <h3>Ankr is versatile in various types of computing jobs.</h3>
+                    <h4>Ankr is versatile in various types of computing jobs.</h4>
                     </div>
 
                     <div>
@@ -105,9 +109,12 @@ class Home extends Component {
                     </ol>
                     </div>
                 </div>
-                
+                <div className="home-roadmap">
+                <h2> Roadmap </h2>
+                <RoadmapCarousel />
+                </div>
                 {/* Roadmap */}
-                <div>
+                {/* <div>
                     <h2>Roadmap</h2>
 
                 <div>
@@ -135,7 +142,7 @@ class Home extends Component {
                         <p>December 2018</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* parnter */}
             <div>

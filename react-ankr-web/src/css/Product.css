@@ -1,0 +1,108 @@
+.product-vision {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.product-vision-img {
+    width: 50vw;
+    height: 90vh;
+}
+
+.product-vision-title {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.product-vision-text {
+    text-align: left;
+    padding: 5px;
+}
+
+.product-trend {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    text-align: left;
+    background: #eaf7fb;
+}
+
+.product-trend-title {
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.product-trend-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.product-tech {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.product-tech-img {
+    width: 50vw;
+    height: 90vh;
+}
+
+.product-tech-title {
+    margin-top: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.product-tech-subtitle {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.product-tech-text {
+    padding: 5px;
+}
+
+.product-tech-list {
+    
+    line-height: 60px;
+}
+
+.product-major-computing-jobs {
+    height: 100vh;
+    background: url('../images/prov-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.product-major-computing-jobs-title {
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.product-major-computing-jobs-subtitle {
+    font-weight: bold;
+}
+
+.product-major-computing-jobs-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+/* .product-major-computing-jobs-item {
+    
+} */
+.product-major-computing-jobs-bracket {
+    width: 150px;
+    height: 150px;
+}
+

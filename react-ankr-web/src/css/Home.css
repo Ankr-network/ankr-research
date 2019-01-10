@@ -1,6 +1,6 @@
 .home-main {
     border: 10px solid #2a8bcb;
-    height: 790px;
+    height: 100vh;
     background-color:#2a8bcb;
 }
 
@@ -8,6 +8,7 @@
     margin-top: 20%;
     font-size: 44px;  
     color: white;
+    font-weight: bold;
 }
 
 .home-main-subtitle {
@@ -15,6 +16,11 @@
     color: white;
 }
 
+.home-main-icon {
+    height: 80px;
+    width: 80px;
+    margin-top: 250px;
+}
 .home-whatsankr {
     border: 10px solid white;
     height:85vh;
@@ -31,6 +37,7 @@
 .home-whatsankr-title {
     text-align: left;
     margin-top: 5px;
+    font-weight: bold;
 }
 
 .home-whatsankr-text {
@@ -39,13 +46,16 @@
 }
 
 .home-whyankr {
-    border: 10px solid red;
     height: 80vh;
-
+    background: url('../images/exp-bg.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .home-whyankr-title {
-    margin-top: 150px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .home-whyankr-text {
@@ -61,7 +71,7 @@
 }
 
 .home-usecases {
-    border: 10px solid green;
+    border: 10px solid white;
     height: 70vh;
     display: flex;
     justify-content: space-evenly;
@@ -79,4 +89,13 @@
     line-height: 80px;
     text-align: left;
     font-size: 20px;
+}
+
+.home-roadmap {
+    border: 10px solid #2a8bcb;
+    height: 70vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    background: #2a8bcb;
 }
