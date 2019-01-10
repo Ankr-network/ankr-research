@@ -116,14 +116,14 @@
 .footer-middle-email-form-btn {
     width: 30%;
     color: #2a8bcb;
-    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
 
 }
 
 .footer-middle-email-form-btn {
     margin-right: 3%;
     color: #f2fbff;
-    border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
     border-image-slice: 1;
     border-width: 2px;
     background: Transparent;
@@ -131,7 +131,7 @@
 }
 
 .footer-middle-email-form-btn:hover {
-    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
     color: #fff;
 }
 
