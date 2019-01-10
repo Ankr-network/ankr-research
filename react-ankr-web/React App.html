@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/product -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="stylesheet" href="./React App_files/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./React App_files/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="./React App_files/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <script type="text/javascript" src="./React App_files/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("user_nyMKstLKwhk151b7oYLPr");
+      })();
+    </script>
+    <title>React App</title>
+  <style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+</style><style type="text/css">html, body {
+  width: 100%;
+}
+.App {
+  text-align: center;
+}
+
+
+</style><style type="text/css">.demo-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.demo-form-close-btn {
+    width: 5%;
+    margin-left: 91.5%;
+    font-size: 2em;
+    border: none;
+    background-color: Transparent;
+}
+
+.demo-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, #35acdc 0, #3d479a 100%);
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style demo form title & label*/
+.demo-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.demo-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.demo-form-main {
+    display: flex;
+    flex-direction: column;
+    background: #f2fbff;
+}
+
+/*Style input fields*/
+.demo-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.demo-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.demo-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.demo-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.demo-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.demo-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 11em;
+}
+
+/*style send button*/
+.demo-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-left: 81.5%;
+    margin-top: 3em;
+    color: #f2fbff;
+    -webkit-border-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+            border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+
+}
+
+.demo-form-send-btn:hover {
+    background-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}</style><style type="text/css">.roadmap-carousel-item-img {
+    height: 200px;
+    width: 200px;
+}
+
+</style><style type="text/css">.home-main {
+    border: 10px solid #2a8bcb;
+    height: 100vh;
+    background-color:#2a8bcb;
+}
+
+.home-main-title {
+    margin-top: 20%;
+    font-size: 44px;  
+    color: white;
+    font-weight: bold;
+}
+
+.home-main-subtitle {
+    padding: 10px;
+    color: white;
+}
+
+.home-main-icon {
+    height: 80px;
+    width: 80px;
+    margin-top: 250px;
+}
+.home-whatsankr {
+    border: 10px solid white;
+    height:85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-whatsankr-logo {
+    width: 50vw;
+    height: 80vh;
+}
+
+.home-whatsankr-title {
+    text-align: left;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.home-whatsankr-text {
+    text-align: left;
+    padding: 5px;
+}
+
+.home-whyankr {
+    height: 80vh;
+    background: url(/static/media/exp-bg.36bd329d.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-whyankr-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home-whyankr-text {
+    display: flex;
+    align-items: center;
+    border: 10px white;
+    margin-top: 50px;
+}
+
+.home-whyankr-bracket {
+    width: 150px;
+    height: 150px;
+}
+
+.home-usecases {
+    border: 10px solid white;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.home-usecases-title {
+    text-align: left;
+    margin-bottom: 14%;
+}
+
+.home-usecases-list {
+    margin: 0px;
+    padding: 0px;
+    line-height: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.home-roadmap {
+    border: 10px solid #2a8bcb;
+    height: 70vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly;
+    background: #2a8bcb;
+}</style><style type="text/css">.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style 1st change-world part*/
+.change-world {
+    background-image: url(/static/media/world-bg.f661f449.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 45px;
+    background-size: cover;
+}
+
+.change-world h1 {
+    margin-top: 100px;
+    font-family: Asap,sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.change-world-h1-divider {
+    width: 10%;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 4px;
+    padding-right: 10px;
+}
+
+.change-world p {
+    width: 70%;
+    font-family: Asap,sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.25;
+}
+
+.change-world-pics {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.change-world-pics-img-brac {
+    width: 50%;
+    height: auto;
+}
+
+.change-world-pics-img-e {
+    width: 20%;
+    height: auto;
+    margin-left: -35%;
+}
+
+.change-world-pics-item h4 {
+    font-family: Asap,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.2;
+    width: 30%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.change-world-pics-desc {
+    font-family: Asap,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: center;
+    width: 75%;
+    margin-left: 17%;
+}
+
+.change-world-pics-item-divider {
+    width: 15%;
+    height: 2px;
+    margin-top: 6%;
+    background: #c1e0f4;
+}
+
+/*Style 2nd our-story part*/
+.story {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-title h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.story-divider {
+    width: 8%;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.story-body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.story-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 2.5%;
+}
+
+.story-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 2.5%;
+}
+.story-body p {
+    font-family: Roboto,sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.story-right-sign {
+    display: flex;
+    flex-direction: row;
+}
+
+.story-right-sign-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.story-right-sign-left h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.story-right-sign-left-desc {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+
+.story-ankr-logo {
+    width: 10%;
+    height: auto;
+}
+
+.story-right-sign-left-title {
+    margin-left: 10%;
+    color: #2a8bcb;
+    margin-top: 13%;
+}
+
+/*Style 3rd Core Team part*/
+.core-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.core-team h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.core-team-divider {
+    width: 8%;
+    height: 6px;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin: 2% auto 3% auto;
+
+}
+
+
+/*Style 4th BackBy part*/
+.backed-by {
+    width: 100%;
+    height: 650px;
+    background-image: -webkit-linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
+}
+
+.backed-by h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2.6em;
+}
+
+.backed-by img {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+/*Style 5th Benefits*/
+.benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.benefits-title h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.benefits-title-divider {
+    width: 8%;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.benefits-items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+}
+
+.benefits-item span {
+    font-size: 2.4em;
+    color: #2a8bcb;
+    margin-right: 1em;
+    margin-left: 6px;
+    font-weight: 300;
+}
+
+.benefits-item strong {
+    display: inline-block;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.benefits-item-divider {
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgb(61, 70, 153) 0px, rgb(53, 173, 221) 100%);
+    background-image: linear-gradient(90deg,rgb(61, 70, 153) 0px, rgb(53, 173, 221) 100%);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.benefits-item p {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2;
+}
+
+/*Style Opens part*/
+.opens {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+}
+
+.opens h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.opens-divider {
+    width: 8%;
+    height: 5px;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.opens-title-divider {
+    height: 3px;
+    background: #bad9f2;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.opens-title {
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.opens-title span {
+    width: 30%;
+    font-family: Asap,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.opens-title-span-2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style><style type="text/css">.carousel-indicators {
+    display: none;
+}
+
+.staff-carousel-modal {
+    display: block;
+    width: 80%;
+    height: 500px;
+}
+
+.staff-carousel-item {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f2fbff;
+    display: flex;
+    flex-direction: row;
+}
+
+.staff-carousel-item-img {
+    margin-top: 3em;
+    margin-left: 10%;
+}
+
+.staff-carousel-item-info {
+    margin-top: 3em;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.staff-carousel-item-name {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.staff-carousel-item-title {
+    font-size: 1.2em;
+    margin-top: 0.3em;
+}
+
+.staff-carousel-item-divider {
+    margin-top: 2em;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+}
+
+.staff-carousel-item-desc {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+
+/*carousel left and right arrow part*/
+
+.carousel-control.right {
+    width: 5%;
+    margin-top: 25em;
+    margin-bottom: auto;
+    margin-right: 10%;
+}
+
+.glyphicon-chevron-right {
+    color: #35acdc;
+    background: #f2fbff;
+}
+
+.carousel-control.left {
+    width: 5%;
+    margin-top: 25em;
+    margin-bottom: auto;
+    margin-left: 10%;
+    /*background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);*/
+}
+
+.glyphicon-chevron-left {
+    color: #35acdc;
+    background: #f2fbff;
+}
+
+</style><style type="text/css">.core-team-list ul li {
+    list-style-type: none;
+}
+
+.core-team-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.core-team-item {
+    width: 20%;
+}
+
+.core-team-list button {
+    background: transparent;
+    width: 80%;
+    border: none;
+}
+
+.core-team-item img {
+    width: 100%;
+    height: auto;
+}
+
+.core-team-person-name {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.core-team-person-title {
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+</style><style type="text/css">.opens-list li {
+    list-style-type: none;
+}
+
+.opens-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.opens-item-body-divider {
+    margin-left: 7.3%;
+    margin-right: 10%;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgb(53, 173, 221) 0px, #bad9f2 100%);
+    background-image: linear-gradient(90deg,rgb(53, 173, 221) 0px, #bad9f2 100%);
+}
+
+.opens-item-body {
+    margin: 2% 10% 2% 7.3%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.opens-item-0-type {
+    margin-left: 18%;
+}
+
+.opens-item-0-local {
+    margin-left: 19%;
+    margin-right: 18.8%;
+}
+
+.opens-item-1-type {
+    margin-left: 8.5%;
+}
+
+.opens-item-1-local {
+    margin-left: 24%;
+    margin-right: 18.7%;
+}
+
+.opens-item-2-type {
+    margin-left: 15.8%;
+}
+
+.opens-item-2-local {
+    margin-left: 23.7%;
+    margin-right: 18.8%;
+}
+
+.opens-item-3-type {
+    margin-left: 17%;
+}
+
+.opens-item-3-local {
+    margin-left: 24.5%;
+    margin-right: 19.8%;
+}
+
+.opens-item-0-title, .opens-item-1-title, .opens-item-2-title, .opens-item-3-title {
+    color: #2a8bcb;
+}
+
+.opens-send-btn {
+    display: none;
+}
+
+.opens-item-body:hover button{
+    display: block;
+    background-image: -webkit-linear-gradient(left,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+</style><style type="text/css">.product-vision {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f2fbff;
+    line-height: 30px;
+}
+
+.product-vision-text {
+    width: 40vw;
+}
+
+.product-vision-img {
+    width: 50vw;
+    height: 90vh;
+}
+
+.change-world-h1-divider {
+    width: 10%;
+    margin: 2em auto;
+    background-image: -webkit-linear-gradient(left, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 4px;
+}
+
+.product-vision-title {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.product-vision-subtext {
+    text-align: left;
+    padding: 5px;
+}
+
+.product-trend {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    text-align: left;
+    background: #eaf7fb;
+}
+
+.product-trend-title {
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.product-trend-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.product-tech {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.product-tech-img {
+    width: 50vw;
+    height: 90vh;
+}
+
+.product-tech-title {
+    margin-top: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.product-tech-subtitle {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.product-tech-text {
+    padding: 5px;
+}
+
+.product-tech-list {
+    
+    line-height: 60px;
+}
+
+.product-major-computing-jobs {
+    height: 100vh;
+    background: url(/static/media/prov-bg.54280f4f.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.product-major-computing-jobs-title {
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.product-major-computing-jobs-subtitle {
+    font-weight: bold;
+}
+
+.product-major-computing-jobs-text {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+/* .product-major-computing-jobs-item {
+    
+} */
+.product-major-computing-jobs-bracket {
+    width: 150px;
+    height: 150px;
+}
+
+</style><style type="text/css">.team-form-logo, .team-form-desc {
+    display: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-header button {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1;
+    margin-right: 3.5%;
+    text-shadow: none;
+}
+
+.modal-content {
+    height: 700px;
+    background: #f2fbff;
+}
+
+
+.team-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.team-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, #35acdc 0, #3d479a 100%);
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style team form title & label*/
+.team-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.team-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.team-form-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style input fields*/
+.team-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 8.5em;
+}
+
+.team-form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3em;
+}
+
+/*style send button*/
+.team-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-right: 3%;
+    color: #f2fbff;
+    -webkit-border-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+            border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+}
+
+.team-form-send-btn:hover {
+    background-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}</style><style type="text/css">.partner-form-logo, .partner-form-desc {
+    display: none;
+}
+
+.partner-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.partner-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: -webkit-linear-gradient(left, #35acdc 0, #3d479a 100%);
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style partner form title & label*/
+.partner-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.partner-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.partner-form-main {
+    display: flex;
+    flex-direction: column;
+    background: #f2fbff;
+}
+
+/*Style input fields*/
+.partner-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.partner-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.partner-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.partner-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.partner-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.partner-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 8.5em;
+}
+
+.partner-form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*style send button*/
+.partner-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-right: 3%;
+    color: #f2fbff;
+    -webkit-border-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+            border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+}
+
+.partner-form-send-btn:hover {
+    background-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}</style><style type="text/css">.container {
+    display: flex;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.navbar-header img {
+    width: 3em;
+    height: 3em;
+    margin-right: 0.5em;
+}
+
+.navbar-header span {
+    font-size: 2em;
+    margin-right: 3em;
+    color: #2a2a85
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+}
+
+.navbar-tags {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    font-size: 1.5em;
+    margin-right: 3em;
+    justify-content: space-evenly;
+}
+
+.navbar-forms {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-form-icon {
+    display: inline-block;
+}
+
+
+</style><style type="text/css">.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+/*footer-forms style*/
+
+.footer-forms {
+    display: flex;
+    flex-direction: row;
+}
+
+/*footer-forms: team form style*/
+.footer-team-form, .footer-partner-form {
+    width: 50%;
+    height: 12em;
+}
+
+.footer-team-form {
+    background-image: -webkit-linear-gradient(left, #29b4dd 0, #5463ac 100%);
+    background-image: linear-gradient(90deg, #29b4dd 0, #5463ac 100%);
+}
+
+.footer-partner-form {
+    background-image: -webkit-linear-gradient(left, #4859a7 0, #00bae2 100%);
+    background-image: linear-gradient(90deg, #4859a7 0, #00bae2 100%);
+}
+
+.footer-team-form-btn, .footer-partner-form-btn {
+    width: 60%;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    border: none;
+    background-color: Transparent;
+}
+
+.footer-forms-btn-left-bracket, .footer-forms-btn-right-bracket {
+    width: 6em;
+}
+
+.footer-forms-btn-f1, .footer-forms-btn-f2 {
+    width: 3.5em;
+    margin-left: -4.8em;
+}
+
+.footer-team-form-info, .footer-partner-form-info {
+    margin-left: 3em;
+    margin-top: 1.5em;
+    text-align: left;
+    color: #fff;
+}
+
+.footer-team-form-info-title, .footer-partner-form-info-title {
+    font-size: 1.5em;
+}
+
+.footer-team-form-desc, .footer-partner-form-desc {
+    font-size: 1em;
+}
+
+
+/*footer-middle footer-stay-tuned style*/
+.footer-middle {
+    display: flex;
+    flex-direction: row;
+    background: #f2fbff;
+}
+
+
+/*footer-stay-tuned style: info*/
+.footer-stay-tuned {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-stay-tuned-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+    margin-left: 10em;
+    margin-bottom: 3em;
+}
+
+.footer-stay-tuned-info-title {
+    font-size: 2.5em;
+    margin-right: 1em;
+}
+
+.footer-stay-tuned-info-divider {
+    width: 3px;
+    height: 4em;
+    background-image: -webkit-linear-gradient(bottom,#475eaa 0,#00bae2 100%);
+    background-image: linear-gradient(0deg,#475eaa 0,#00bae2 100%);
+}
+
+.footer-stay-tuned-info-desc {
+    font-size: 1.5em;
+    margin-left: 2em;
+    margin-top: 0.5em;
+    font-weight: 300;
+}
+
+
+/*footer-stay-tuned style: submit form & button*/
+.footer-middle-form {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+}
+
+.footer-middle-email-form {
+    width: 70%;
+    height: 5em;
+}
+
+.footer-middle-email-form-btn {
+    width: 30%;
+    color: #2a8bcb;
+    background-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+
+}
+
+.footer-middle-email-form-btn {
+    margin-right: 3%;
+    color: #f2fbff;
+    -webkit-border-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+            border-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+}
+
+.footer-middle-email-form-btn:hover {
+    background-image: -webkit-linear-gradient(bottom,#3d479a 0,#35acdc 100%);
+    background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}
+
+
+/*footer-stay-tuned style: support email address*/
+.footer-middle-email-addr {
+    margin-top: 3em;
+    margin-left: 10em;
+    text-align: left;
+    color: #2a8bcb;
+}
+
+
+/*Footer middle: footer-links*/
+.footer-links {
+    width: 50%;
+    height: 30em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5em;
+}
+
+.footer-links h5 {
+    font-size: 1.2em;
+}
+
+.footer-links li {
+    margin-top: 1em;
+    font-weight: 300;
+    text-align: left;
+}
+
+.social-footer ul {
+    margin-top: -1em;
+}
+
+.social-footer li {
+    list-style-type: none;
+}
+
+.social-footer span {
+    margin-right: 1em;
+}
+
+.about-footer, .support-footer, .social-footer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#popover-trigger-hover-focus {
+    width: 10em;
+    height: 10em;
+}
+
+#popover-trigger-hover-focus img {
+    display: block;
+    width: 99.9%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-middle-email-addr span {
+    margin-right: 1em;
+}
+
+
+/*footer-copyright style*/
+.footer-copyright {
+    height: 8em;
+    color: #909090;
+    background: #eaf7fb;
+}
+
+.footer-copyright p {
+    margin-top: 3em;
+}</style><script charset="utf-8" src="./React App_files/main.82ca8952e993cd1eee18.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.77a8968677372fc197a6.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e39642522e6ef494f771.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.069f4921c7b6478e3b1a.hot-update.js"></script><script charset="utf-8" src="./React App_files/main.e29e774b16ec5df0a4dd.hot-update.js"></script></head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"><div class="App"><nav class="navbar navbar-default navbar-fixed-top"><div class="container"><div class="navbar-header"><img src="./React App_files/logo-icon.7e8d8ee1.svg" alt="ankr-logo"><span><strong>Ankr</strong></span></div><ul class="nav navbar-nav"><div class="navbar-tags"><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><a href="http://localhost:3000/">Home</a></a></li><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><a href="http://localhost:3000/about">About</a></a></li><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><a href="http://localhost:3000/product">Product</a></a></li><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><a href="http://localhost:3000/contacts">Contacts</a></a></li></div><div class="navbar-forms"><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><div class="teamForm"><button class="team-form-btn"><div class="team-form-logo"><img class="footer-forms-btn-left-bracket" src="./React App_files/bracket.d58a51e4.svg" alt="logo bracket"><img class="footer-forms-btn-f1" src="./React App_files/f-1.35306aae.svg" alt="join logo"></div><div class="team-form-info"><div class="team-form-info-title"><span class="fab fa-staylinked"><strong>JOIN OUR TEAM</strong></span></div><div class="team-form-desc">Build next-generation products with us</div></div></button></div></a></li><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><div><button class="partner-form-btn"><div class="partner-form-logo"><img class="footer-forms-btn-right-bracket" src="./React App_files/bracket.d58a51e4.svg" alt="logo bracket"><img class="footer-forms-btn-f2" src="./React App_files/f-2.2fe04b00.svg" alt="partner logo"></div><div class="partner-form-info"><div class="partner-form-info-title"><span class="fas fa-plus"><strong>BECOME A PARTNER</strong></span></div><div class="partner-form-desc">Expand your business with us</div></div></button></div></a></li><li role="presentation" class=""><a role="button" href="http://localhost:3000/product#"><div><button>REQUEST A DEMO</button></div></a></li></div></ul></div></nav><div class="product"><div class="product-vision"><div><img class="product-vision-img" src="./React App_files/our-vision.3b2d2ac0.png" alt="our vision"></div><div class="product-vision-text"><h1 class="product-vision-title">Our Vision</h1><div class="change-world-h1-divider"> </div><p class="product-vision-subtext">Cloud Computing is projected to be a trillion dollar market, yet it is monopolized by some of the largest tech conglomerates in the world. Only these giants can afford the high human capital cost and upfront server costs, but this only results in a higher margin for customers.</p><p class="product-vision-subtext"> We believe we can provide lower the barrier for businesses and consumers around the world to enter the cloud by bring compute resources closer to them at a cheaper price. </p></div></div><div class="product-trend"><div><h1 class="product-trend-title"> Trend for computing </h1></div><div class="product-trend-list"><div><div>01</div><div>Mainframe Computer</div><div>IBM, Dell, HP</div></div><div><div>02</div><div>Colocation Centers</div><div>Rackspace, DigitalOcean</div></div><div><div>03</div><div>Public Cloud</div><div>AWS, Azure</div></div><div><div>04</div><div>Distributed Cloud</div><div>Ankr</div></div></div></div><div class="product-tech" id="tech_overview"><div><img class="product-tech-img" src="./React App_files/tech-overview.f52b9127.png" alt="tech overview"></div><div><h1 class="product-tech-title">Technology Overview</h1><h4 class="product-tech-subtitle">Ankr's innovations include:</h4><ul class="product-tech-list"><li>Resource discovery and repurposing for containerized microservices</li><li>Dynamic pricing marketplace for using idle capacities</li><li>Seamless support for building applications using Trusted Execution Environment</li><li>Blockchain-native tokens for off-chain computation, micropayment, fulfillment and transaction settlement</li></ul></div></div><div class="product-major-computing-jobs"><h2 class="product-major-computing-jobs-title"> Three major types of computing jobs solved </h2><h3 class="product-major-computing-jobs-subtitle"> by the existing Cloud providers </h3><div class="product-major-computing-jobs-text"><div class="product-major-computing-jobs-item"><img class="product-major-computing-jobs-bracket" src="./React App_files/bracket.d58a51e4.svg"><div>Batch processing</div><div>EXAMPLE:</div><div>Elastic Mapreduce, hadoop</div></div><div class="product-major-computing-jobs-item"><img class="product-major-computing-jobs-bracket" src="./React App_files/bracket.d58a51e4.svg"><div>Security &amp; Privacy</div><div>EXAMPLE:</div><div>Website, API Server, Daemon process</div></div><div class="product-major-computing-jobs-item"><img class="product-major-computing-jobs-bracket" src="./React App_files/bracket.d58a51e4.svg"><div>Resource-Efficient framework</div><div>EXAMPLE:</div><div>AWS Lambda, Serverless Architecture</div></div></div></div><div><div><h3>Data Center</h3><p>Small data center operators can improve the utilization rate for their resources, and thus improve both revenue and maintain a significant profit margin.</p><p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p></div><div><h3>Demo will be ready in January 2019</h3></div></div><div><div class="pc"><h3>PC</h3><h4>At Ankr, we have two solutions with PC’s computing power, they are:</h4><div><div>01 BOINC PLATFORM</div><div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div><button type="button" class="btn btn-default">Demo is Ready</button></div><div><div>02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div><div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div><button type="button" class="btn btn-default">Demo is Ready</button></div></div><div class="mobile"><h3>Mobile/Edge Devices</h3><div>Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</div></div></div></div><div class="footer"><div class="footer-forms"><div class="footer-team-form"><div class="teamForm"><button class="footer-team-form-btn"><div class="footer-team-form-logo"><img class="footer-forms-btn-left-bracket" src="./React App_files/bracket.d58a51e4.svg" alt="logo bracket"><img class="footer-forms-btn-f1" src="./React App_files/f-1.35306aae.svg" alt="join logo"></div><div class="footer-team-form-info"><div class="footer-team-form-info-title"><span class="none-navbar-fa"><strong>JOIN OUR TEAM</strong></span></div><div class="footer-">Build next-generation products with us</div></div></button></div></div><div class="footer-partner-form"><div><button class="footer-partner-form-btn"><div class="footer-partner-form-logo"><img class="footer-forms-btn-right-bracket" src="./React App_files/bracket.d58a51e4.svg" alt="logo bracket"><img class="footer-forms-btn-f2" src="./React App_files/f-2.2fe04b00.svg" alt="partner logo"></div><div class="footer-partner-form-info"><div class="footer-partner-form-info-title"><span class="none-navbar-partner-form"><strong>BECOME A PARTNER</strong></span></div><div class="footer-partner-form-desc">Expand your business with us</div></div></button></div></div></div><div class="footer-middle"><div class="footer-stay-tuned"><div class="footer-stay-tuned-info"><div class="footer-stay-tuned-info-title"><strong>Stay tuned</strong></div><div class="footer-stay-tuned-info-divider"></div><div class="footer-stay-tuned-info-desc">Stay tuned for the latest news</div></div><form class="footer-middle-form"><input class="footer-middle-email-form" type="text" placeholder="      Your email address"><button class="footer-middle-email-form-btn" type="submit">Subscribe</button></form><div class="footer-middle-email-addr"><span class="far fa-envelope"></span>support@ankr.network</div></div><div class="footer-links"><div class="about-footer"><h5><strong>About</strong></h5><ul><li><a href="http://localhost:3000/about#our-story">STORY</a></li><li><a href="http://localhost:3000/about#career">CAREER</a></li><li><a href="http://localhost:3000/about#team">TEAM</a></li><li><a href="http://localhost:3000/product">PRODUCT</a></li><li><a href="http://localhost:3000/#news">NEWS</a></li></ul></div><div class="support-footer"><h5><strong>Support</strong></h5><ul><li><a href="http://localhost:3000/faq">FAQ</a></li><li><a href="http://localhost:3000/contacts#contacts">CONTACT</a></li><li><a href="https://www.ankr.network/pdf/LOGO%20ASSETS.pdf" target="_blank">LOGO ASSETS</a></li><li><a href="https://www.ankr.network/pdf/AnkrWhitepaper.pdf" target="_blank">WHITE PAPER</a></li><li><a href="http://localhost:3000/product#tech_overview">TECHNOLOGY</a></li></ul></div><div class="social-footer"><h5><strong>Social</strong></h5><ul><a href="https://medium.com/ankr-network" target="_blank"><li><span class="fab fa-medium-m"></span>Medium</li></a><a href="https://twitter.com/ankrnetwork?lang=en" target="_blank"><li><span class="fab fa-twitter"></span>Twitter</li></a><a href="https://t.me/ankrnetwork" target="_blank"><li><span class="fab fa-telegram-plane"></span>Telegram Official</li></a><a href="https://t.me/anrknetworkann" target="_blank"><li><span class="fab fa-telegram-plane"></span>Telegram Announcements</li></a><a href="https://www.youtube.com/channel/UCr6z1C2Ti0DOS_zNqh62U-A" target="_blank"><li><span class="fab fa-youtube"></span>Youtube</li></a><li style="color: rgb(51, 122, 183);"><div><span class="fab fa-weixin"></span>Wechat</div></li><a href="https://www.instagram.com/ankrnetwork/" target="_blank"><li><span class="fab fa-instagram"></span>Instagram</li></a><a href="https://open.kakao.com/o/g4sfftV" target="_blank"><li><span>Kakaotalk</span></li></a></ul></div></div></div><footer class="footer-copyright"><p>© 2018 Ankr All rights reserved</p></footer></div></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./React App_files/bundle.js"></script><script src="./React App_files/1.chunk.js"></script><script src="./React App_files/main.chunk.js"></script><script src="./React App_files/main.6290cee6c8cfd1772b6e.hot-update.js"></script>
+
+</body></html>

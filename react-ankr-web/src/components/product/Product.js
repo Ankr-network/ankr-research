@@ -11,14 +11,15 @@ class Product extends Component {
             <div className="product">
                 {/*1st part: "our vision"*/}
                 <div className="product-vision">
-                    <div>
-                    <img className="product-vision-img" src={ourVision} alt="our vision" />
+                    < div  >
+                    <img className = "product-vision-img" src={ourVision} alt="our vision" />
                     </div>
 
-                    <div>
-                    <h3 className="product-vision-title">Our Vision</h3>
-                    <p className="product-vision-text">Cloud Computing is projected to be a trillion dollar market, yet it is monopolized by some of the largest tech conglomerates in the world. Only these giants can afford the high human capital cost and upfront server costs, but this only results in a higher margin for customers.</p>
-                    <p className = "product-vision-text" > We believe we can provide lower the barrier
+                    <div className='product-vision-text'>
+                    <h1 className="product-vision-title">Our Vision</h1>
+                    < div className = "change-world-h1-divider" > </div>
+                    <p className="product-vision-subtext">Cloud Computing is projected to be a trillion dollar market, yet it is monopolized by some of the largest tech conglomerates in the world. Only these giants can afford the high human capital cost and upfront server costs, but this only results in a higher margin for customers.</p>
+                    <p className = "product-vision-subtext" > We believe we can provide lower the barrier
                     for businesses and consumers around the world to enter the cloud by bring compute resources closer to them at a cheaper price. </p>
                     </div>
                 </div>
@@ -60,9 +61,11 @@ class Product extends Component {
                     <div>
                         <img className="product-tech-img" src={techOverview} alt="tech overview" />
                     </div>
+                    
 
                     <div>
                     <h1 className="product-tech-title">Technology Overview</h1>
+                    < div className = "product-tech-h1-divider" > </div>
                     <h4 className="product-tech-subtitle">Ankr's innovations include:</h4>
                     <ul className="product-tech-list">
                         <li>Resource discovery and repurposing for containerized microservices</li>
@@ -102,16 +105,21 @@ class Product extends Component {
                 </div>
 
                 {/*5th part: "Data Center"*/}
-                <div>
-                    <div>
-                        <h3>Data Center</h3>
-                        <p>Small data center operators can improve the utilization rate for their resources, and thus improve both revenue and maintain a significant profit margin.</p>
-                        <p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
+                <div className="product-data-center">
+                    <div className="product-data-center-item">
+                        < h3 className = "product-data-center-title" > Data Center </h3>
                     </div>
 
-                    <div>
-                        <h3>Demo will be ready in January 2019</h3>
-                        {/*media here: video*/}
+                    < div className = "product-data-center-text" >
+                        < div className = "product-data-center-subtext" >
+                            <p>Small data center operators can improve the utilization rate for their resources, and thus improve both revenue and maintain a significant profit margin.</p>
+                            <p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
+                        </div>
+
+                        <div>
+                            <h3>Demo will be ready in January 2019</h3>
+                            {/*media here: video*/}
+                        </div>
                     </div>
                 </div>
 
