@@ -1,0 +1,46 @@
+.core-team-list ul li {
+    list-style-type: none;
+}
+
+.core-team-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.core-team-item {
+    width: 20%;
+}
+
+.core-team-list button {
+    background: transparent;
+    width: 80%;
+    border: none;
+}
+
+.core-team-item img {
+    width: 100%;
+    height: auto;
+}
+
+.core-team-person-name {
+    font-size: 2em;
+    font-weight: 600;
+    margin-top: 2em;
+}
+
+.core-team-person-title {
+    font-size: 1.6em;
+    font-weight: 200;
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+}
+
+
+
+
+
+
+
+
+
+

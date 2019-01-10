@@ -65,10 +65,14 @@ class DemoForm extends Component {
                                 </FormGroup>
                             </div>
 
+<<<<<<< HEAD
                             <div className="demo-form-send-btn">
                                 <button  type="submit">Send Message</button>
                             </div>
 
+=======
+                            <button className="demo-form-send-btn" type="submit">Send Message</button>
+>>>>>>> 39840fa90027640943d1c14b3ef378a644e4e454
                         </form>
                     </Modal.Body>
                 </Modal>

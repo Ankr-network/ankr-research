@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import StaffCarousel from '../carousel/StaffCarousel';
 
 import { Staff } from '../../data/staff';
+import '../../css/Team.css';
 
 
 class Team extends Component {
@@ -26,16 +27,19 @@ class Team extends Component {
 
     render() {
         return (
-            <div>
-                <ul>
+            <div className="core-team-list">
+                <ul className="core-team-items">
                     {this.state.staff.map((person, idx) => {
                         return (
-                            <li key={idx} >
+                            <li
+                                className="core-team-item"
+                                key={idx}
+                            >
                                 <button onClick={this.handleEventChange(idx)}>
                                     <img src={person.img} alt="staff"/>
-                                    {person.name}
+                                    <div className="core-team-person-name">{person.name}</div>
                                 </button>
-                                {person.title}
+                                <div className="core-team-person-title">{person.title}</div>
                             </li>
                         );
                     })}

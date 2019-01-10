@@ -88,9 +88,7 @@ class TeamForm extends Component {
                                     />
                                 </FormGroup>
 
-                                <div className="team-form-send-btn">
-                                    <button  type="submit">Send Message</button>
-                                </div>
+                                <button className="team-form-send-btn" type="submit">Send Message</button>
                             </div>
                         </form>
                     </Modal.Body>

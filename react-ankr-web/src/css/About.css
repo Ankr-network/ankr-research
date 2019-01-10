@@ -1,0 +1,361 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style 1st change-world part*/
+.change-world {
+    background-image: url('../images/world-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 45px;
+    background-size: cover;
+}
+
+.change-world h1 {
+    margin-top: 100px;
+    font-family: Asap,sans-serif;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.change-world-h1-divider {
+    width: 10%;
+    margin: 2em auto;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 4px;
+}
+
+.change-world p {
+    width: 70%;
+    font-family: Asap,sans-serif;
+    font-size: 1.8em;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2.25;
+}
+
+.change-world-pics {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.change-world-pics-img-brac {
+    width: 50%;
+    height: auto;
+}
+
+.change-world-pics-img-e {
+    width: 20%;
+    height: auto;
+    margin-left: -35%;
+}
+
+.change-world-pics-item h4 {
+    font-family: Asap,sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.2;
+    width: 30%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.change-world-pics-desc {
+    font-family: Asap,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: center;
+    width: 75%;
+    margin-left: 17%;
+}
+
+.change-world-pics-item-divider {
+    width: 15%;
+    height: 2px;
+    margin-top: 6%;
+    background: #c1e0f4;
+}
+
+/*Style 2nd our-story part*/
+.story {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-title h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    letter-spacing: 0.8px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+.story-divider {
+    width: 8%;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.story-body {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.story-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 2.5%;
+}
+
+.story-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40em;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 2.5%;
+}
+.story-body p {
+    font-family: Roboto,sans-serif;
+    font-size: 1.8em;
+    font-weight: 100;
+}
+
+.story-right-sign {
+    display: flex;
+    flex-direction: row;
+}
+
+.story-right-sign-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+
+.story-right-sign-left h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.story-right-sign-left-desc {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+}
+
+.story-ankr-logo {
+    width: 10%;
+    height: auto;
+}
+
+.story-right-sign-left-title {
+    margin-left: 10%;
+    color: #2a8bcb;
+    margin-top: 13%;
+}
+
+/*Style 3rd Core Team part*/
+.core-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.core-team h2 {
+    display: block;
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 800;
+    text-transform: none;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.core-team-divider {
+    width: 8%;
+    height: 6px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin: 2% auto 3% auto;
+
+}
+
+
+/*Style 4th BackBy part*/
+.backed-by {
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
+}
+
+.backed-by h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2.6em;
+}
+
+.backed-by img {
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+/*Style 5th Benefits*/
+.benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+}
+
+.benefits-title h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.benefits-title-divider {
+    width: 8%;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.benefits-items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-right: 10%;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+}
+
+.benefits-item span {
+    font-size: 2.4em;
+    color: #2a8bcb;
+    margin-right: 1em;
+    margin-left: 6px;
+    font-weight: 300;
+}
+
+.benefits-item strong {
+    display: inline-block;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.benefits-item-divider {
+    height: 1px;
+    background-image: linear-gradient(90deg,rgb(61, 70, 153) 0px, rgb(53, 173, 221) 100%);
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.benefits-item p {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2;
+}
+
+/*Style Opens part*/
+.opens {
+    width: 100%;
+    height: 800px;
+    background: #f2fbff;
+}
+
+.opens h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.opens-divider {
+    width: 8%;
+    height: 5px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.opens-title-divider {
+    height: 3px;
+    background: #bad9f2;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.opens-title {
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.opens-title span {
+    width: 30%;
+    font-family: Asap,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.opens-title-span-2 {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+

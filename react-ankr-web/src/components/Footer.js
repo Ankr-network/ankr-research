@@ -38,7 +38,7 @@ class Footer extends Component {
 
                         <form className="footer-middle-form" onSubmit = {this.props.handleSubmit}>
                             <input className="footer-middle-email-form"  type="text" placeholder="      Your email address" />
-                            <div className="footer-middle-email-form-btn"><button  type="submit">Subscribe</button></div>
+                            <button className="footer-middle-email-form-btn" type="submit">Subscribe</button>
                         </form>
 
                         <div className="footer-middle-email-addr">

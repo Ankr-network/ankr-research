@@ -12,6 +12,8 @@ import stanleyImg from '../images/stanly.jpg';
 import wenliImg from '../images/wenli.jpg';
 import yifanImg from '../images/yifan.jpg';
 import zhangImg from '../images/zhang.jpg';
+import haifa from '../images/haifa.jpg';
+import weiwei from '../images/wei.jpg';
 
 
 
@@ -110,5 +112,18 @@ export const Staff = [
         description: 'Quan Chen is an assistant Professor at Shanghai Jiao Tong University, Post-doc Researcher at Columbia University and University of Michigan Ann Arbor, Expert in distributed systems.',
         img: quanImg,
 
+    },
+    {
+        name: 'Weir Wei',
+        title: 'Software Engineer',
+        description: 'Weir Wei is a Software Engineer with more than 5 years experience in developing. His main focus is on database management systems and back-end service systems. He has extensive experience in golang, database systems, distributed systems, and operating systems.',
+        img: weiwei,
+
+    },
+    {
+        name: 'Sang Haifa',
+        title: 'Software Engineer',
+        description: 'Sang Haifa is a s Software engineer, having three years of cloud computing development experience and two years of block chain development experience, make him have his own understanding of block chain and cloud computing.',
+        img: haifa,
     },
 ];
