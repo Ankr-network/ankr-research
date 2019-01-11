@@ -11,6 +11,11 @@ import whatsAnkrLogo from '../../images/whatsankr-logo.png';
 import bracket from '../../images/bracket.svg';
 import RoadmapCarousel from '../carousel/RoadmapCarousel.js';
 import done from '../../images/done-icon.svg';
+import whyankr1 from '../../images/e-1.svg';
+import whyankr2 from '../../images/e-10.svg';
+import whyankr3 from '../../images/e-3.svg';
+import whyankr4 from '../../images/e-2.svg';
+
 import "../../css/Home.css";
 import introVideo from '../../images/intro.mp4';
 
@@ -29,11 +34,10 @@ class Home extends Component {
                     <div className="home-main-text">
                     <h1 className="home-main-title">The Cloud, Trusted</h1>
                     <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
-                    <DemoForm
-                        show={this.props.demoShow}
-                        onChange={this.props.onDemoChange}
-                    />
-
+                    
+                    <div className="home-demo">
+                        <button className="demo-button">Request a Demo</button>
+                    </div>
                     <img className="home-main-icon" src={done} />
                     </div>
                 </div>
@@ -61,36 +65,57 @@ class Home extends Component {
                 {/* Why Ankr */}
                 <div className="home-whyankr">
                     <h1 className="home-whyankr-title">Why Ankr?</h1>
-                
+                    <div className = "home-whyankr-divider" > </div>
                     <div className="home-whyankr-text">
                         <div>
-                            <img className="home-whyankr-bracket" src={bracket} />
-                            <h3>Higher Availbility</h3>
+                            <div className="parent">
+                                <img className="home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={whyankr1} />
+                            </div>
 
-                            <p>Deploy from the closest computing resources available across the
+                            <div className="home-whyankr-content">
+                                <h4 className="home-whyankr-subtitle">Higher Availbility</h4>
+
+                                <p className="home-whyankr-text">Deploy from the closest computing resources available across the
                                 globe</p>
+                            </div>
                         </div>
 
                         < div >
-                            <img className="home-whyankr-bracket" src={bracket} />
-                            <h3>Cheaper Price</h3>
+                            <div className="parent">
+                                <img className="home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={whyankr2} />
+                            </div>
+                            < div className = "home-whyankr-content" >
+                                <h4 className="home-whyankr-subtitle">Cheaper Price</h4>
 
-                            <p>Sharing Economy’ s asset - light nature
+                                <p className="home-whyankr-text">Sharing Economy’ s asset - light nature
                                 results in fairer pricing</p>
+                            </div> 
                         </div>
 
                         < div>
+                            <div className="parent">
                             <img className="home-whyankr-bracket" src={bracket} />
-                            <h3>Easier Integration</h3>
-                            <p>Build from the tools and languages
-                                you already know</p>
+                            <img  className = "home-whyankr-icon" src={whyankr3} />
+                            </div>
+                            < div className = "home-whyankr-content" >
+                                <h4 className="home-whyankr-subtitle">Easier Integration</h4>
+                                <p className="home-whyankr-text">Build from the tools and languages
+                                    you already know</p>
+                            </div>
                         </div>
 
                         < div>
-                             <img className="home-whyankr-bracket" src={bracket} />
-                            <h3>Securer Communication</h3>
-                            <p>Leverage cryptographic primitives and
-                                TEEs to protect computation integrity</p>
+                            <div className="parent">
+                                <img className="home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={whyankr4} />
+                            </div>
+                            <div className="home-whyankr-content">
+                                <h4 className="home-whyankr-subtitle">Securer Communication</h4>
+                                <p className="home-whyankr-text">Leverage cryptographic primitives and
+                                    TEEs to protect computation integrity</p>
+                            </div>
                         </div>
                     </div>
                 </div>
