@@ -1,11 +1,29 @@
 .home-main {
-    border: 10px solid #2a8bcb;
     height: 100vh;
-    background-color:#2a8bcb;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-main-text {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+
+#home-intro-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
 }
 
 .home-main-title {
-    margin-top: 20%;
+    margin-top: 19%;
     font-size: 44px;  
     color: white;
     font-weight: bold;
@@ -14,35 +32,72 @@
 .home-main-subtitle {
     padding: 10px;
     color: white;
+    width: 42vw;
+    margin-left: 410px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .home-main-icon {
     height: 80px;
     width: 80px;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .home-whatsankr {
     border: 10px solid white;
-    height:85vh;
+    height: 78vh;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
 }
 
+.home-whatsankr-divider {
+    width: 18%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .home-whatsankr-logo {
-    width: 50vw;
-    height: 80vh;
+    width: 40vw;
+    height: 60vh;
+    margin-left: 130px;
 }
 
 .home-whatsankr-title {
-    text-align: left;
-    margin-top: 5px;
     font-weight: bold;
+    font-size: 32px;
+}
+
+.home-whatsankr-content {
+    text-align: left;
+    margin-bottom: 350px;
+    margin-left: 7%;
+    margin-top: 25%;
+    width: 34vw;
+}
+
+.home-whatsankr-button {
+    border: 1px linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    color: #2a8bcb;
+    background-color: Transparent;
+    border-radius: 4px;
+    margin-top: 25px;
+    width: 180px;
+    height: 55px;
 }
 
 .home-whatsankr-text {
     text-align: left;
     padding: 5px;
+    line-height: 33px;
+    font-size: 16px;
 }
 
 .home-whyankr {

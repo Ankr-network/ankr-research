@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import ourVision from '../../images/our-vision.png';
 import techOverview from '../../images/tech-overview.png';
 import bracket from '../../images/bracket.svg';
+import demo from '../../images/screenshot.jpg';
 import { Button } from 'react-bootstrap';
+
 import  '../../css/Product.css';
 
 class Product extends Component {
@@ -107,7 +109,7 @@ class Product extends Component {
                 {/*5th part: "Data Center"*/}
                 <div className="product-data-center">
                     <div className="product-data-center-item">
-                        < h3 className = "product-data-center-title" > Data Center </h3>
+                        < h2 className = "product-data-center-title" > Data Center </h2>
                     </div>
 
                     < div className = "product-data-center-text" >
@@ -116,35 +118,48 @@ class Product extends Component {
                             <p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
                         </div>
 
-                        <div>
-                            <h3>Demo will be ready in January 2019</h3>
+                        < div className = "product-data-center-demo" >
+                            <h2 className="product-data-center-demo-title">Demo will be ready in January 2019</h2>
                             {/*media here: video*/}
+                            <img className="product-data-center-demo-screenshot" src={demo}   />
                         </div>
                     </div>
                 </div>
 
                 {/*6th part: "PC & Mobile/Edge Devices"*/}
                 <div>
-                    <div className="pc">
-                        <h3>PC</h3>
-                        <h4>At Ankr, we have two solutions with PC’s computing power, they are:</h4>
-                        <div>
-                            <div>01 BOINC PLATFORM</div>
-                            <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
-                            <Button>Demo is Ready</Button>
+                    <div className="product-data-center-pc">
+                        <div className="product-data-center-pc-title">
+                            <h2 className="product-data-center-pc-subtitle">PC</h2>
+                            < div className = "product-data-center-pc-divider" > </div>
+                            <h4 className="product-data-center-pc-text" >At Ankr, we have two solutions with PC’s computing power, they are:</h4>
                         </div>
+                        <div className="product-data-center-pc-list">
+                            <div className="product-data-center-pc-content1">
+                                <div>01 BOINC PLATFORM</div>
+                                < div className = "product-data-center-pc-list-divider" > </div>
+                                <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
+                                <Button>Demo is Ready</Button>
+                            </div>
 
-                        <div>
-                            <div>02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
-                            <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
-                            <Button>Demo is Ready</Button>
+                            < div className = "product-data-center-pc-content2" >
+                                <div> 02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
+                                < div className = "product-data-center-pc-list-divider" > </div>
+                                <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
+                                <Button>Demo is Ready</Button>
+                            </div>
                         </div>
 
                     </div>
 
-                    <div className="mobile">
-                        <h3>Mobile/Edge Devices</h3>
-                        <div>Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</div>
+                    <div className="product-mobile">
+                        <div className="product-mobile-content">
+                            <div className="product-mobile-title">
+                                <h1>Mobile/Edge Devices</h1>
+                            </div>
+                            < div className = "product-mobile-divider" > </div>
+                            <p className="product-mobile-text">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
+                        </div>
                     </div>
                 </div>
             </div> 
