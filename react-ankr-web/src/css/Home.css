@@ -1,7 +1,24 @@
 .home-main {
-    border: 10px solid #2a8bcb;
     height: 100vh;
-    background-color:#2a8bcb;
+    position: relative;
+    overflow: hidden;
+}
+
+.home-main-text {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+#home-intro-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
 }
 
 .home-main-title {

@@ -12,6 +12,7 @@ import bracket from '../../images/bracket.svg';
 import RoadmapCarousel from '../carousel/RoadmapCarousel.js';
 import done from '../../images/done-icon.svg';
 import "../../css/Home.css";
+import introVideo from '../../images/intro.mp4';
 
 class Home extends Component {
 
@@ -21,6 +22,11 @@ class Home extends Component {
             <div>
                 { /* Main */ }    
                 <div className="home-main">
+                    <video id='home-intro-video' autoPlay muted loop>
+                    <source src={introVideo} type="video/mp4"/>
+                    </video>
+
+                    <div className="home-main-text">
                     <h1 className="home-main-title">The Cloud, Trusted</h1>
                     <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
                     <DemoForm
@@ -30,6 +36,7 @@ class Home extends Component {
                     />
 
                     <img className="home-main-icon" src={done} />
+                    </div>
                 </div>
 
 
