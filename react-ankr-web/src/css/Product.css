@@ -139,6 +139,7 @@
 
 .product-major-computing-jobs-title {
     padding-top: 80px;
+    margin-left: 7%;
     font-weight: bold;
 }
 
@@ -148,14 +149,26 @@
 
 .product-major-computing-jobs-subtitle {
     font-weight: bold;
+    margin-left: 6%;
 }
 
-.product-major-computing-jobs-text {
+.product-major-computing-jobs-list {
     display: flex;
     justify-content: space-evenly;
     padding-top: 100px;
 }
 
+.product-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-sub-subtitle {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 
 .product-major-computing-jobs-bracket {
     width: 150px;

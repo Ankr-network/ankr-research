@@ -4,6 +4,9 @@ import techOverview from '../../images/tech-overview.png';
 import bracket from '../../images/bracket.svg';
 import demo from '../../images/screenshot.jpg';
 import { Button } from 'react-bootstrap';
+import computingJob1 from '../../images/e-4.svg';
+import computingJob2 from '../../images/e-5.svg';
+import computingJob3 from '../../images/e-6.svg';
 
 import  '../../css/Product.css';
 
@@ -86,26 +89,44 @@ class Product extends Component {
                 <div className="product-major-computing-jobs">
                     < h2 className = "product-major-computing-jobs-title" > Three major types of computing jobs solved </h2>
                     < h3 className = "product-major-computing-jobs-subtitle" > by the existing Cloud providers </h3>
-                    < div className = "product-major-computing-jobs-text" >
+                    < div className = "product-major-computing-jobs-list" >
                         < div className = "product-major-computing-jobs-item" >
-                            <img className = "product-major-computing-jobs-bracket" src={bracket} />
-                            <div>Batch processing</div>
-                            <div>EXAMPLE:</div>
-                            <div>Elastic Mapreduce, hadoop</div>
+                            <div className='parent'>
+                                <img className = "home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={computingJob1} />
+
+                            </div>
+                            < div className = "home-whyankr-content" >
+                                <div className="product-subtitle">Batch processing</div>
+                                <div className="product-sub-subtitle">EXAMPLE:</div>
+                                <div>Elastic Mapreduce, hadoop</div>
+                            </div>
                         </div>
 
                         < div className = "product-major-computing-jobs-item" >
-                            <img className = "product-major-computing-jobs-bracket" src={bracket} />
-                            <div>Security & Privacy</div>
-                            <div>EXAMPLE:</div>
-                            <div>Website, API Server, Daemon process</div>
+                            <div className='parent'>
+                                <img className = "home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={computingJob2} />
+
+                            </div>
+                            <div className = "home-whyankr-content" >
+                                <div className="product-subtitle">Security & Privacy</div>
+                                <div className="product-sub-subtitle">EXAMPLE:</div>
+                                <div>Website, API Server, Daemon process</div>
+                            </div>
                         </div>
 
                         < div className = "product-major-computing-jobs-item" >
-                            <img className = "product-major-computing-jobs-bracket" src={bracket} />
-                            <div>Resource-Efficient framework</div>
-                            <div>EXAMPLE:</div>
-                            <div>AWS Lambda, Serverless Architecture</div>
+                            <div className='parent'>
+                                <img className = "home-whyankr-bracket" src={bracket} />
+                                <img  className = "home-whyankr-icon" src={computingJob3} />
+
+                            </div>
+                            < div className = "home-whyankr-content" >
+                                <div className="product-subtitle">Resource-Efficient framework</div>
+                                <div className="product-sub-subtitle">EXAMPLE:</div>
+                                <div>AWS Lambda, Serverless Architecture</div>
+                            </div>
                         </div>
                     </div>
                 </div>
