@@ -202,50 +202,9 @@
 }
 
 .home-roadmap {
-    border: 10px solid #2a8bcb;
     height: 70vh;
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
-    background: #2a8bcb;
-}
-
-.home-partners {
-    height: 40vh;
-    display: flex;
-    flex-direction: column;
-    border: 10px solid red;
-}
-
-.home-partners-title {
-    margin-top: 4%;
-    margin-right: 78%;
-}
-
-.home-partners-imgs {
-    display: flex;
-    justify-content: space-evenly;
-}
-.home-partners-img {
-    width: 70px;
-    height: 70px;
-
-}
-
-.home-partners-img2 {
-    width: 120px;
-    height: 70px;
-}
-
-.home-partners-divider {
-    width: 30%;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    height: 3px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 28%;
-}
-
-#partners {
-    font-weight: bold;
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
 }
