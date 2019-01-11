@@ -202,10 +202,9 @@
 }
 
 .home-roadmap {
-    border: 10px solid #2a8bcb;
     height: 70vh;
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
-    background: #2a8bcb;
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
 }
