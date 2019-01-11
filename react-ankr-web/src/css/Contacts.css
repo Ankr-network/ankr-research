@@ -6,12 +6,18 @@
     width: 1000px;
 }
 
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
 .contacts-content {
     position: absolute;
 }
 
 .contacts-office {
-    height: 95vh;
+    width: 100%;
+    height: 700px;
     background: #f2fbff;
 }
 
@@ -70,4 +76,25 @@
 
 .contacts-email-addy {
     margin-left: 19px;
+}
+
+/*Style write-to-us*/
+.contacts-form {
+    width: 100%;
+    height: 900px;
+    background: #eaf7fb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacts-form-item {
+    width: 30%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.contacts-form img {
+    height: 60%;
+    margin-top: 10%;
 }

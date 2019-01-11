@@ -1,37 +1,42 @@
 import React from "react";
 import { FormGroup, Button, FormControl } from 'react-bootstrap';
+import '../../css/ContactsForm.css';
 
 class ContactForm extends React.Component {
     render() {
         return (
-            <div>
+            <div className="contacts-form-body">
                 <h2>Write to us</h2>
+                <div className="contacts-form-body-divider"></div>
                 <form>
-                    <label>Learn how you can leverage distributed computing network in your organization</label>
                     <FormGroup>
                         <FormControl
                             type="text"
                             placeholder="Your name"
+                            className="contacts-form-body-form-item"
                         />
 
                         <FormControl
                             type="email"
                             placeholder="Your email address"
+                            className="contacts-form-body-form-item"
                         />
 
                         <FormControl
                             type="text"
                             placeholder="Your phone number"
+                            className="contacts-form-body-form-item"
                         />
-                    </FormGroup>
-                    <FormGroup bsSize="large">
+
                         <FormControl
                             type="text"
                             placeholder="Your message"
+                            bsSize="large"
+                            className="contacts-form-body-form-message"
                         />
                     </FormGroup>
 
-                    <Button type="submit">Send Message</Button>
+                    <button type="submit">Send Message</button>
                 </form>
             </div>
         );

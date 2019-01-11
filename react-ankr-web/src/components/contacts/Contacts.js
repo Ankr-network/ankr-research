@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import sky from '../../images/sky.mp4'
 import ContactForm from '../forms/ContactForm';
 import '../../css/Contacts.css';
-// import Footer from '../Footer';
+import contactsTemp from '../../images/contacts-temp.png';
 
 class Contacts extends Component {
     render() {
@@ -47,17 +47,14 @@ class Contacts extends Component {
                 </div>
 
                 {/*2nd part: "Contact form"*/}
-                <div>
-                    <ContactForm/>
+                <div className="contacts-form">
+                    <div className="contacts-form-item">
+                        <ContactForm/>
+                    </div>
+                    <img src={contactsTemp} alt="contactsTemp" />
                 </div>
-
-                {/*3rd part: "footer"*/}
-                {/*<div>*/}
-                    {/*<Footer/>*/}
-                {/*</div>*/}
-
-            </div> 
-        );   
+            </div>
+        );
     }
 }
 
