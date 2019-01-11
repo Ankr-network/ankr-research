@@ -92,7 +92,6 @@
 }
 
 .home-whatsankr-button {
-    border: 1px linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -104,6 +103,15 @@
     margin-top: 25px;
     width: 180px;
     height: 55px;
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+}
+
+.home-whatsankr-button:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
 }
 
 .home-whatsankr-text {
