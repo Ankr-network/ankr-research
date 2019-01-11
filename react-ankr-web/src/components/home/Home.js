@@ -22,6 +22,7 @@ import partner4 from '../../images/dora.svg';
 import partner5 from '../../images/hack.svg';
 import partner6 from '../../images/berk.svg';
 import partner7 from '../../images/shan.svg';
+import logo from '../../images/logo-icon.svg';
 
 import "../../css/Home.css";
 import introVideo from '../../images/intro.mp4';
@@ -222,105 +223,130 @@ class Home extends Component {
             </div>
             
             {/* latest news */}
-                <div className="home-news" id="news">
-                    <h2>Latest News</h2>
+                <div className="home-news">
+                    <div className="home-news-title">
+                        <h1 id='news'>Latest News</h1>
+                        <div className="home-news-divider" > </div>
+                    </div>
+                    
+                    <div className="home-news-item-content">
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-5-4dc433998277" target="_blank">
+                                <img className= 'home-news-img' src={update5} />
+                            
+                                <h4 className="home-news-subtitle">Ankr Network Bi - weekly Update 5</h4>
+                            </a>
+                                <p className="home-news-text">Over the past two weeks, we have made remarkable progress on
+                                    technology development.Meanwhile we have planned...</p>
+                           
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date" href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-5-4dc433998277" target="_blank">medium.com/ankr-network</a>
+                                <span className="date link-date">-Dec/03/2018</span>
+                            </div>
+                        </div>
 
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-5-4dc433998277" target="_blank">
-                            <img src={update5} />
-                            <h4>Ankr Network Bi - weekly Update 5</h4>
-                        </a>
-                        <p>Over the past two weeks, we have made remarkable progress on
-                            technology development.Meanwhile we have planned...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-5-4dc433998277" target="_blank">medium.com/ankr-network</a>
-                            <div>-Dec/03/2018</div>
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-4-be4ce1c8b5b7" target="_blank">
+                                <img className= 'home-news-img'src={update4} />
+                                <h4 className="home-news-subtitle">Ankr Network Bi - weekly Update 4</h4>
+                            </a>
+                            <p className="home-news-text">Over the past two weeks, we have been focusing on solutions
+                                for utilising idle resources in data centers...</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date" href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-4-be4ce1c8b5b7" target="_blank">medium.com/ankr-network</a>
+                              
+                                <span className="date link-date">-Nov/19/2018</span>
+                            </div>
+                        </div>
+
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-bi-weekly-issue-3-2407c48af11" target="_blank">
+                                <img className= 'home-news-img' src={update3} />
+                                <h4 className="home-news-subtitle">Ankr Network Bi - weekly Update 3</h4>
+                            </a>
+                            <p className="home-news-text">Welcome to Ankr Bi - weekly! This is our third issue, and
+                                we appreciate your attention.First of all, we want to
+                                express...</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date" href="https://medium.com/ankr-network/ankr-bi-weekly-issue-3-2407c48af11" target="_blank">medium.com/ankr-network</a>
+                          
+                                <span className="date link-date"> -Nov/05/2018</span>
+                            </div>
+                        </div>
+
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-2-user-feedback-contest-c66efd51fad3" target="_blank">
+                                <img className= 'home-news-img' src={update2} />
+                                <h4 className="home-news-subtitle">Ankr Network Bi-weekly Update 2 + User Feedback Contest</h4>
+                            </a>
+                            <p className="home-news-text">This week marks the second issuance of Ankr Network Bi-Weekly Update and the start of our User Feedback & Advice Contest...</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date" href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-2-user-feedback-contest-c66efd51fad3" target="_blank">medium.com/ankr-network</a>
+                      
+                                <span className="date link-date">-Oct/22/2018</span>
+                            </div>
+                        </div>
+
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-1-3588f19fe5a5" target="_blank">
+                                <img className= 'home-news-img' src={update1} />
+                                <h4 className="home-news-subtitle">Ankr Network Bi-weekly Update 1</h4>
+                            </a>
+                            <p className="home-news-text">This week marks the first issuance of Ankr Network Bi-Weekly Update. We thank you for your consistent support.</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date" href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-1-3588f19fe5a5" target="_blank">medium.com/ankr-network</a>
+                              
+                                <span className="date link-date">-Oct/08/2018</span>
+                            </div>
+                        </div>
+
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/ankr-network-update-and-token-sale-instructions-a377a0ffa47e" target="_blank">
+                                <img className= 'home-news-img' src={updateToken} />
+                                <h4 className="home-news-subtitle">Ankr Network Update and Token Sale Instructions</h4>
+                            </a>
+                            <p className="home-news-text">We don’t think projects should ask communities to do things like Proof of Love or Proof of Care. Here at Ankr...</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className="link-date"  href="https://medium.com/ankr-network/ankr-network-update-and-token-sale-instructions-a377a0ffa47e" target="_blank">medium.com/ankr-network</a>
+                      
+                                <span className="date link-date">-Sep/14/2018</span>
+                            </div>
+                        </div>
+
+                        <div className="news-item">
+                            <a href="https://medium.com/ankr-network/where-we-were-where-we-are-where-were-going-721f1be06227" target="_blank">
+                                <img className= 'home-news-img' src={updateToken1} />
+                                <h4 className="home-news-subtitle">Where We Were, Where We Are, Where We’re Going</h4>
+                            </a>
+                            <p className="home-news-text">A token can mean a lot of things. But to us at Ankr, a token is more than a cryptocurrency. ANKR tokens are...</p>
+                            <div className="medium">
+                                <span>
+                                    <img className="news-logo" src={logo} />
+                                </span>
+                                <a className = "link-date" href="https://medium.com/ankr-network/where-we-were-where-we-are-where-were-going-721f1be06227" target="_blank">medium.com/ankr-network</a>
+                                <span className="date link-date" >-Jul/30/2018</span>
+                            </div>
                         </div>
                     </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-4-be4ce1c8b5b7" target="_blank">
-                            <img src={update4} />
-                            <h4>Ankr Network Bi - weekly Update 4</h4>
-                        </a>
-                        <p>Over the past two weeks, we have been focusing on solutions
-                            for utilising idle resources in data centers...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-4-be4ce1c8b5b7" target="_blank">medium.com/ankr-network</a>
-                            <div>-Nov/19/2018</div>
-                        </div>
-                    </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-bi-weekly-issue-3-2407c48af11" target="_blank">
-                            <img src={update3} />
-                            <h4>Ankr Network Bi - weekly Update 3</h4>
-                        </a>
-                        <p>Welcome to Ankr Bi - weekly!This is our third issue, and
-                            we appreciate your attention.First of all, we want to
-                            express...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-bi-weekly-issue-3-2407c48af11" target="_blank">medium.com/ankr-network</a>
-                            <div>-Nov/05/2018</div>
-                        </div>
-                    </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-2-user-feedback-contest-c66efd51fad3" target="_blank">
-                            <img src={update2} />
-                            <h4>Ankr Network Bi-weekly Update 2 + User Feedback Contest</h4>
-                        </a>
-                        <p>This week marks the second issuance of Ankr Network Bi-Weekly Update and the start of our User Feedback & Advice Contest...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-2-user-feedback-contest-c66efd51fad3" target="_blank">medium.com/ankr-network</a>
-                            <div>-Oct/22/2018</div>
-                        </div>
-                    </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-1-3588f19fe5a5" target="_blank">
-                            <img src={update1} />
-                            <h4>Ankr Network Bi-weekly Update 1</h4>
-                        </a>
-                        <p>This week marks the first issuance of Ankr Network Bi-Weekly Update. We thank you for your consistent support.</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-1-3588f19fe5a5" target="_blank">medium.com/ankr-network</a>
-                            <div>-Oct/08/2018</div>
-                        </div>
-                    </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/ankr-network-update-and-token-sale-instructions-a377a0ffa47e" target="_blank">
-                            <img src={updateToken} />
-                            <h4>Ankr Network Update and Token Sale Instructions</h4>
-                        </a>
-                        <p>We don’t think projects should ask communities to do things like Proof of Love or Proof of Care. Here at Ankr...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/ankr-network-update-and-token-sale-instructions-a377a0ffa47e" target="_blank">medium.com/ankr-network</a>
-                            <div>-Sep/14/2018</div>
-                        </div>
-                    </div>
-
-                    <div className="news-item">
-                        <a href="https://medium.com/ankr-network/where-we-were-where-we-are-where-were-going-721f1be06227" target="_blank">
-                            <img src={updateToken1} />
-                            <h4>Where We Were, Where We Are, Where We’re Going</h4>
-                        </a>
-                        <p>A token can mean a lot of things. But to us at Ankr, a token is more than a cryptocurrency. ANKR tokens are...</p>
-                        <div>
-                            {/*<img></img>*/}
-                            <a href="https://medium.com/ankr-network/where-we-were-where-we-are-where-were-going-721f1be06227" target="_blank">medium.com/ankr-network</a>
-                            <div>-Jul/30/2018</div>
-                        </div>
-                    </div>
-
-                    <button>More News</button>
+                    {/* <button>More News</button> */}
                 </div>
             </div>
         );
