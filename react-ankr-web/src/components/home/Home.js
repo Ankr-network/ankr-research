@@ -131,22 +131,40 @@ class Home extends Component {
                 {/* Use Cases */}
                 <div className="home-usecases">
                     <div className="home-usecases-title">
-                    <h1>Use Cases</h1>
-
-                    <h4>Ankr is versatile in various types of computing jobs.</h4>
+                        <h1 id="usecases">Use Cases</h1>
+                        <div className="home-usecases-divider" > </div>
+                        <h4 className= "home-usescases-subtitle">Ankr is versatile in various types of computing jobs.</h4>
                     </div>
 
                     <div>
-                    <ol type="1" className="home-usecases-list">
-                        <li> Computation - heavy applications where computation
-                        offsets communications</li>
-                        <li>Monte Carlo simulations(e.g., medical / geological research)</li>
+                    <div className="home-usecases-list">
+                        <div>
+                            <span className="home-usecases-list-number">01</span> 
+                            <span>Computation - heavy applications where computation
+                            offsets communications</span>
+                            <div className="home-usecases-list-divider"></div>
+                        </div>
 
-                        <li>Time - sensitive signal processing offloading(e.g., rendering
-                                for AR / VR)</li>
+                        <div>
+                            <span className="home-usecases-list-number">02</span> 
+                            <span>Monte Carlo simulations(e.g., medical / geological research)</span>
+                            <div className="home-usecases-list-divider"></div>
+                        </div>
 
-                        <li>Offline data analytics without strict deadlines</li>
-                    </ol>
+                        <div>
+                            <span className="home-usecases-list-number">03</span> 
+                            <span>Time - sensitive signal processing offloading(e.g., rendering
+                                    for AR / VR)</span>
+                            <div className="home-usecases-list-divider"></div>
+                        </div>
+
+                        <div>
+                            <span className="home-usecases-list-number">04</span> 
+                            <span>Offline data analytics without strict deadlines</span>
+                            <div className="home-usecases-list-divider"></div>
+                        </div>
+                    </div>
+                       
                     </div>
                 </div>
                 <div className="home-roadmap">
