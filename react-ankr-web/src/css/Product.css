@@ -140,6 +140,7 @@
 .product-data-center-title {
     margin-left: 100px;
     margin-top: 50px;
+    font-weight: bold;
 }
 
 .product-data-center-text {
@@ -176,8 +177,8 @@
     display: flex;
     flex-direction: column;
     height: 80vh;
-    border: 10px solid green;
     justify-content: space-evenly;
+    background: #eaf7fb;
 }
 
 .product-data-center-pc-list {
@@ -189,6 +190,7 @@
     text-align: left;
     margin-left: 100px;
     width: 35vw;
+    font-weight: bold;
     
 }
 
@@ -201,9 +203,17 @@
     font-weight: bold;
 }
 
-.product-data-center-pc-content {
+.product-data-center-pc-content1 {
     text-align: left;
-    line-height: 50px;
+    line-height: 40px;
+    width: 35vw;
+}
+
+.product-data-center-pc-content2 {
+    text-align: left;
+    line-height: 40px;
+    width: 35vw;
+    margin-left: 150px;
 }
 
 .product-data-center-pc-divider {
@@ -215,11 +225,12 @@
 }
 
 .product-data-center-pc-list-divider {
-    width: 70%;
+    width: 95%;
     background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    height: 2px;
+    height: 1px;
     margin-top: 20px;
     margin-bottom: 20px;
+    opacity: 0.2;
 }
 
 .product-mobile {
@@ -227,24 +238,27 @@
     flex-direction: column;
     height: 40vh;
     text-align: left;
-    margin-top: 80px;
-    margin-left: 100px;
+    background: #eaf7fb;
 }
 
+.product-mobile-content {
+    margin-left: 100px;
+}
 .product-mobile-title {
     font-weight: bold;
 }
 
 .product-mobile-text {
     width: 30vw;
-    line-height: 20px;
-    margin: 0 0 10px;
+    line-height: 40px;
 }
 
 .product-mobile-divider {
     width: 7%;
     background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
     height: 3px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
 }
+

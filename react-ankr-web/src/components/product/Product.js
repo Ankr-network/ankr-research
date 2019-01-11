@@ -109,7 +109,7 @@ class Product extends Component {
                 {/*5th part: "Data Center"*/}
                 <div className="product-data-center">
                     <div className="product-data-center-item">
-                        < h1 className = "product-data-center-title" > Data Center </h1>
+                        < h2 className = "product-data-center-title" > Data Center </h2>
                     </div>
 
                     < div className = "product-data-center-text" >
@@ -135,15 +135,15 @@ class Product extends Component {
                             <h4 className="product-data-center-pc-text" >At Ankr, we have two solutions with PC’s computing power, they are:</h4>
                         </div>
                         <div className="product-data-center-pc-list">
-                            <div className="product-data-center-pc-content">
+                            <div className="product-data-center-pc-content1">
                                 <div>01 BOINC PLATFORM</div>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
                                 <Button>Demo is Ready</Button>
                             </div>
 
-                            < div className = "product-data-center-pc-content" >
-                                <div>02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
+                            < div className = "product-data-center-pc-content2" >
+                                <div >02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
                                 <Button>Demo is Ready</Button>
@@ -153,11 +153,13 @@ class Product extends Component {
                     </div>
 
                     <div className="product-mobile">
-                        <div className="product-mobile-title">
-                            <h1>Mobile/Edge Devices</h1>
+                        <div className="product-mobile-content">
+                            <div className="product-mobile-title">
+                                <h1>Mobile/Edge Devices</h1>
+                            </div>
+                            < div className = "product-mobile-divider" > </div>
+                            <p className="product-mobile-text">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
                         </div>
-                        < div className = "product-mobile-divider" > </div>
-                        <p className="product-mobile-text">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
                     </div>
                 </div>
             </div> 
