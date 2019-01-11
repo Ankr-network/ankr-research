@@ -143,7 +143,7 @@ class Product extends Component {
                             </div>
 
                             < div className = "product-data-center-pc-content2" >
-                                <div >02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
+                                <div> 02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
                                 <Button>Demo is Ready</Button>
