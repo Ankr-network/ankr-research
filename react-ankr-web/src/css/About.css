@@ -21,12 +21,13 @@
     font-weight: 600;
 }
 
-/*.change-world-h1-divider {*/
-    /*width: 10%;*/
-    /*margin-left: 10%;*/
-    /*background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);*/
-    /*height: 4px;*/
-/*}*/
+.change-world-title-divider {
+    width: 10%;
+    margin: 2% auto 2% auto;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 4px;
+
+}
 
 .change-world p {
     width: 70%;
@@ -342,7 +343,7 @@
 .opens-title-divider {
     height: 3px;
     background: #bad9f2;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-right: 10%;
 }
 
