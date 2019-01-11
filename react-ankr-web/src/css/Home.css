@@ -242,7 +242,7 @@
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
-    background: #2a8bcb;
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
 }
 
 .home-partners {
