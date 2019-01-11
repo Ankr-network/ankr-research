@@ -161,17 +161,19 @@ class Product extends Component {
                         </div>
                         <div className="product-data-center-pc-list">
                             <div className="product-data-center-pc-content1">
-                                <div>01 BOINC PLATFORM</div>
+                                <span className="product-data-center-pc-number">01</span>
+                                <span className="product-data-center-pc-list-title"> BOINC PLATFORM</span>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
-                                <button>Demo is Ready</button>
+                                <button className="demo-ready-button">Demo is Ready</button>
                             </div>
 
                             < div className = "product-data-center-pc-content2" >
-                                <div> 02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
+                                <span className="product-data-center-pc-number">02</span>
+                                <span className="product-data-center-pc-list-title">  BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</span>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
-                                <button>Demo is Ready</button>
+                                <button className="demo-ready-button">Demo is Ready</button>
                             </div>
                         </div>
 

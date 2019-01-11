@@ -208,6 +208,13 @@
     margin-left: 100px;
 }
 
+.demo-ready-button {
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
 .product-data-center-demo-title {
     font-weight: bold;
     padding-bottom: 50px;
@@ -290,6 +297,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
     opacity: 0.2;
+}
+
+.product-data-center-pc-number {
+    color: #2a8bcb;
+    margin-right: 30px;
+}
+
+.product-data-center-pc-list-title {
+    color: #2a8bcb;
+    font-size: 11px;
 }
 
 .product-mobile {
