@@ -8,10 +8,9 @@ class RoadmapCarousel extends Component {
 
     render() {
         return (
-            <div>
+            <div className="roadmap-carousel">
                 <Carousel
                 interval={null}
-                className="roadmap-carousel"
                 >
                 {Roadmap.map((item, idx) =>
                 

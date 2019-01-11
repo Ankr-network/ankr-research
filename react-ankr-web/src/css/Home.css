@@ -237,12 +237,31 @@
     font-size: 22px;
 }
 
+
+/*Style Road Map part*/
 .home-roadmap {
     height: 70vh;
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly;
     background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
+}
+
+.home-roadmap-title {
+    font-weight: bold;
+    color: white;
+}
+
+.roadmap-divider {
+    width: 7.5%;
+    background-color: white;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 46.5%;
+}
+
+.home-roadmap-header {
+    text-align: center;
 }
 
 .home-partners {
@@ -386,19 +405,3 @@
     margin-bottom: 8%;
 }
 
-.home-roadmap-title {
-    font-weight: bold;
-    color: white;
-}
-
-.roadmap-divider {
-    width: 7.5%;
-    background-color: white;
-    height: 3px;
-    margin-top: 20px;
-    margin-left: 46.5%;
-}
-
-.home-roadmap-header {
-    text-align: center;
-}

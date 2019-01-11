@@ -51,29 +51,39 @@
 
 
 /*carousel left and right arrow part*/
-
-.carousel-control.right {
-    width: 5%;
-    margin-top: 25em;
-    margin-bottom: auto;
-    margin-right: 10%;
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
 }
 
 .glyphicon-chevron-right {
     color: #35acdc;
-    background: #f2fbff;
-}
-
-.carousel-control.left {
-    width: 5%;
-    margin-top: 25em;
-    margin-bottom: auto;
-    margin-left: 10%;
-    /*background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);*/
 }
 
 .glyphicon-chevron-left {
     color: #35acdc;
-    background: #f2fbff;
 }
+/*.carousel-control.right {*/
+    /*width: 5%;*/
+    /*margin-top: 20em;*/
+    /*margin-bottom: auto;*/
+    /*margin-right: 10%;*/
+/*}*/
+
+/*.glyphicon-chevron-right {*/
+    /*color: #35acdc;*/
+    /*background: #f2fbff;*/
+/*}*/
+
+/*.carousel-control.left {*/
+    /*width: 5%;*/
+    /*margin-top: 20em;*/
+    /*margin-bottom: auto;*/
+    /*margin-left: 10%;*/
+    /*!*background-image: linear-gradient(to top,#3d479a 0,#35acdc 100%);*!*/
+/*}*/
+
+/*.glyphicon-chevron-left {*/
+    /*color: #35acdc;*/
+    /*background: #f2fbff;*/
+/*}*/
 
