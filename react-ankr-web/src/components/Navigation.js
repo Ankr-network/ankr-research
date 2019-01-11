@@ -6,7 +6,7 @@ import TeamForm from './forms/TeamForm';
 import PartnerForm from './forms/PartnerForm';
 import DemoForm from './forms/DemoForm';
 
-import logo from '../images/logo-icon.svg';
+import logo from '../images/android-chrome-192x192.png';
 import '../css/Navigation.css';
 
 
