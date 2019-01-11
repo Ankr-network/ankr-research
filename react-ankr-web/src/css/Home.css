@@ -378,3 +378,27 @@
 .date {
     opacity: 0.4;
 }
+
+#news-button {
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
+    margin-bottom: 8%;
+}
+
+.home-roadmap-title {
+    font-weight: bold;
+    color: white;
+}
+
+.roadmap-divider {
+    width: 7.5%;
+    background-color: white;
+    height: 3px;
+    margin-top: 20px;
+    margin-left: 46.5%;
+}
+
+.home-roadmap-header {
+    text-align: center;
+}

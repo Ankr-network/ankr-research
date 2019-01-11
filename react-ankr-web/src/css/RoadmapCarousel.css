@@ -1,5 +1,26 @@
 .roadmap-carousel-item-img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
 }
 
+.roadmap-carousel-item-divider {
+    width: 1.5%;
+    background-color: white;
+    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 49%;
+}
+
+.roadmap-carousel-item-title, .roadmap-carousel-item-desc {
+    color: white;
+}
+
+.roadmap-carousel-item-title {
+    font-size: 16px;
+}
+
+.roadmap-carousel-item-desc {
+    font-size: 10px;
+}

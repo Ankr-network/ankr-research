@@ -176,9 +176,15 @@ class Home extends Component {
                        
                     </div>
                 </div>
+
+                {/* roadmap */}
+
                 <div className="home-roadmap">
-                <h2> Roadmap </h2>
-                <RoadmapCarousel />
+                    <div className="home-roadmap-header">
+                        <h1 className="home-roadmap-title"> Roadmap </h1>
+                        <div className="roadmap-divider"> </div>
+                    </div>
+                    <RoadmapCarousel />
                 </div>
 
             {/* partners */}
@@ -344,7 +350,7 @@ class Home extends Component {
                         </div>
                     </div>
 
-                    <button onClick={this.handleNewsShow}>{this.state.newsShow ? "Less News" : "More News"}</button>
+                    <button id="news-button" onClick={this.handleNewsShow}>{this.state.newsShow ? "Less News" : "More News"}</button>
                 </div>
             </div>
         );
