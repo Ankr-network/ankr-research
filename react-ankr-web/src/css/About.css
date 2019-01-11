@@ -21,12 +21,12 @@
     font-weight: 600;
 }
 
-.change-world-h1-divider {
-    width: 10%;
-    margin: 2em auto;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    height: 4px;
-}
+/*.change-world-h1-divider {*/
+    /*width: 10%;*/
+    /*margin-left: 10%;*/
+    /*background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);*/
+    /*height: 4px;*/
+/*}*/
 
 .change-world p {
     width: 70%;
@@ -211,7 +211,7 @@
 /*Style 4th BackBy part*/
 .backed-by {
     width: 100%;
-    height: 650px;
+    height: 700px;
     background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
 }
 
@@ -223,10 +223,26 @@
     margin-top: 2.6em;
 }
 
-.backed-by img {
-    width: 100%;
-    height: auto;
-    margin-top: 2em;
+.backed-by-svg {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3%;
+    justify-content: flex-start;
+}
+
+.backed-by-svg svg {
+    fill: #fff;
+    width: 60%;
+    height: 7em;
+    border: 1px solid #fff;
+}
+
+.backed-by-svg svg:hover {
+    background-color: #fff;
+}
+
+.backed-by-svg svg:hover path {
+    fill: #2a8bcb;
 }
 
 /*Style 5th Benefits*/
