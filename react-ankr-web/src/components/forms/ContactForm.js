@@ -5,7 +5,7 @@ class ContactForm extends React.Component {
     render() {
         return (
             <div>
-                <h2>Request demos</h2>
+                <h2>Write to us</h2>
                 <form>
                     <label>Learn how you can leverage distributed computing network in your organization</label>
                     <FormGroup>

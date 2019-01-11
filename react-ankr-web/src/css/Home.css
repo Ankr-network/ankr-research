@@ -10,6 +10,7 @@
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    
 }
 
 
@@ -22,7 +23,7 @@
 }
 
 .home-main-title {
-    margin-top: 20%;
+    margin-top: 18%;
     font-size: 44px;  
     color: white;
     font-weight: bold;
@@ -31,12 +32,17 @@
 .home-main-subtitle {
     padding: 10px;
     color: white;
+    width: 42vw;
+    margin-left: 410px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .home-main-icon {
     height: 80px;
     width: 80px;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .home-whatsankr {
     border: 10px solid white;

@@ -30,7 +30,6 @@ class Home extends Component {
                     <h1 className="home-main-title">The Cloud, Trusted</h1>
                     <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
                     <DemoForm
-   
                         show={this.props.demoShow}
                         onChange={this.props.onDemoChange}
                     />
