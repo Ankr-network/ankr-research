@@ -6,12 +6,14 @@
     display: flex;
     flex-direction: row;
     flex-grow: 1;
+    margin-top: 8px;
+    font-size: 11px;
 }
 
 .navbar-header img {
     width: 3em;
     height: 3em;
-    margin-right: 0.5em;
+    margin-right: 5px;
 }
 
 .navbar-header span {
@@ -24,6 +26,7 @@
     display: flex;
     flex-direction: row;
     flex-grow: 8;
+    font-size: 13px;
 }
 
 .navbar-tags {
@@ -31,9 +34,10 @@
     flex-direction: row;
     flex-grow: 2;
     font-size: 1.5em;
-    margin-right: 3em;
+    margin-right: 5em;
     justify-content: space-evenly;
-    margin-top: 1%;
+    margin-top: 13px;
+    font-size: 16px;
 }
 
 .navbar-forms {
@@ -44,5 +48,6 @@
 .team-form-icon {
     display: inline-block;
 }
+
 
 
