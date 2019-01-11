@@ -4,17 +4,6 @@
     height: auto;
 }
 
-.demo-button {
-    border: 1px solid white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    color: white;
-    background-color: Transparent;
-    border-radius: 4px;
-}
 
 .demo-form-close-btn {
     width: 5%;
