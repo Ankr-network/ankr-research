@@ -9,7 +9,7 @@ class StaffCarousel extends Component {
 
     render() {
         return (
-            <div>
+            <div className="staff-carousel">
                 <Modal
                     show={this.props.show}
                     dialogClassName="staff-carousel-modal"
