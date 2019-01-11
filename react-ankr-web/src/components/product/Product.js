@@ -29,31 +29,35 @@ class Product extends Component {
                 {/*2nd part: "Trend for Computing"*/}
                 <div className="product-trend">
                     <div>
-                    <h1 className="product-trend-title"> Trend for computing </h1>
+                    <h2 className="product-trend-title"> Trend for computing </h2>
                     </div>
                     <div className="product-trend-list">
                         <div>
-                            <div>01</div>
-                            <div>Mainframe Computer</div>
-                            <div>IBM, Dell, HP</div>
+                            <div className="product-trend-number">01</div>
+                            <div className="product-trend-list-divider"></div>
+                            <div className="product-trend-list-title">Mainframe Computer</div>
+                            <div className="product-trend-list-text">IBM, Dell, HP</div>
                         </div>
 
                         <div>
-                            <div>02</div>
-                            <div>Colocation Centers</div>
-                            <div>Rackspace, DigitalOcean</div>
+                            <div className="product-trend-number">02</div>
+                            <div className="product-trend-list-divider"></div>
+                            <div className="product-trend-list-title">Colocation Centers</div>
+                            <div className="product-trend-list-text">Rackspace, DigitalOcean</div>
                         </div>
 
                         <div>
-                            <div>03</div>
-                            <div>Public Cloud</div>
-                            <div>AWS, Azure</div>
+                            <div className="product-trend-number">03</div>
+                            <div className="product-trend-list-divider"></div>
+                            <div className="product-trend-list-title">Public Cloud</div>
+                            <div className="product-trend-list-text">AWS, Azure</div>
                         </div>
 
                         <div>
-                            <div>04</div>
-                            <div>Distributed Cloud</div>
-                            <div>Ankr</div>
+                            <div className="product-trend-number">04</div>
+                            <div className="product-trend-list-divider"></div>
+                            <div className="product-trend-list-title">Distributed Cloud</div>
+                            <div className="product-trend-list-text">Ankr</div>
                         </div>
                     </div>
                 </div>
@@ -65,7 +69,7 @@ class Product extends Component {
                     </div>
                     
 
-                    <div>
+                    <div className="product-tech-overview" >
                     <h1 className="product-tech-title">Technology Overview</h1>
                     < div className = "product-tech-h1-divider" > </div>
                     <h4 className="product-tech-subtitle">Ankr's innovations include:</h4>
