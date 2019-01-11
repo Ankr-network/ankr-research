@@ -15,6 +15,13 @@ import whyankr1 from '../../images/e-1.svg';
 import whyankr2 from '../../images/e-10.svg';
 import whyankr3 from '../../images/e-3.svg';
 import whyankr4 from '../../images/e-2.svg';
+import partner1 from '../../images/sap.svg';
+import partner2 from '../../images/boinc.svg';
+import partner3 from '../../images/some.svg';
+import partner4 from '../../images/dora.svg';
+import partner5 from '../../images/hack.svg';
+import partner6 from '../../images/berk.svg';
+import partner7 from '../../images/shan.svg';
 
 import "../../css/Home.css";
 import introVideo from '../../images/intro.mp4';
@@ -176,20 +183,46 @@ class Home extends Component {
                 </div>
             </div> */}
 
-            {/* parnter */}
-            <div>
-                <h2>Partners:</h2>
-                <ul>
-                    <li>SAP</li>
-                    <li>BONIC</li>
-                    <li>Derahacks</li>
-                    <li>Berkeley</li>
-                    <li>上海交通大学</li>
-                </ul>
+            {/* partners */}
+            <div className="home-partners">
+                <div className="home-partners-title" >
+                    <h1 id="partners"> Partners</h1>
+                    < div className = "home-partners-divider" > </div>
+                </div>
+                <div className="home-partners-imgs">
+                    <div> 
+                        <img className="home-partners-img" src={partner1} />
+                    </div>
+
+                    <div> 
+                        <img className="home-partners-img" src={partner2} />
+                    </div>
+
+                    <div> 
+                        <img className="home-partners-img" src={partner3} />
+                    </div>
+
+                    <div> 
+                        <img className="home-partners-img2" src={partner4} />
+                    </div>
+
+                    <div> 
+                        <img className="home-partners-img" src={partner5} />
+                    </div>
+
+                    <div> 
+                        <img className="home-partners-img2" src={partner6} />
+                    </div>
+                    
+                    <div> 
+                        <img className="home-partners-img2" src={partner7} />
+                    </div>
+
+                </div>
             </div>
             
             {/* latest news */}
-                <div className="news" id="news">
+                <div className="home-news" id="news">
                     <h2>Latest News</h2>
 
                     <div className="news-item">
