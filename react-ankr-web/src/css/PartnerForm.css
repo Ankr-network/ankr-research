@@ -17,6 +17,15 @@
     background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
 }
 
+/*Style NavBar partner-form-btn*/
+.partner-form-btn {
+    border: none;
+    background: Transparent;
+    margin-top: 6%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
 /*Style partner form title & label*/
 .partner-form-title {
     font-size: 3em;

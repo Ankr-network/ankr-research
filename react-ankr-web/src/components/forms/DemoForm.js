@@ -8,7 +8,12 @@ class DemoForm extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.props.onChange}>Request a Demo</button>
+                <button
+                    onClick={this.props.onChange}
+                    className="demo-form-btn"
+                >
+                    Request a Demo
+                </button>
 
                 <Modal
                     show={this.props.show}

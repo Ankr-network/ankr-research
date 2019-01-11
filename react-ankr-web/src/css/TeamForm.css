@@ -35,6 +35,13 @@
     background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
 }
 
+/*Style NavBar team-form-btn*/
+.team-form-btn {
+    border: none;
+    background: Transparent;
+    margin-top: 10%;
+}
+
 /*Style team form title & label*/
 .team-form-title {
     font-size: 3em;
