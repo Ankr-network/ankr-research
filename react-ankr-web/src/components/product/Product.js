@@ -152,9 +152,12 @@ class Product extends Component {
 
                     </div>
 
-                    <div className="mobile">
-                        <h3>Mobile/Edge Devices</h3>
-                        <div>Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</div>
+                    <div className="product-mobile">
+                        <div className="product-mobile-title">
+                            <h1>Mobile/Edge Devices</h1>
+                        </div>
+                        < div className = "product-mobile-divider" > </div>
+                        <p className="product-mobile-text">Mobile can be fit most for the large amount small batch process jobs. This will highly leverage ARM TrustZone and potentially expand to solutions related to IoT technology.</p>
                     </div>
                 </div>
             </div> 

@@ -221,3 +221,30 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.product-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.product-mobile-title {
+    font-weight: bold;
+}
+
+.product-mobile-text {
+    width: 30vw;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.product-mobile-divider {
+    width: 7%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
