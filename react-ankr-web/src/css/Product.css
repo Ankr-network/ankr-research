@@ -186,6 +186,19 @@
     margin-left: 100px;
 }
 
+.product-data-center-pc-list button {
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+}
+
+.product-data-center-pc-list button:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}
+
 .product-data-center-pc-title {
     text-align: left;
     margin-left: 100px;

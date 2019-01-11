@@ -28,7 +28,16 @@ import "../../css/Home.css";
 import introVideo from '../../images/intro.mp4';
 
 class Home extends Component {
+    constructor() {
+        super();
+        this.state = {
+            newsShow: false,
+        };
+    }
 
+    handleNewsShow = () => {
+        this.setState({ newsShow: !this.state.newsShow });
+    }
 
     render() {
         return(
@@ -171,36 +180,6 @@ class Home extends Component {
                 <h2> Roadmap </h2>
                 <RoadmapCarousel />
                 </div>
-                {/* Roadmap */}
-                {/* <div>
-                    <h2>Roadmap</h2>
-
-                <div>
-                    <div>
-                        <h4>Testnet</h4>
-
-                        <p>September 2018</p>
-                    </div>
-
-                    <div>
-                        <h4>Integration with BONIC</h4>
-
-                        <p>October 2018</p>
-                    </div>
-
-                    <div>
-                        <h4>Solution for Idle Data Center</h4>
-
-                        <p>November 2018</p>
-                    </div>
-
-                    <div>
-                        <h4>New Website Release</h4>
-
-                        <p>December 2018</p>
-                    </div>
-                </div>
-            </div> */}
 
             {/* partners */}
             <div className="home-partners">
@@ -301,7 +280,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        <div className="news-item">
+                        <div className={this.state.newsShow ? "news-item" : "news-item-hide"}>
                             <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-2-user-feedback-contest-c66efd51fad3" target="_blank">
                                 <img className= 'home-news-img' src={update2} />
                                 <h4 className="home-news-subtitle">Ankr Network Bi-weekly Update 2 + User Feedback Contest</h4>
@@ -317,7 +296,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        <div className="news-item">
+                        <div className={this.state.newsShow ? "news-item" : "news-item-hide"}>
                             <a href="https://medium.com/ankr-network/ankr-network-bi-weekly-update-1-3588f19fe5a5" target="_blank">
                                 <img className= 'home-news-img' src={update1} />
                                 <h4 className="home-news-subtitle">Ankr Network Bi-weekly Update 1</h4>
@@ -333,7 +312,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        <div className="news-item">
+                        <div className={this.state.newsShow ? "news-item" : "news-item-hide"}>
                             <a href="https://medium.com/ankr-network/ankr-network-update-and-token-sale-instructions-a377a0ffa47e" target="_blank">
                                 <img className= 'home-news-img' src={updateToken} />
                                 <h4 className="home-news-subtitle">Ankr Network Update and Token Sale Instructions</h4>
@@ -349,7 +328,7 @@ class Home extends Component {
                             </div>
                         </div>
 
-                        <div className="news-item">
+                        <div className={this.state.newsShow ? "news-item" : "news-item-hide"}>
                             <a href="https://medium.com/ankr-network/where-we-were-where-we-are-where-were-going-721f1be06227" target="_blank">
                                 <img className= 'home-news-img' src={updateToken1} />
                                 <h4 className="home-news-subtitle">Where We Were, Where We Are, Where We’re Going</h4>
@@ -364,7 +343,8 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* <button>More News</button> */}
+
+                    <button onClick={this.handleNewsShow}>{this.state.newsShow ? "Less News" : "More News"}</button>
                 </div>
             </div>
         );

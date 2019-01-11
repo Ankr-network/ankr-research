@@ -139,14 +139,14 @@ class Product extends Component {
                                 <div>01 BOINC PLATFORM</div>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
-                                <Button>Demo is Ready</Button>
+                                <button>Demo is Ready</button>
                             </div>
 
                             < div className = "product-data-center-pc-content2" >
                                 <div> 02 BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</div>
                                 < div className = "product-data-center-pc-list-divider" > </div>
                                 <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
-                                <Button>Demo is Ready</Button>
+                                <button>Demo is Ready</button>
                             </div>
                         </div>
 
