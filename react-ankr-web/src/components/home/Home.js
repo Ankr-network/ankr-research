@@ -44,8 +44,9 @@ class Home extends Component {
                     <div>
                         <img className="home-whatsankr-logo" src={whatsAnkrLogo} alt="ankr-logo" />
                     </div>
-                    <div>
+                    <div className="home-whatsankr-content">
                     <h2 className="home-whatsankr-title">What's Ankr?</h2>
+                    <div className = "home-whatsankr-divider" > </div>
                     <p className="home-whatsankr-text">Ankr is a distributed computing platform that aims to leverage
                 idle computing resources in data centers and edge devices.What
                 Ankr enables is a Sharing Economy model where enterprises and
@@ -53,14 +54,14 @@ class Home extends Component {
                 their devices, on - premise servers, private cloud and even public
                 cloud.This enables Ankr to provide computing power much closer to
                 users at a much cheaper price.</p>
-                    <button>Watch Video</button>
+                    <button className="home-whatsankr-button">Watch Video</button>
                     </div>
                 </div>
 
                 {/* Why Ankr */}
                 <div className="home-whyankr">
                     <h1 className="home-whyankr-title">Why Ankr?</h1>
-
+                
                     <div className="home-whyankr-text">
                         <div>
                             <img className="home-whyankr-bracket" src={bracket} />
