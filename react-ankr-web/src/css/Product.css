@@ -9,11 +9,14 @@
 
 .product-vision-text {
     width: 40vw;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 40px;
 }
 
 .product-vision-img {
     width: 40vw;
-    height: 80vh;
+    height: 70vh;
 }
 
 .change-world-h1-divider {
@@ -21,7 +24,8 @@
     margin-left: 1px;
     background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
     height: 2.5px;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .product-vision-title {
@@ -43,15 +47,34 @@
 }
 
 .product-trend-title {
-    margin-left: 180px;
+    margin-left: 8.5%;
     margin-top: 100px;
+    font-weight: bold;
 }
 
 .product-trend-list {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 15px;
+}
+
+.product-trend-number {
+    color: #2a8bcb;
+}
+.product-trend-list-divider {
+    width: 200px;
+    height: 1px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.product-trend-list-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 .product-tech {
@@ -63,15 +86,24 @@
 }
 
 .product-tech-img {
-    width: 50vw;
-    height: 90vh;
+    width: 45vw;
+    height: 65vh;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.product-tech-overview {
+    width: 32vw;
+    text-align: left;
+    margin-right: 8%;
+    margin-top: 2%;
 }
 
 .product-tech-h1-divider {
     width: 18%;
     background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    height: 2.5px;
-    margin-left: 3%;
+    height: 3px;
+    margin-left: 22px;
     margin-top: 20px;
 }
 
@@ -91,7 +123,8 @@
 }
 
 .product-tech-list {
-    line-height: 60px;
+    margin-top: 35px;
+    line-height: 50px;
 }
 
 .product-major-computing-jobs {
