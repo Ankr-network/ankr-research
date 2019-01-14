@@ -19,7 +19,7 @@ class Opens extends Component {
                 <tr>
                     {tableHearder.map((item) => {
                         return(
-                            <th>{item}</th>
+                            <td className="opens-header">{item}</td>
                         );
                     })}
                 </tr>
@@ -43,9 +43,9 @@ class Opens extends Component {
 
         return (
             <table className="opens-list">
-                <thead>{tableHeaders}</thead>
+                {tableHeaders}
                 <div className="opens-list-divider"></div>
-                <tbody>{tableBody}</tbody>
+                {tableBody}
             </table>
         );
     }
