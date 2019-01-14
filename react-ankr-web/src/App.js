@@ -8,6 +8,7 @@ import Product from './components/product/Product';
 import Contacts from './components/contacts/Contacts';
 import Navigation from './components/Navigation';
 import FAQ from './components/FAQ/faq';
+import Boinc from './components/boinc/Boinc';
 import Footer from './components/Footer';
 
 // using SendGrid's v3 Node.js Library
@@ -108,6 +109,7 @@ class App extends Component {
           <Route path='/product' component={Product} />
           <Route path='/contacts' component={Contacts} />
           <Route path='/faq' component={FAQ} />
+          <Route path='/boinc' component={Boinc} />
 
           <Footer
             teamShow={this.state.teamFormShow}
