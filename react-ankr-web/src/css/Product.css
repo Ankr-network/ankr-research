@@ -215,15 +215,12 @@
     font-weight: bold;
 }
 
-.product-data-center-demo-title {
-    font-weight: bold;
-    padding-bottom: 50px;
-    padding-left: 50px;
-}
 
 .product-data-center-demo-screenshot {
-    width: 700px;
-    height: 450px;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 45%;
+    margin-left: 20%;
 }
 
 .product-data-center-pc {
@@ -231,7 +228,6 @@
     flex-direction: column;
     height: 80vh;
     justify-content: space-evenly;
-    background: #eaf7fb;
 }
 
 .product-data-center-pc-list {
@@ -255,7 +251,7 @@
 .product-data-center-pc-title {
     text-align: left;
     margin-left: 100px;
-    width: 35vw;
+    width: 45vw;
     font-weight: bold;
     
 }
@@ -314,7 +310,6 @@
     flex-direction: column;
     height: 40vh;
     text-align: left;
-    background: #eaf7fb;
 }
 
 .product-mobile-content {

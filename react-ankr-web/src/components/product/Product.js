@@ -7,6 +7,7 @@ import { Button } from 'react-bootstrap';
 import computingJob1 from '../../images/e-4.svg';
 import computingJob2 from '../../images/e-5.svg';
 import computingJob3 from '../../images/e-6.svg';
+import Iframe from "react";
 
 import  '../../css/Product.css';
 
@@ -143,10 +144,18 @@ class Product extends Component {
                             <p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
                         </div>
 
-                        < div className = "product-data-center-demo" >
-                            <h2 className="product-data-center-demo-title">Demo will be ready in January 2019</h2>
+                        <div className = "product-data-center-demo" >
                             {/*media here: video*/}
-                            <img className="product-data-center-demo-screenshot" src={demo}   />
+                            {/* < Iframe url = "https://youtu.be/jrNanjJjWNA"
+                                title="place-holder-video"
+                                width="640px"
+                                height="360px"
+                                id="place-holder-data-center-video"
+                                className=""
+                                display="initial"
+                                position="relative"
+                                allowFullScreen
+                                /> */}
                         </div>
                     </div>
                 </div>
@@ -157,7 +166,9 @@ class Product extends Component {
                         <div className="product-data-center-pc-title">
                             <h2 className="product-data-center-pc-subtitle">PC</h2>
                             < div className = "product-data-center-pc-divider" > </div>
-                            <h4 className="product-data-center-pc-text" >At Ankr, we have two solutions with PC’s computing power, they are:</h4>
+                            <h4 className="product-data-center-pc-text" >
+                            Blockchain based on chain distributed cloud computing platform 
+                            powered by Ankr innovative consensus protocol: Proof of Useful Work</h4>
                         </div>
                         <div className="product-data-center-pc-list">
                             <div className="product-data-center-pc-content1">
