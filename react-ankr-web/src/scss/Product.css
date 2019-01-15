@@ -310,6 +310,7 @@
     flex-direction: column;
     height: 40vh;
     text-align: left;
+    margin-top: 12%;
 }
 
 .product-mobile-content {
@@ -333,3 +334,7 @@
     
 }
 
+#place-holder-data-center-video {
+    margin-left: 15%;
+    margin-bottom: 4%;
+}

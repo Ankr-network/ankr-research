@@ -7,7 +7,8 @@ import { Button } from 'react-bootstrap';
 import computingJob1 from '../../images/e-4.svg';
 import computingJob2 from '../../images/e-5.svg';
 import computingJob3 from '../../images/e-6.svg';
-import Iframe from "react";
+import Iframe from "react-iframe";
+import {Link} from 'react-router-dom';
 
 import '../../scss/Product.css';
 
@@ -138,25 +139,25 @@ class Product extends Component {
                         < h2 className = "product-data-center-title" > Data Center </h2>
                     </div>
 
-                    < div className = "product-data-center-text" >
+                    <div className = "product-data-center-text" >
                         < div className = "product-data-center-subtext" >
                             <p>Small data center operators can improve the utilization rate for their resources, and thus improve both revenue and maintain a significant profit margin.</p>
                             <p>Ankr would leverage the power of kubernetes to share the resources inside data centers. And also with the help of containers, all three tasks of jobs are suitable to be run in this framework.</p>
                         </div>
 
-                        <div className = "product-data-center-demo" >
-                            {/*media here: video*/}
-                            {/* < Iframe url = "https://youtu.be/jrNanjJjWNA"
-                                title="place-holder-video"
-                                width="640px"
-                                height="360px"
-                                id="place-holder-data-center-video"
-                                className=""
-                                display="initial"
-                                position="relative"
-                                allowFullScreen
-                                /> */}
-                        </div>
+                        
+                        {/*media here: video*/}
+                        < Iframe url = "https://www.youtube.com/embed/jrNanjJjWNA"
+                            title="place-holder-video"
+                            width="425px"
+                            height="297px"
+                            id="place-holder-data-center-video"
+                            className=""
+                            display="initial"
+                            position="relative"
+                            allowFullScreen
+                            />
+                        
                     </div>
                 </div>
 
@@ -175,16 +176,44 @@ class Product extends Component {
                                 <span className="product-data-center-pc-number">01</span>
                                 <span className="product-data-center-pc-list-title"> BOINC PLATFORM</span>
                                 < div className = "product-data-center-pc-list-divider" > </div>
-                                <div>BOINC is an centralized volunteer-based computing platform and is very suitable for batch processing.</div>
-                                <button className="demo-ready-button">Demo is Ready</button>
+                                < Iframe url = "https://www.youtube.com/embed/pVoHeXauRaQ"
+                                title="place-holder-video"
+                                width="425px"
+                                height="297px"
+                                id="place-holder-data-center-video"
+                                className=""
+                                display="initial"
+                                position="relative"
+                                allowFullScreen
+                                />
+                                <p>With Intel SGX enhanced BOINC Solution, our cloud 
+                                    computing platform support 
+                                    contributors around world with Windows, Mac, Linux systems
+                                     as distributed computing node.</p>
+                                <Link to="/boinc">
+                                    <button>Learn More & Download</button>
+                                </Link>
+                                
                             </div>
 
                             < div className = "product-data-center-pc-content2" >
                                 <span className="product-data-center-pc-number">02</span>
                                 <span className="product-data-center-pc-list-title">  BLOCKCHAIN BASED COMPUTING PLATFORM SUCH AS POUW.</span>
                                 < div className = "product-data-center-pc-list-divider" > </div>
-                                <div>This is a platform best fit for event driven job or less intense batch processing because of the limitation of Intel SGX.</div>
-                                <button className="demo-ready-button">Demo is Ready</button>
+                                < Iframe url = "https://www.youtube.com/embed/jrNanjJjWNA"
+                                title="place-holder-video"
+                                width="425px"
+                                height="297px"
+                                id="place-holder-data-center-video"
+                                className=""
+                                display="initial"
+                                position="relative"
+                                allowFullScreen
+                                />
+                                <p>
+                                    With Intel latest SGX Security and Remote Attestation Tech.Ankr invented 
+                                    new consensus protocol Proof of Useful Work to replace PoW.
+                                </p>
                             </div>
                         </div>
 
