@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Opennings } from "../../data/opennings";
 import '../../css/Opens.css';
 
+
+const tableHearder = ["Opening", "Type", "Location"];
+
 class Opens extends Component {
     constructor() {
         super();
@@ -11,25 +14,39 @@ class Opens extends Component {
     }
 
     render() {
+        const tableHeaders = (
+            <thead className="opens-headers">
+                <tr>
+                    {tableHearder.map((item) => {
+                        return(
+                            <td className="opens-header">{item}</td>
+                        );
+                    })}
+                </tr>
+            </thead>
+        );
+
+        const tableBody = this.state.opens.map((open, idx) => {
+            return (
+                <tr
+                    key={idx}
+                    className="opens-row"
+                >
+                    <td className="opens-item-title">{open.title}</td>
+                    <td className="opens-item-type">{open.type}</td>
+                    <td className="opens-item-location">{open.location}</td>
+                    <td><button className="opens-send-btn">SEND REQUEST</button></td>
+                </tr>
+            );
+        })
+
+
         return (
-            <ul className="opens-list">
-                {this.state.opens.map((open, idx) => {
-                    return (
-                        <li
-                            key={idx}
-                            className="opens-item"
-                        >
-                            <div className="opens-item-body">
-                                <span className={`opens-item-${idx}-title`}>{open.title}</span>
-                                <span className={`opens-item-${idx}-type`}>{open.type}</span>
-                                <span className={`opens-item-${idx}-local`}>{open.location}</span>
-                                <button className="opens-send-btn">SEND REQUEST</button>
-                            </div>
-                            <div className="opens-item-body-divider"></div>
-                        </li>
-                    )
-                })}
-            </ul>
+            <table className="opens-list">
+                {tableHeaders}
+                <div className="opens-list-divider"></div>
+                {tableBody}
+            </table>
         );
     }
 }

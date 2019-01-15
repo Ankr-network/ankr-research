@@ -813,12 +813,6 @@ class About extends Component {
                 <div className="opens" id="career">
                     <h2>Open Positions</h2>
                     <div className="opens-divider"></div>
-                    <div className="opens-title">
-                        <span>Opening</span>
-                        <span className="opens-title-span-2">Type</span>
-                        <span>Location</span>
-                    </div>
-                    <div className="opens-title-divider"></div>
                     <Opens />
                 </div>
             </div> 

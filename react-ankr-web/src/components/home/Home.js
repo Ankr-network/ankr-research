@@ -32,6 +32,7 @@ class Home extends Component {
         super();
         this.state = {
             newsShow: false,
+            display: 1,
         };
     }
 
@@ -45,17 +46,18 @@ class Home extends Component {
                 { /* Main */ }    
                 <div className="home-main">
                     <video id='home-intro-video' autoPlay muted loop>
-                    <source src={introVideo} type="video/mp4"/>
+                        <source src={introVideo} type="video/mp4"/>
                     </video>
 
                     <div className="home-main-text">
-                    <h1 className="home-main-title">The Cloud, Trusted</h1>
-                    <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
-                    
-                    <div className="home-demo">
-                        <button className="demo-button">Request a Demo</button>
-                    </div>
-                    <img className="home-main-icon" src={done} />
+                        <h1 className="home-main-title">The Cloud, Trusted</h1>
+
+                        <p className="home-main-subtitle">Build a Faster, Cheaper, Securer cloud using idle processing power in data centers and edge devices</p>
+
+                        <div className="home-demo">
+                            <button className="demo-button">Request a Demo</button>
+                        </div>
+                        <img className="home-main-icon" src={done} />
                     </div>
                 </div>
 
