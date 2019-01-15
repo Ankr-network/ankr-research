@@ -41,7 +41,7 @@ class FAQ extends Component {
 
     render() {
 
-        return(
+        return (
             <div className="faq">
                 <h1>FAQ</h1>
                 <div className="faq-divider"></div>
