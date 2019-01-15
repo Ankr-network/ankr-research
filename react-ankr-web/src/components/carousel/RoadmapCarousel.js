@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Roadmap } from '../../data/roadmap';
 import slideLeft from '../../images/slide-arrow-left-big-new.svg';
 import slideRight from '../../images/slide-arrow-right-big-new.svg';
-import '../../css/RoadmapCarousel.css';
+import '../../scss/RoadmapCarousel.css';
 
 
 class RoadmapCarousel extends Component {

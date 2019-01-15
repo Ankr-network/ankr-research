@@ -4286,7 +4286,7 @@ $export($export.S, 'Object', {
 
 /***/ "./node_modules/css-loader/lib/css-base.js":
 /*!*************************************************!*\
-  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  !*** ./node_modules/scss-loader/lib/scss-base.js ***!
   \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -4295,9 +4295,9 @@ $export($export.S, 'Object', {
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
 */
-// css base code, injected by the css-loader
+// scss base code, injected by the scss-loader
 module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
+  var list = []; // return the list of modules as scss string
 
   list.toString = function toString() {
     return this.map(function (item) {
@@ -4373,7 +4373,7 @@ function toComment(sourceMap) {
 
 /***/ "./node_modules/css-loader/lib/url/escape.js":
 /*!***************************************************!*\
-  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  !*** ./node_modules/scss-loader/lib/url/escape.js ***!
   \***************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -16154,7 +16154,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var propTypes = {
   /**
-   * A css class to apply to the Modal dialog DOM node.
+   * A scss class to apply to the Modal dialog DOM node.
    */
   dialogClassName: prop_types__WEBPACK_IMPORTED_MODULE_5___default.a.string
 };
@@ -21754,7 +21754,7 @@ function (_React$Component) {
     var values = this.getValues();
     !(type !== 'radio' || !!name) ?  true ? invariant__WEBPACK_IMPORTED_MODULE_5___default()(false, 'A `name` is required to group the toggle buttons when the `type` ' + 'is set to "radio"') : undefined : void 0;
     delete props.onChange;
-    delete props.value; // the data attribute is required b/c twbs css uses it in the selector
+    delete props.value; // the data attribute is required b/c twbs scss uses it in the selector
 
     return react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_ButtonGroup__WEBPACK_IMPORTED_MODULE_9__["default"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
       "data-toggle": "buttons"
@@ -30090,7 +30090,7 @@ if (true) {
       });
     });
     /**
-     * Convert a value into the proper css writable value. The style name `name`
+     * Convert a value into the proper scss writable value. The style name `name`
      * should be logical (no hyphens), as specified
      * in `CSSProperty.isUnitlessNumber`.
      *
@@ -30198,7 +30198,7 @@ if (true) {
         }
 
         warnedForNaNValue = true;
-        warning$1(false, '`NaN` is an invalid value for the `%s` css style property.', name);
+        warning$1(false, '`NaN` is an invalid value for the `%s` scss style property.', name);
       };
 
       var warnStyleValueIsInfinity = function warnStyleValueIsInfinity(name, value) {
@@ -30207,7 +30207,7 @@ if (true) {
         }
 
         warnedForInfinityValue = true;
-        warning$1(false, '`Infinity` is an invalid value for the `%s` css style property.', name);
+        warning$1(false, '`Infinity` is an invalid value for the `%s` scss style property.', name);
       };
 
       warnValidStyle = function warnValidStyle(name, value) {
@@ -47876,12 +47876,12 @@ Modal.propTypes = _extends({}, _Portal2.default.propTypes, {
   backdropStyle: _propTypes2.default.object,
 
   /**
-   * A css class or classes for the backdrop component.
+   * A scss class or classes for the backdrop component.
    */
   backdropClassName: _propTypes2.default.string,
 
   /**
-   * A css class or set of classes applied to the modal container when the modal is open,
+   * A scss class or set of classes applied to the modal container when the modal is open,
    * and removed when it is closed.
    */
   containerClassName: _propTypes2.default.string,
@@ -52883,7 +52883,7 @@ Transition.propTypes =  true ? {
    *
    * ```jsx
    * addEndListener={(node, done) => {
-   *   // use the css transitionend event to mark the finish of a transition
+   *   // use the scss transitionend event to mark the finish of a transition
    *   node.addEventListener('transitionend', done, false);
    * }}
    * ```
@@ -61221,7 +61221,7 @@ function createStyleElement (options) {
 	var style = document.createElement("style");
 
 	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
+		options.attrs.type = "text/scss";
 	}
 
 	if(options.attrs.nonce === undefined) {
@@ -61241,7 +61241,7 @@ function createLinkElement (options) {
 	var link = document.createElement("link");
 
 	if(options.attrs.type === undefined) {
-		options.attrs.type = "text/css";
+		options.attrs.type = "text/scss";
 	}
 	options.attrs.rel = "stylesheet";
 
@@ -61266,17 +61266,17 @@ function getNonce() {
 function addStyle (obj, options) {
 	var style, update, remove, result;
 
-	// If a transform function was defined, run it on the css
+	// If a transform function was defined, run it on the scss
 	if (options.transform && obj.css) {
 	    result = options.transform(obj.css);
 
 	    if (result) {
-	    	// If transform returns a value, use that instead of the original css.
-	    	// This allows running runtime transformations on the css.
+	    	// If transform returns a value, use that instead of the original scss.
+	    	// This allows running runtime transformations on the scss.
 	    	obj.css = result;
 	    } else {
-	    	// If the transform function returns a falsy value, don't add this css.
-	    	// This allows conditional loading of css
+	    	// If the transform function returns a falsy value, don't add this scss.
+	    	// This allows conditional loading of scss
 	    	return function() {
 	    		// noop
 	    	};
@@ -61402,7 +61402,7 @@ function updateLink (link, options, obj) {
 		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
 	}
 
-	var blob = new Blob([css], { type: "text/css" });
+	var blob = new Blob([css], { type: "text/scss" });
 
 	var oldSrc = link.href;
 
@@ -61423,7 +61423,7 @@ function updateLink (link, options, obj) {
 
 /**
  * When source maps are enabled, `style-loader` uses a link element with a data-uri to
- * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * embed the scss on the page. This breaks all relative urls because now they are relative to a
  * bundle instead of the current page.
  *
  * One solution is to only use full urls, but that may be impossible.
@@ -61501,7 +61501,7 @@ module.exports = function (css) {
 
 
     return "url(" + JSON.stringify(newUrl) + ")";
-  }); // send back the fixed css
+  }); // send back the fixed scss
 
   return fixedCss;
 };

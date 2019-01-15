@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import faqImg from '../../images/faq-img-1.png';
-import '../../css/faq.css';
+import '../../scss/faq.css';
 
 class FAQ extends Component {
     constructor() {

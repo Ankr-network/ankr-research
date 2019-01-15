@@ -2,12 +2,12 @@
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css":
 /*!************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.scss ***!
   \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -21,13 +21,13 @@ exports.push([module.i, "html, body {\n  width: 100%;\n}\n.App {\n  text-align: 
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/About.css":
 /*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/About.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/About.scss ***!
   \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../node_modules/scss-loader/lib/url/escape.js */ "./node_modules/scss-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -41,12 +41,12 @@ exports.push([module.i, ".about {\n    width: 100%;\n    display: flex;\n    fle
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/DemoForm.css":
 /*!*********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/DemoForm.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/DemoForm.scss ***!
   \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -60,12 +60,12 @@ exports.push([module.i, ".demo-form-modal {\n    display: block;\n    width: 80%
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Footer.css":
 /*!*******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Footer.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Footer.scss ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -79,13 +79,13 @@ exports.push([module.i, ".footer {\n    display: flex;\n    flex-direction: colu
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Home.css":
 /*!*****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Home.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Home.scss ***!
   \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../node_modules/scss-loader/lib/url/escape.js */ "./node_modules/scss-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -99,12 +99,12 @@ exports.push([module.i, ".home-main {\n    border: 10px solid #2a8bcb;\n    heig
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Navigation.css":
 /*!***********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Navigation.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Navigation.scss ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -118,12 +118,12 @@ exports.push([module.i, ".container {\n    display: flex;\n}\n\n.navbar-header {
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Opens.css":
 /*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Opens.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Opens.scss ***!
   \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -137,12 +137,12 @@ exports.push([module.i, ".opens-list li {\n    list-style-type: none;\n}\n\n.ope
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/PartnerForm.css":
 /*!************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/PartnerForm.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/PartnerForm.scss ***!
   \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -156,13 +156,13 @@ exports.push([module.i, ".partner-form-logo, .partner-form-desc {\n    display: 
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Product.css":
 /*!********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Product.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Product.scss ***!
   \********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../node_modules/scss-loader/lib/url/escape.js */ "./node_modules/scss-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -176,12 +176,12 @@ exports.push([module.i, ".product-vision {\n    height: 90vh;\n    display: flex
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/RoadmapCarousel.css":
 /*!****************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/RoadmapCarousel.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/RoadmapCarousel.scss ***!
   \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -195,12 +195,12 @@ exports.push([module.i, ".roadmap-carousel-item-img {\n    height: 200px;\n    w
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/StaffCarousel.css":
 /*!**************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/StaffCarousel.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/StaffCarousel.scss ***!
   \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -214,12 +214,12 @@ exports.push([module.i, ".carousel-indicators {\n    display: none;\n}\n\n.staff
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Team.css":
 /*!*****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/Team.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/Team.scss ***!
   \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -233,12 +233,12 @@ exports.push([module.i, ".core-team-list ul li {\n    list-style-type: none;\n}\
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/TeamForm.css":
 /*!*********************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/TeamForm.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/TeamForm.scss ***!
   \*********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -252,12 +252,12 @@ exports.push([module.i, ".team-form-logo, .team-form-desc {\n    display: none;\
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
 /*!**************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.scss ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+exports = module.exports = __webpack_require__(/*! ../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 
@@ -271,13 +271,13 @@ exports.push([module.i, "body {\n  margin: 0;\n  padding: 0;\n  font-family: -ap
 
 /***/ "./src/App.css":
 /*!*********************!*\
-  !*** ./src/App.css ***!
+  !*** ./src/App.scss ***!
   \*********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+var content = __webpack_require__(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -296,8 +296,8 @@ var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css", function() {
-		var newContent = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.css");
+	module.hot.accept(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.scss", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./App.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/App.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -314,7 +314,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -342,7 +342,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./App.css */ "./src/App.css");
+/* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./App.scss */ "./src/App.scss");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_home_Home__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/home/Home */ "./src/components/home/Home.js");
 /* harmony import */ var _components_about_About__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/about/About */ "./src/components/about/About.js");
@@ -1015,7 +1015,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _css_Footer_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../css/Footer.css */ "./src/css/Footer.css");
+/* harmony import */ var _css_Footer_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../scss/Footer.scss */ "./src/scss/Footer.css");
 /* harmony import */ var _css_Footer_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_Footer_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _forms_TeamForm__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./forms/TeamForm */ "./src/components/forms/TeamForm.js");
 /* harmony import */ var _forms_PartnerForm__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./forms/PartnerForm */ "./src/components/forms/PartnerForm.js");
@@ -1632,7 +1632,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _forms_DemoForm__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./forms/DemoForm */ "./src/components/forms/DemoForm.js");
 /* harmony import */ var _images_logo_icon_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../images/logo-icon.svg */ "./src/images/logo-icon.svg");
 /* harmony import */ var _images_logo_icon_svg__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_images_logo_icon_svg__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _css_Navigation_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../css/Navigation.css */ "./src/css/Navigation.css");
+/* harmony import */ var _css_Navigation_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../scss/Navigation.scss */ "./src/scss/Navigation.css");
 /* harmony import */ var _css_Navigation_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_css_Navigation_css__WEBPACK_IMPORTED_MODULE_12__);
 
 
@@ -1850,7 +1850,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../css/About.css */ "./src/css/About.css");
+/* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/About.scss */ "./src/scss/About.css");
 /* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_About_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/bracket.svg */ "./src/images/bracket.svg");
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__);
@@ -2496,7 +2496,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _data_opennings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../data/opennings */ "./src/data/opennings.js");
-/* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../css/Opens.css */ "./src/css/Opens.css");
+/* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/Opens.scss */ "./src/scss/Opens.css");
 /* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_Opens_css__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -2616,7 +2616,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _carousel_StaffCarousel__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../carousel/StaffCarousel */ "./src/components/carousel/StaffCarousel.js");
 /* harmony import */ var _data_staff__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../data/staff */ "./src/data/staff.js");
-/* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../css/Team.css */ "./src/css/Team.css");
+/* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/Team.scss */ "./src/scss/Team.css");
 /* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_Team_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -2763,7 +2763,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _data_roadmap__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../data/roadmap */ "./src/data/roadmap.js");
-/* harmony import */ var _css_RoadmapCarousel_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../css/RoadmapCarousel.css */ "./src/css/RoadmapCarousel.css");
+/* harmony import */ var _css_RoadmapCarousel_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/RoadmapCarousel.scss */ "./src/scss/RoadmapCarousel.css");
 /* harmony import */ var _css_RoadmapCarousel_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_RoadmapCarousel_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -2889,7 +2889,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _data_staff__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../data/staff */ "./src/data/staff.js");
 /* harmony import */ var _images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/modal-close-icon.png */ "./src/images/modal-close-icon.png");
 /* harmony import */ var _images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_StaffCarousel_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../css/StaffCarousel.css */ "./src/css/StaffCarousel.css");
+/* harmony import */ var _css_StaffCarousel_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../scss/StaffCarousel.scss */ "./src/scss/StaffCarousel.css");
 /* harmony import */ var _css_StaffCarousel_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_StaffCarousel_css__WEBPACK_IMPORTED_MODULE_9__);
 
 
@@ -3348,7 +3348,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../images/modal-close-icon.png */ "./src/images/modal-close-icon.png");
 /* harmony import */ var _images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_modal_close_icon_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _css_DemoForm_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../css/DemoForm.css */ "./src/css/DemoForm.css");
+/* harmony import */ var _css_DemoForm_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/DemoForm.scss */ "./src/scss/DemoForm.css");
 /* harmony import */ var _css_DemoForm_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_DemoForm_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -3552,7 +3552,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _images_f_2_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/f-2.svg */ "./src/images/f-2.svg");
 /* harmony import */ var _images_f_2_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_f_2_svg__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_PartnerForm_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../css/PartnerForm.css */ "./src/css/PartnerForm.css");
+/* harmony import */ var _css_PartnerForm_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../scss/PartnerForm.scss */ "./src/scss/PartnerForm.css");
 /* harmony import */ var _css_PartnerForm_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_PartnerForm_css__WEBPACK_IMPORTED_MODULE_9__);
 
 
@@ -3847,7 +3847,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _images_f_1_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/f-1.svg */ "./src/images/f-1.svg");
 /* harmony import */ var _images_f_1_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_f_1_svg__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _css_TeamForm_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../css/TeamForm.css */ "./src/css/TeamForm.css");
+/* harmony import */ var _css_TeamForm_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../scss/TeamForm.scss */ "./src/scss/TeamForm.css");
 /* harmony import */ var _css_TeamForm_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_css_TeamForm_css__WEBPACK_IMPORTED_MODULE_9__);
 
 
@@ -4169,7 +4169,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _carousel_RoadmapCarousel_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../carousel/RoadmapCarousel.js */ "./src/components/carousel/RoadmapCarousel.js");
 /* harmony import */ var _images_done_icon_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../images/done-icon.svg */ "./src/images/done-icon.svg");
 /* harmony import */ var _images_done_icon_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_images_done_icon_svg__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _css_Home_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../css/Home.css */ "./src/css/Home.css");
+/* harmony import */ var _css_Home_css__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../scss/Home.scss */ "./src/scss/Home.css");
 /* harmony import */ var _css_Home_css__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_css_Home_css__WEBPACK_IMPORTED_MODULE_18__);
 
 
@@ -4985,7 +4985,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/bracket.svg */ "./src/images/bracket.svg");
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../css/Product.css */ "./src/css/Product.css");
+/* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../scss/Product.scss */ "./src/scss/Product.css");
 /* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_Product_css__WEBPACK_IMPORTED_MODULE_10__);
 
 
@@ -5549,13 +5549,13 @@ function (_Component) {
 
 /***/ "./src/css/About.css":
 /*!***************************!*\
-  !*** ./src/css/About.css ***!
+  !*** ./src/scss/About.scss ***!
   \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/About.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5574,8 +5574,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/About.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/About.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5592,7 +5592,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5604,13 +5604,13 @@ if(true) {
 
 /***/ "./src/css/DemoForm.css":
 /*!******************************!*\
-  !*** ./src/css/DemoForm.css ***!
+  !*** ./src/scss/DemoForm.scss ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/DemoForm.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/DemoForm.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5629,8 +5629,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/DemoForm.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/DemoForm.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/DemoForm.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./DemoForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/DemoForm.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5647,7 +5647,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5659,13 +5659,13 @@ if(true) {
 
 /***/ "./src/css/Footer.css":
 /*!****************************!*\
-  !*** ./src/css/Footer.css ***!
+  !*** ./src/scss/Footer.scss ***!
   \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Footer.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Footer.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5684,8 +5684,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Footer.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Footer.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Footer.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Footer.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Footer.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5702,7 +5702,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5714,13 +5714,13 @@ if(true) {
 
 /***/ "./src/css/Home.css":
 /*!**************************!*\
-  !*** ./src/css/Home.css ***!
+  !*** ./src/scss/Home.scss ***!
   \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Home.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Home.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5739,8 +5739,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Home.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Home.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Home.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Home.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Home.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5757,7 +5757,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5769,13 +5769,13 @@ if(true) {
 
 /***/ "./src/css/Navigation.css":
 /*!********************************!*\
-  !*** ./src/css/Navigation.css ***!
+  !*** ./src/scss/Navigation.scss ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Navigation.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Navigation.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5794,8 +5794,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Navigation.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Navigation.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Navigation.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Navigation.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Navigation.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5812,7 +5812,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5824,13 +5824,13 @@ if(true) {
 
 /***/ "./src/css/Opens.css":
 /*!***************************!*\
-  !*** ./src/css/Opens.css ***!
+  !*** ./src/scss/Opens.scss ***!
   \***************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Opens.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5849,8 +5849,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Opens.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Opens.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5867,7 +5867,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5879,13 +5879,13 @@ if(true) {
 
 /***/ "./src/css/PartnerForm.css":
 /*!*********************************!*\
-  !*** ./src/css/PartnerForm.css ***!
+  !*** ./src/scss/PartnerForm.scss ***!
   \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/PartnerForm.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/PartnerForm.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5904,8 +5904,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/PartnerForm.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/PartnerForm.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/PartnerForm.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./PartnerForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/PartnerForm.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5922,7 +5922,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5934,13 +5934,13 @@ if(true) {
 
 /***/ "./src/css/Product.css":
 /*!*****************************!*\
-  !*** ./src/css/Product.css ***!
+  !*** ./src/scss/Product.scss ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Product.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Product.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5959,8 +5959,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Product.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Product.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Product.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Product.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Product.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -5977,7 +5977,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -5989,13 +5989,13 @@ if(true) {
 
 /***/ "./src/css/RoadmapCarousel.css":
 /*!*************************************!*\
-  !*** ./src/css/RoadmapCarousel.css ***!
+  !*** ./src/scss/RoadmapCarousel.scss ***!
   \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/RoadmapCarousel.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/RoadmapCarousel.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6014,8 +6014,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/RoadmapCarousel.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/RoadmapCarousel.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/RoadmapCarousel.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./RoadmapCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/RoadmapCarousel.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6032,7 +6032,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -6044,13 +6044,13 @@ if(true) {
 
 /***/ "./src/css/StaffCarousel.css":
 /*!***********************************!*\
-  !*** ./src/css/StaffCarousel.css ***!
+  !*** ./src/scss/StaffCarousel.scss ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/StaffCarousel.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/StaffCarousel.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6069,8 +6069,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/StaffCarousel.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/StaffCarousel.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/StaffCarousel.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./StaffCarousel.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/StaffCarousel.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6087,7 +6087,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -6099,13 +6099,13 @@ if(true) {
 
 /***/ "./src/css/Team.css":
 /*!**************************!*\
-  !*** ./src/css/Team.css ***!
+  !*** ./src/scss/Team.scss ***!
   \**************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Team.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6124,8 +6124,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Team.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/Team.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6142,7 +6142,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -6154,13 +6154,13 @@ if(true) {
 
 /***/ "./src/css/TeamForm.css":
 /*!******************************!*\
-  !*** ./src/css/TeamForm.css ***!
+  !*** ./src/scss/TeamForm.scss ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/TeamForm.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/TeamForm.css");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6179,8 +6179,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/TeamForm.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/css-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/TeamForm.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/TeamForm.css", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./TeamForm.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/TeamForm.css");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6197,7 +6197,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -6919,13 +6919,13 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBAQ
 
 /***/ "./src/index.css":
 /*!***********************!*\
-  !*** ./src/index.css ***!
+  !*** ./src/index.scss ***!
   \***********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+var content = __webpack_require__(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6944,8 +6944,8 @@ var update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css", function() {
-		var newContent = __webpack_require__(/*! !../node_modules/css-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+	module.hot.accept(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.scss", function() {
+		var newContent = __webpack_require__(/*! !../node_modules/scss-loader??ref--6-oneOf-3-1!../node_modules/postcss-loader/src??postcss!./index.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/index.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
@@ -6962,7 +6962,7 @@ if(true) {
 			return idx === 0;
 		}(content.locals, newContent.locals));
 
-		if(!locals) throw new Error('Aborting CSS HMR due to changed css-modules locals.');
+		if(!locals) throw new Error('Aborting CSS HMR due to changed scss-modules locals.');
 
 		update(newContent);
 	});
@@ -6986,7 +6986,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
-/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.scss */ "./src/index.scss");
 /* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./App */ "./src/App.js");
 var _jsxFileName = "/Users/gebrido/Desktop/Ankr/tee-research-and-development/react-ankr-web/src/index.js";

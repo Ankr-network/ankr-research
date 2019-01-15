@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
 import bracket from "../../images/bracket.svg";
 import f2 from "../../images/f-2.svg";
-import '../../css/PartnerForm.css';
+import '../../scss/PartnerForm.css';
 
 
 class PartnerForm extends Component {

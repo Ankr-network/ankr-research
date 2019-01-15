@@ -2,13 +2,13 @@ webpackHotUpdate("main",{
 
 /***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/css/About.css":
 /*!******************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/css/About.css ***!
+  !*** ./node_modules/scss-loader??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/scss/About.scss ***!
   \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var escape = __webpack_require__(/*! ../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+var escape = __webpack_require__(/*! ../../node_modules/scss-loader/lib/url/escape.js */ "./node_modules/scss-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../node_modules/scss-loader/lib/scss-base.js */ "./node_modules/scss-loader/lib/scss-base.js")(false);
 // imports
 
 

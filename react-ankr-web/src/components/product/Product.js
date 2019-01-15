@@ -9,7 +9,7 @@ import computingJob2 from '../../images/e-5.svg';
 import computingJob3 from '../../images/e-6.svg';
 import Iframe from "react";
 
-import  '../../css/Product.css';
+import '../../scss/Product.css';
 
 class Product extends Component {
     render() {

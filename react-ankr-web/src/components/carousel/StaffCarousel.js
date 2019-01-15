@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Carousel, Modal } from 'react-bootstrap';
 import { Staff } from '../../data/staff';
 import closeBtn from '../../images/modal-close-icon.png';
-import '../../css/StaffCarousel.css';
+import '../../scss/StaffCarousel.css';
 
 
 class StaffCarousel extends Component {

@@ -11,7 +11,7 @@ import signature from '../../images/signature.png';
 import Team from './Team';
 import Opens from './Opens';
 
-import '../../css/About.css';
+import '../../scss/About.css';
 
 class About extends Component {
 
@@ -21,7 +21,7 @@ class About extends Component {
             <div className="about"> 
                 {/**First part of About, named "change_world" */}
                 <div className="change-world">
-                    <h1>We Dare to Change the World</h1>
+                    <h3>We Dare to Change the World</h3>
                     <div className="change-world-title-divider"></div>
                     <p>Building a better cloud is never an easy task, but we believe we are paving the way for 
                         a more open cloud ecosystem where businesses and consumers across the world can interconnect 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import StaffCarousel from '../carousel/StaffCarousel';
 
 import { Staff } from '../../data/staff';
-import '../../css/Team.css';
+import '../../scss/Team.css';
 
 
 class Team extends Component {

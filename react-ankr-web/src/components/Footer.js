@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Popover, OverlayTrigger } from 'react-bootstrap';
-import '../css/Footer.css';
+import '../scss/Footer.css';
 
 import TeamForm from './forms/TeamForm';
 import PartnerFrom from './forms/PartnerForm';

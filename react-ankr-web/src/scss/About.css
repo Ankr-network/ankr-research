@@ -14,11 +14,8 @@
     background-size: cover;
 }
 
-.change-world h1 {
+.change-world h3 {
     margin-top: 100px;
-    font-family: Asap,sans-serif;
-    font-size: 3em;
-    font-weight: 600;
 }
 
 .change-world-title-divider {
@@ -30,13 +27,12 @@
 }
 
 .change-world p {
-    width: 70%;
     font-family: Asap,sans-serif;
-    font-size: 1.8em;
-    font-weight: 500;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 2.25;
+    font-weight: 400;
+    font-size: 2rem;
+    max-width: 94rem;
+    margin: 0 auto 6rem;
+    line-height: 2;
 }
 
 .change-world-pics {

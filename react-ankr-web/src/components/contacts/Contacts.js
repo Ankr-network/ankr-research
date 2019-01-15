@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import sky from '../../images/sky.mp4'
 import ContactForm from '../forms/ContactForm';
-import '../../css/Contacts.css';
+import '../../scss/Contacts.css';
 import contactsTemp from '../../images/contacts-temp.png';
 
 class Contacts extends Component {

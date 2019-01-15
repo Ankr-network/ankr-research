@@ -7,7 +7,7 @@ import PartnerForm from './forms/PartnerForm';
 import DemoForm from './forms/DemoForm';
 
 import logo from '../images/android-chrome-192x192.png';
-import '../css/Navigation.css';
+import '../scss/Navigation.css';
 
 
 

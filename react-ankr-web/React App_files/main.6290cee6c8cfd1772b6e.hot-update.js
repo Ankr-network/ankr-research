@@ -23,7 +23,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/bracket.svg */ "./src/images/bracket.svg");
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../css/Product.css */ "./src/css/Product.css");
+/* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../scss/Product.scss */ "./src/scss/Product.css");
 /* harmony import */ var _css_Product_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_css_Product_css__WEBPACK_IMPORTED_MODULE_10__);
 
 

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
 import closeBtn from '../../images/modal-close-icon.png';
-import '../../css/DemoForm.css';
+import '../../scss/DemoForm.css';
 
 class DemoForm extends Component {
 

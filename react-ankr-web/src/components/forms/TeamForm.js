@@ -3,7 +3,7 @@ import { FormGroup, FormControl, Button, Modal } from "react-bootstrap";
 import bracket from "../../images/bracket.svg";
 import f1 from "../../images/f-1.svg";
 
-import '../../css/TeamForm.css';
+import '../../scss/TeamForm.css';
 
 
 class TeamForm extends Component {

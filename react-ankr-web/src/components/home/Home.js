@@ -24,7 +24,7 @@ import partner6 from '../../images/berk.svg';
 import partner7 from '../../images/shan.svg';
 import logo from '../../images/logo-icon.svg';
 
-import "../../css/Home.css";
+import "../../scss/Home.css";
 import introVideo from '../../images/intro.mp4';
 
 class Home extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Opennings } from "../../data/opennings";
-import '../../css/Opens.css';
+import '../../scss/Opens.css';
 
 
 const tableHearder = ["Opening", "Type", "Location"];
