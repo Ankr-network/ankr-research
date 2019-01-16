@@ -791,29 +791,37 @@ class About extends Component {
                 <div className="benefits">
                     <div className="benefits-title">
                         <h2>Benefits</h2>
-                        <div className="benefits-title-divider"></div>
+                        <div className="divider"></div>
                     </div>
 
                     <div className="benefits-items">
                         <div className="benefits-item">
-                            <div><span>01</span><strong>Awesome Work Spaces</strong></div>
+                            <div className="benefits-item-pos">
+                                <span className="benefits-item-num">01</span>
+                                <span className="benefits-item-title">Awesome Work Spaces</span>
+                            </div>
                             <div className="benefits-item-divider"></div>
                             <p>Enjoy working with the team in prime locations in San Francisco and Shanghai</p>
                         </div>
 
                         <div className="benefits-item">
-                            <div><span>02</span><strong>Health Insurance</strong></div>
+                            <div className="benefits-item-pos">
+                                <span className="benefits-item-num">02</span>
+                                <span className="benefits-item-title">Health Insurance</span>
+                            </div>
                             <div className="benefits-item-divider"></div>
                             <p>Take advantage of generous wellness incentives to stimulate productivity and growth in the workplace</p>
                         </div>
 
                         <div className="benefits-item">
-                            <div><span>03</span><strong>Paid Vacation</strong></div>
+                            <div className="benefits-item-pos">
+                                <span className="benefits-item-num">03</span>
+                                <span className="benefits-item-title">Paid Vacation</span>
+                            </div>
                             <div className="benefits-item-divider"></div>
                             <p>Utilize our flexible open vacation policy to take time off when you need it</p>
                         </div>
                     </div>
-
                 </div>
 
                 {/*Sixth part of About page, named "open_positions"*/}

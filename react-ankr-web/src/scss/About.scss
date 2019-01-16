@@ -212,22 +212,15 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
 }
 
 .benefits-title h2 {
-    font-family: Asap,sans-serif;
-    font-size: 3.5em;
-    font-weight: 600;
-    margin-top: 2em;
+    margin-top: 10rem;
     text-align: left;
     margin-left: 10%;
 }
 
-.benefits-title-divider {
-    width: 8%;
-    height: 5px;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+.benefits-title .divider {
     margin-top: 2%;
     margin-bottom: 1em;
     margin-left: 10%;
@@ -236,9 +229,7 @@
 .benefits-items {
     display: flex;
     flex-direction: row;
-    margin-left: 8%;
-    margin-right: 10%;
-    margin-top: 3%;
+    margin: 5rem 10% 10rem 8%;
     justify-content: space-evenly;
 }
 
@@ -249,31 +240,35 @@
     text-align: left;
 }
 
-.benefits-item span {
-    font-size: 2.4em;
+.benefits-item-pos {
+    border-bottom: 1px solid #bad9f2;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 2.8rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.benefits-item-num {
+    font-size: 2.4rem;
     color: #2a8bcb;
-    margin-right: 1em;
+    margin-right: 5rem;
     margin-left: 6px;
     font-weight: 300;
 }
 
-.benefits-item strong {
-    display: inline-block;
-    font-size: 1.6em;
-    font-weight: 700;
-}
-
-.benefits-item-divider {
-    height: 1px;
-    background-image: linear-gradient(90deg,rgb(61, 70, 153) 0px, rgb(53, 173, 221) 100%);
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
 .benefits-item p {
-    font-size: 1.2em;
-    font-weight: 300;
-    line-height: 2;
+    padding-right: 2rem;
 }
 
 /*Style Opens part*/
