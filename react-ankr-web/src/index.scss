@@ -63,3 +63,21 @@ p, h1, h2, h3, h4, h5, h6, ul, ol {
   margin-bottom: 3.2rem;
 }
 
+.divider {
+  display: block;
+  width: 100%;
+  max-width: 10rem;
+  height: 3px;
+  line-height: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #35addd), color-stop(100%, #3d4699));
+  background: -webkit-linear-gradient(0deg, #35addd 0%, #3d4699 100%);
+  background: -o-linear-gradient(0deg, #35addd 0%, #3d4699 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#35addd), to(#3d4699));
+  background: -webkit-linear-gradient(left, #35addd 0%, #3d4699 100%);
+  background: -o-linear-gradient(left, #35addd 0%, #3d4699 100%);
+  background: linear-gradient(90deg, #35addd 0%, #3d4699 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#35addd', endColorstr='#3d4699',GradientType=1 );
+  margin-bottom: 1.5rem;
+}
+
+

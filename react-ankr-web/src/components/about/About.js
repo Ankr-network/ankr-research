@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Grid, Row, Col } from 'react-bootstrap';
 
 import bracket from '../../images/bracket.svg';
 import e7 from '../../images/e-7.svg';
@@ -11,7 +12,7 @@ import signature from '../../images/signature.png';
 import Team from './Team';
 import Opens from './Opens';
 
-import '../../scss/About.css';
+import '../../scss/About.scss';
 
 class About extends Component {
 
@@ -22,7 +23,7 @@ class About extends Component {
                 {/**First part of About, named "change_world" */}
                 <div className="change-world">
                     <h3>We Dare to Change the World</h3>
-                    <div className="change-world-title-divider"></div>
+                    <div className="divider"></div>
                     <p>Building a better cloud is never an easy task, but we believe we are paving the way for 
                         a more open cloud ecosystem where businesses and consumers across the world can interconnect 
                         and benefit.</p>
@@ -33,7 +34,7 @@ class About extends Component {
                                 <img className="change-world-pics-img-brac" src={bracket} />
                                 <img className="change-world-pics-img-e" src={e7} />
                             </div>
-                            <h4>Build</h4>
+                            <h6>Build</h6>
                             <div className="change-world-pics-desc">Build a resource-efficient blockchain framework</div>
                         </div>
 
@@ -44,7 +45,7 @@ class About extends Component {
                                 <img className="change-world-pics-img-brac" src={bracket} />
                                 <img className="change-world-pics-img-e" src={e8} />
                             </div>
-                            <h4>Connect</h4>
+                            <h6>Connect</h6>
                             <div className="change-world-pics-desc">Connect the computing power across the world</div>
                         </div>
 
@@ -55,7 +56,7 @@ class About extends Component {
                                 <img className="change-world-pics-img-brac" src={bracket} />
                                 <img className="change-world-pics-img-e" src={e9} />
                             </div>
-                            <h4>Evolve</h4>
+                            <h6>Evolve</h6>
                             <div className="change-world-pics-desc">Continue improving and pushing our limits</div>
                         </div>
                     </div>
@@ -63,44 +64,50 @@ class About extends Component {
 
                 {/**Second part of About page, named "story" */}
                 <div className="story" id="our-story">
-                    <div className="story-title">
-                        <h2>Our story</h2>
-                        <div className="story-item story-divider"></div>
-                    </div>
+                    <Grid className="story__title">
+                        <Row>
+                            <Col>
+                                <h2>Our story</h2>
+                                <div className="divider"></div>
+                            </Col>
+                        </Row>
+                    </Grid>
 
-                    <div className="story-body">
-                        <div className="story-left">
-                            <p>"I believe that cloud computing should be ubiquitous in the near future, but it’s currently monopolized
-                                by tech giants. High margins are charged against users due to high infrastructure and human capital costs.</p>
-                            <p>There should be a way for researchers, students, and startups to access affordable cloud computing that
-                                isn’t centralized. Therefore, I founded Ankr together with Stanley Wu and Ryan Fang.</p>
-                            <p>Stanley was my mentor during my internship. As for Ryan, our mutual trust established gradually
-                                throughout our college career.</p>
-                        </div>
+                    <Grid className="story__body">
+                        <Row>
+                            <Col xs={12} sm={6}>
+                                <p>"I believe that cloud computing should be ubiquitous in the near future, but it’s currently monopolized
+                                    by tech giants. High margins are charged against users due to high infrastructure and human capital costs.</p>
+                                <p>There should be a way for researchers, students, and startups to access affordable cloud computing that
+                                    isn’t centralized. Therefore, I founded Ankr together with Stanley Wu and Ryan Fang.</p>
+                                <p>Stanley was my mentor during my internship. As for Ryan, our mutual trust established gradually
+                                    throughout our college career.</p>
+                            </Col>
 
-                        <div className="story-right">
-                            <p>We were roommates for four years, and I witnessed how he progressed from an ambitious freshman to a
-                                competent investment baking analyst.</p>
-                            <p>Our goal is to make this team a family and keep pushing our boundaries to realize our ultimate goal:
-                                making the blockchain token model accessible, and decentralized cloud computing an everyday reality."</p>
-                            <div className="story-right-sign">
-                                <div className="story-right-sign-left">
-                                    <h3>Chandler Song</h3>
-                                    <div className="story-right-sign-left-desc">
-                                        <img className="story-ankr-logo" src={ankrLogo} />
-                                        <div className="story-right-sign-left-title">CEO of Ankr Network</div>
+                            <Col s={12} sm={6}>
+                                <p>We were roommates for four years, and I witnessed how he progressed from an ambitious freshman to a
+                                    competent investment baking analyst.</p>
+                                <p>Our goal is to make this team a family and keep pushing our boundaries to realize our ultimate goal:
+                                    making the blockchain token model accessible, and decentralized cloud computing an everyday reality."</p>
+                                <div className="story-right-sign">
+                                    <div className="story-right-sign-left">
+                                        <h5>Chandler Song</h5>
+                                        <div className="story-right-sign-left-desc">
+                                            <img className="story-ankr-logo" src={ankrLogo} />
+                                            <span className="story-right-sign-left-title">CEO of Ankr Network</span>
+                                        </div>
                                     </div>
+                                    <img className="signature-song" src={signature} />
                                 </div>
-                                <img className="signature-song" src={signature} />
-                            </div>
-                        </div>
-                    </div>
+                            </Col>
+                        </Row>
+                    </Grid>
                 </div>
 
                 {/*Third Part of About page, named "team"*/}
                 <div className="core-team" id="team">
                     <h2>Core Team</h2>
-                    <div className="core-team-divider"></div>
+                    <div className="divider"></div>
                     <Team />
                 </div>
 

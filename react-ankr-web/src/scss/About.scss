@@ -18,17 +18,13 @@
     margin-top: 100px;
 }
 
-.change-world-title-divider {
-    width: 10%;
-    margin: 2% auto 2% auto;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    height: 4px;
-
+.change-world .divider {
+    margin: 0 auto 7rem;
 }
 
 .change-world p {
     font-family: Asap,sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 2rem;
     max-width: 94rem;
     margin: 0 auto 6rem;
@@ -36,7 +32,7 @@
 }
 
 .change-world-pics {
-    width: 75%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
@@ -56,12 +52,7 @@
     margin-left: -35%;
 }
 
-.change-world-pics-item h4 {
-    font-family: Asap,sans-serif;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-transform: none;
-    line-height: 1.2;
+.change-world-pics-item h6 {
     width: 30%;
     margin-left: 42%;
     margin-top: 5%;
@@ -77,7 +68,7 @@
 }
 
 .change-world-pics-item-divider {
-    width: 15%;
+    width: 10%;
     height: 2px;
     margin-top: 6%;
     background: #c1e0f4;
@@ -86,98 +77,82 @@
 /*Style 2nd our-story part*/
 .story {
     width: 100%;
-    height: 800px;
-    background: #f2fbff;
-    display: flex;
-    flex-direction: column;
+    background: #f0faff;
 }
 
-.story-title h2 {
+.story__title {
+    margin-top: 10rem;
+}
+
+.story__title .divider {
+    margin: 3rem 3.5rem 3rem;
+}
+
+.story__title h2 {
+    margin-left: 1em;
+}
+
+.story__body {
+    margin-bottom: 5rem;
+}
+
+.story__body p {
+    text-align: left;
+    font-weight: 200;
     display: block;
-    font-family: Asap,sans-serif;
-    font-size: 3.5em;
-    font-weight: 800;
-    text-transform: none;
-    line-height: 1.4;
-    letter-spacing: 0.8px;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 2em;
-}
-
-.story-divider {
-    width: 8%;
-    height: 5px;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    margin-top: 2%;
-    margin-bottom: 1em;
-    margin-left: 10%;
-}
-
-.story-body {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.story-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 40em;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 2.5%;
-}
-
-.story-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 40em;
-    text-align: left;
-    margin-right: 10%;
-    margin-left: 2.5%;
-}
-.story-body p {
-    font-family: Roboto,sans-serif;
-    font-size: 1.8em;
-    font-weight: 100;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .story-right-sign {
     display: flex;
     flex-direction: row;
+    //height: 15rem;
 }
 
 .story-right-sign-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-right: 10%;
+    display: block;
+    margin-left: 2rem;
+    text-align: left;
 }
 
-.story-right-sign-left h3 {
-    font-size: 2em;
-    font-weight: 600;
+.story-right-sign-left h5 {
+    display: block;
+    margin-top: 3.5rem;
 }
 
 .story-right-sign-left-desc {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #2a8bcb;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    height: 40%;
+    font-size: 1.1rem;
+    line-height: 1;
+    white-space: nowrap;
+    margin-top: -1.8rem;
 }
 
 .story-ankr-logo {
-    width: 10%;
-    height: auto;
+    margin-right: 1.6rem;
+    max-width: 1.5rem;
 }
 
 .story-right-sign-left-title {
-    margin-left: 10%;
+    margin-left: -.5rem;
     color: #2a8bcb;
-    margin-top: 13%;
 }
+
+.signature-song {
+    width: 50%;
+    height: auto;
+    margin-left: 10rem;
+}
+
 
 /*Style 3rd Core Team part*/
 .core-team {
@@ -186,22 +161,12 @@
 }
 
 .core-team h2 {
-    display: block;
-    font-family: Asap,sans-serif;
-    font-size: 3.5em;
-    font-weight: 800;
-    text-transform: none;
-    line-height: 1.4;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 10rem;
 }
 
-.core-team-divider {
-    width: 8%;
-    height: 6px;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
-    margin: 2% auto 3% auto;
-
+.core-team .divider {
+    margin: .5rem auto 5rem auto;
 }
 
 

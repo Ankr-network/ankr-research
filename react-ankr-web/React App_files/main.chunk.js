@@ -1850,7 +1850,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
-/* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/About.scss */ "./src/scss/About.css");
+/* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/About.scss */ "./src/scss/About.scss");
 /* harmony import */ var _css_About_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_About_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../images/bracket.svg */ "./src/images/bracket.svg");
 /* harmony import */ var _images_bracket_svg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_bracket_svg__WEBPACK_IMPORTED_MODULE_8__);
@@ -5555,7 +5555,7 @@ function (_Component) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5574,8 +5574,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./About.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/About.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
