@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import StaffCarousel from '../carousel/StaffCarousel';
 
 import { Staff } from '../../data/staff';
-import '../../scss/Team.css';
+import '../../scss/Team.scss';
 
 
 class Team extends Component {
@@ -37,9 +37,9 @@ class Team extends Component {
                             >
                                 <button onClick={this.handleEventChange(idx)}>
                                     <img src={person.img} alt="staff"/>
-                                    <div className="core-team-person-name">{person.name}</div>
+                                    <h5>{person.name}</h5>
                                 </button>
-                                <div className="core-team-person-title">{person.title}</div>
+                                <p>{person.title}</p>
                             </li>
                         );
                     })}

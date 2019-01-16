@@ -2616,7 +2616,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _carousel_StaffCarousel__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../carousel/StaffCarousel */ "./src/components/carousel/StaffCarousel.js");
 /* harmony import */ var _data_staff__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../data/staff */ "./src/data/staff.js");
-/* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/Team.scss */ "./src/scss/Team.css");
+/* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../scss/Team.scss */ "./src/scss/Team.scss");
 /* harmony import */ var _css_Team_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_css_Team_css__WEBPACK_IMPORTED_MODULE_8__);
 
 
@@ -6105,7 +6105,7 @@ if(true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -6124,8 +6124,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Team.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Team.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
