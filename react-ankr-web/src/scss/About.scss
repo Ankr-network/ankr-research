@@ -274,23 +274,16 @@
 /*Style Opens part*/
 .opens {
     width: 100%;
-    height: 800px;
-    background: #f2fbff;
+    background: #f0faff;
 }
 
 .opens h2 {
-    font-family: Asap,sans-serif;
-    font-size: 3.5em;
-    font-weight: 600;
-    margin-top: 2em;
+    margin-top: 10rem;
     text-align: left;
     margin-left: 10%;
 }
 
-.opens-divider {
-    width: 8%;
-    height: 5px;
-    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+.opens .divider {
     margin-top: 2%;
     margin-bottom: 1em;
     margin-left: 10%;

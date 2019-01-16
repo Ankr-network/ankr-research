@@ -1,8 +1,6 @@
 .opens-list {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
+    margin: 5rem auto 10rem auto;
 
 }
 
@@ -15,8 +13,11 @@
 }
 
 .opens-headers {
-    font-size: 2em;
-
+    font-family: "Asap", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 2.2rem;
+    padding-bottom: 3.5rem;
 }
 
 .opens-row {
@@ -29,6 +30,12 @@
 .opens-headers {
     width: 80%;
     text-align: left;
+}
+
+.opens-row {
+    font-family: "Asap", sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
 }
 
 .opens-item-title {

@@ -827,7 +827,7 @@ class About extends Component {
                 {/*Sixth part of About page, named "open_positions"*/}
                 <div className="opens" id="career">
                     <h2>Open Positions</h2>
-                    <div className="opens-divider"></div>
+                    <div className="divider"></div>
                     <Opens />
                 </div>
             </div> 

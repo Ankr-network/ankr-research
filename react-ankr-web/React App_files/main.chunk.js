@@ -2496,7 +2496,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _data_opennings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../data/opennings */ "./src/data/opennings.js");
-/* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/Opens.scss */ "./src/scss/Opens.css");
+/* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../scss/Opens.scss */ "./src/scss/Opens.scss");
 /* harmony import */ var _css_Opens_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_css_Opens_css__WEBPACK_IMPORTED_MODULE_7__);
 
 
@@ -5830,7 +5830,7 @@ if(true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 
-var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css");
+var content = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.scss");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -5849,8 +5849,8 @@ var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyl
 if(content.locals) module.exports = content.locals;
 
 if(true) {
-	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css", function() {
-		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.css");
+	module.hot.accept(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.scss", function() {
+		var newContent = __webpack_require__(/*! !../../node_modules/scss-loader??ref--6-oneOf-3-1!../../node_modules/postcss-loader/src??postcss!./Opens.scss */ "./node_modules/scss-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./src/scss/Opens.scss");
 
 		if(typeof newContent === 'string') newContent = [[module.i, newContent, '']];
 
