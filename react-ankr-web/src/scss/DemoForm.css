@@ -1,0 +1,105 @@
+.demo-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+
+.demo-form-close-btn {
+    width: 5%;
+    margin-left: 91.5%;
+    font-size: 2em;
+    border: none;
+    background-color: Transparent;
+}
+
+.demo-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style demo form title & label*/
+.demo-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.demo-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.demo-form-main {
+    display: flex;
+    flex-direction: column;
+    background: #f2fbff;
+}
+
+/*Style input fields*/
+.demo-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.demo-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.demo-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.demo-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.demo-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.demo-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 11em;
+}
+
+/*Style NavBar demo-form-btn*/
+.demo-form-btn {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+    margin-top: 10%;
+    border: none;
+}
+
+/*style send button*/
+.demo-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-left: 81.5%;
+    margin-top: 3em;
+    color: #f2fbff;
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+    font-size: 1.2em;
+
+}
+
+.demo-form-send-btn:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}

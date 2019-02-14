@@ -1,0 +1,105 @@
+.partner-form-logo, .partner-form-desc {
+    display: none;
+}
+
+.partner-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.partner-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style NavBar partner-form-btn*/
+.partner-form-btn {
+    border: none;
+    background: Transparent;
+    margin-top: 6%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/*Style partner form title & label*/
+.partner-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.partner-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.partner-form-main {
+    display: flex;
+    flex-direction: column;
+    background: #f2fbff;
+}
+
+/*Style input fields*/
+.partner-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.partner-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.partner-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.partner-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.partner-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.partner-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 8.5em;
+}
+
+.partner-form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*style send button*/
+.partner-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-right: 3%;
+    color: #f2fbff;
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+    font-size: 1.2em;
+}
+
+.partner-form-send-btn:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}

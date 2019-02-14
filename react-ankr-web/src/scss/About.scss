@@ -1,0 +1,308 @@
+.about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style 1st change-world part*/
+.change-world {
+    background-image: url('../images/world-bg.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+    margin-top: 45px;
+    background-size: cover;
+}
+
+.change-world h3 {
+    margin-top: 100px;
+}
+
+.change-world .divider {
+    margin: 0 auto 7rem;
+}
+
+.change-world p {
+    font-family: Asap,sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    max-width: 94rem;
+    margin: 0 auto 6rem;
+    line-height: 2;
+}
+
+.change-world-pics {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.change-world-pics-img-brac {
+    width: 50%;
+    height: auto;
+}
+
+.change-world-pics-img-e {
+    width: 20%;
+    height: auto;
+    margin-left: -35%;
+}
+
+.change-world-pics-item h6 {
+    width: 30%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+.change-world-pics-desc {
+    font-family: Asap,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.7;
+    text-align: center;
+    width: 75%;
+    margin-left: 17%;
+}
+
+.change-world-pics-item-divider {
+    width: 10%;
+    height: 2px;
+    margin-top: 6%;
+    background: #c1e0f4;
+}
+
+/*Style 2nd our-story part*/
+.story {
+    width: 100%;
+    background: #f0faff;
+}
+
+.story__title {
+    margin-top: 10rem;
+}
+
+.story__title .divider {
+    margin: 3rem 3.5rem 3rem;
+}
+
+.story__title h2 {
+    margin-left: 1em;
+}
+
+.story__body {
+    margin-bottom: 5rem;
+}
+
+.story__body p {
+    text-align: left;
+    font-weight: 200;
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.story-right-sign {
+    display: flex;
+    flex-direction: row;
+    //height: 15rem;
+}
+
+.story-right-sign-left {
+    display: block;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.story-right-sign-left h5 {
+    display: block;
+    margin-top: 3.5rem;
+}
+
+.story-right-sign-left-desc {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #2a8bcb;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.1rem;
+    line-height: 1;
+    white-space: nowrap;
+    margin-top: -1.8rem;
+}
+
+.story-ankr-logo {
+    margin-right: 1.6rem;
+    max-width: 1.5rem;
+}
+
+.story-right-sign-left-title {
+    margin-left: -.5rem;
+    color: #2a8bcb;
+}
+
+.signature-song {
+    width: 50%;
+    height: auto;
+    margin-left: 10rem;
+}
+
+
+/*Style 3rd Core Team part*/
+.core-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.core-team h2 {
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.core-team .divider {
+    margin: .5rem auto 5rem auto;
+}
+
+
+/*Style 4th BackBy part*/
+.backed-by {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgb(42, 139, 203) 0px, rgb(53, 173, 221) 100%);
+}
+
+.backed-by h2 {
+    font-family: Asap,sans-serif;
+    font-size: 3.5em;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 2.6em;
+}
+
+.backed-by-svg {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 3%;
+    justify-content: flex-start;
+}
+
+.backed-by-svg svg {
+    fill: #fff;
+    width: 60%;
+    height: 7em;
+    border: 1px solid #fff;
+}
+
+.backed-by-svg svg:hover {
+    background-color: #fff;
+}
+
+.backed-by-svg svg:hover path {
+    fill: #2a8bcb;
+}
+
+/*Style 5th Benefits*/
+.benefits {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.benefits-title h2 {
+    margin-top: 10rem;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.benefits-title .divider {
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.benefits-items {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem 10% 10rem 8%;
+    justify-content: space-evenly;
+}
+
+.benefits-item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+}
+
+.benefits-item-pos {
+    border-bottom: 1px solid #bad9f2;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 2.8rem;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.benefits-item-num {
+    font-size: 2.4rem;
+    color: #2a8bcb;
+    margin-right: 5rem;
+    margin-left: 6px;
+    font-weight: 300;
+}
+
+.benefits-item p {
+    padding-right: 2rem;
+}
+
+/*Style Opens part*/
+.opens {
+    width: 100%;
+    background: #f0faff;
+}
+
+.opens h2 {
+    margin-top: 10rem;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.opens .divider {
+    margin-top: 2%;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+
+.opens-title-divider {
+    height: 3px;
+    background: #bad9f2;
+    margin-left: 9%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+

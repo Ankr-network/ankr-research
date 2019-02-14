@@ -1,0 +1,100 @@
+#sky {
+    position: relative;
+    margin-left: 520px;
+    margin-top: 235px;
+    height: 550px;
+    width: 1000px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-content {
+    position: absolute;
+}
+
+.contacts-office {
+    width: 100%;
+    height: 700px;
+    background: #f2fbff;
+}
+
+.contacts-content {
+    text-align: left;
+    margin: 150px 0 0 150px;
+}
+
+.contacts-divider {
+    width: 30%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.contacts-title {
+    font-weight: bold;
+}
+
+.contacts-sf, .contacts-sh {
+    line-height: 32px;
+    display: flex;
+}
+
+.contacts-sh {
+    margin-top: 40px;
+}   
+
+.fa-map-marker-alt {
+    font-size: 18px; 
+    opacity: 0.9;
+}
+
+.contacts-office-header {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+}
+
+.contacts-addy {
+    margin-left: 33px;
+    font-size: 14px;
+    color: black;
+}
+
+.contacts-email {
+    margin-top: 40px;
+    color: #2a8bcb;
+}
+
+.fa-envelope, .contacts-email-addy {
+    font-size: 16px;
+}
+
+.contacts-email-addy {
+    margin-left: 19px;
+}
+
+/*Style write-to-us*/
+.contacts-form {
+    width: 100%;
+    height: 900px;
+    background: #eaf7fb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacts-form-item {
+    width: 30%;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.contacts-form img {
+    height: 60%;
+    margin-top: 10%;
+}

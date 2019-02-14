@@ -1,0 +1,340 @@
+.product-vision {
+    height: 95vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #f2fbff;
+    line-height: 30px;
+}
+
+.product-vision-text {
+    width: 40vw;
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.product-vision-img {
+    width: 40vw;
+    height: 70vh;
+}
+
+.change-world-h1-divider {
+    width: 18%;
+    margin-left: 1px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-vision-title {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.product-vision-subtext {
+    text-align: left;
+    padding: 5px;
+}
+
+.product-trend {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    text-align: left;
+    background: #eaf7fb;
+}
+
+.product-trend-title {
+    margin-left: 8.5%;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.product-trend-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.product-trend-number {
+    color: #2a8bcb;
+}
+.product-trend-list-divider {
+    width: 200px;
+    height: 1px;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.product-trend-list-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.product-tech {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+
+.product-tech-img {
+    width: 45vw;
+    height: 65vh;
+    margin-top: 2%;
+    margin-left: 9%;
+}
+
+.product-tech-overview {
+    width: 32vw;
+    text-align: left;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
+.product-tech-h1-divider {
+    width: 18%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.product-tech-title {
+    margin-top: 5px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.product-tech-subtitle {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.product-tech-text {
+    padding: 5px;
+}
+
+.product-tech-list {
+    margin-top: 35px;
+    line-height: 50px;
+}
+
+.product-major-computing-jobs {
+    height: 100vh;
+    background: url('../images/prov-bg.jpg') no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+
+}
+
+.product-major-computing-jobs-title {
+    padding-top: 80px;
+    margin-left: 7%;
+    font-weight: bold;
+}
+
+/* .product-data-center-title h3 {
+    margin-left: 2%;
+} */
+
+.product-major-computing-jobs-subtitle {
+    font-weight: bold;
+    margin-left: 6%;
+}
+
+.product-major-computing-jobs-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.product-subtitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.product-sub-subtitle {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.product-major-computing-jobs-bracket {
+    width: 150px;
+    height: 150px;
+}
+
+.product-data-center {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #f2fbff;
+}
+
+.product-data-center-title {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.product-data-center-text {
+    display: flex;
+    align-items: center;
+}
+
+.product-data-center-subtext {
+    width: 500px;
+    height: 30vh;
+    line-height: 40px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.product-data-center-demo {
+    width: 50vw;
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+.demo-ready-button {
+    width: 150px;
+    height: 60px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+.product-data-center-demo-screenshot {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 45%;
+    margin-left: 20%;
+}
+
+.product-data-center-pc {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-evenly;
+}
+
+.product-data-center-pc-list {
+    display: flex;
+    margin-left: 100px;
+}
+
+.product-data-center-pc-list button {
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+}
+
+.product-data-center-pc-list button:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}
+
+.product-data-center-pc-title {
+    text-align: left;
+    margin-left: 100px;
+    width: 45vw;
+    font-weight: bold;
+    
+}
+
+.product-data-center-pc-subtitle {
+    font-weight: bold;
+}
+
+.product-data-center-pc-text {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.product-data-center-pc-content1 {
+    text-align: left;
+    line-height: 40px;
+    width: 35vw;
+}
+
+.product-data-center-pc-content2 {
+    text-align: left;
+    line-height: 40px;
+    width: 35vw;
+    margin-left: 150px;
+}
+
+.product-data-center-pc-divider {
+    width: 18%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-data-center-pc-list-divider {
+    width: 95%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.2;
+}
+
+.product-data-center-pc-number {
+    color: #2a8bcb;
+    margin-right: 30px;
+}
+
+.product-data-center-pc-list-title {
+    color: #2a8bcb;
+    font-size: 11px;
+}
+
+.product-mobile {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    text-align: left;
+    margin-top: 12%;
+}
+
+.product-mobile-content {
+    margin-left: 100px;
+}
+.product-mobile-title {
+    font-weight: bold;
+}
+
+.product-mobile-text {
+    width: 30vw;
+    line-height: 40px;
+}
+
+.product-mobile-divider {
+    width: 7%;
+    background-image: linear-gradient(90deg, rgb(53, 173, 221) 0px, rgb(61, 70, 153) 100%);
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+#place-holder-data-center-video {
+    margin-left: 15%;
+    margin-bottom: 4%;
+}

@@ -1,0 +1,48 @@
+.core-team-list ul li {
+    list-style-type: none;
+}
+
+.core-team-list {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.core-team-items {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.core-team-item {
+    width: 20%;
+}
+
+.core-team-list button {
+    background: transparent;
+    width: 80%;
+    border: none;
+}
+
+.core-team-item img {
+    width: 100%;
+    height: auto;
+}
+
+.core-team-item h5 {
+    margin-top: 3rem;
+}
+
+.core-team-item p {
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+
+
+

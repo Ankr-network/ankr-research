@@ -1,0 +1,121 @@
+.team-form-logo, .team-form-desc {
+    display: none;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-header button {
+    font-size: 3em;
+    font-weight: 100;
+    line-height: 1;
+    margin-right: 3.5%;
+    text-shadow: none;
+}
+
+.modal-content {
+    height: 700px;
+    background: #f2fbff;
+}
+
+
+.team-form-modal {
+    display: block;
+    width: 80%;
+    height: auto;
+}
+
+.team-form-divider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    width: 8%;
+    height: 3px;
+    background-image: linear-gradient(to right, #35acdc 0, #3d479a 100%);
+}
+
+/*Style NavBar team-form-btn*/
+.team-form-btn {
+    border: none;
+    background: Transparent;
+    margin-top: 10%;
+}
+
+/*Style team form title & label*/
+.team-form-title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-left: 3%;
+}
+
+.team-form-main label {
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.team-form-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Style input fields*/
+.team-form-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.team-form-middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-left-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.team-form-middle-right-item {
+    margin-top: 1em;
+    height: 5em;
+}
+
+.team-form-middle-right-item-message {
+    margin-top: 1em;
+    height: 8.5em;
+}
+
+.team-form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3em;
+}
+
+/*style send button*/
+.team-form-send-btn {
+    width: 15%;
+    height: 5em;
+    margin-right: 3%;
+    color: #f2fbff;
+    border-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+    background: Transparent;
+    color: #2a8bcb;
+    font-size: 1.2em;
+}
+
+.team-form-send-btn:hover {
+    background-image: linear-gradient(to right,#3d479a 0,#35acdc 100%);
+    color: #fff;
+}

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-top: 9px;
+    font-size: 11px;
+}
+
+.navbar-header img {
+    width: 3em;
+    height: 3em;
+    margin-right: 5px;
+}
+
+.navbar-header span {
+    font-size: 2em;
+    margin-right: 3em;
+    color: #2a2a85;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 8;
+    font-size: 12px;
+}
+
+.navbar-tags {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    font-size: 1.5em;
+    margin-right: 5em;
+    justify-content: space-evenly;
+    margin-top: 14px;
+    font-size: 16px;
+}
+
+.navbar-forms {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4px;
+}
+
+.team-form-icon {
+    display: inline-block;
+}
+
+
+
